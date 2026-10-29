@@ -1,0 +1,67 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Transforma tools/copas.json (pesquisa na Wikipedia) no modulo que o jogo le."""
+import json, os
+R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+C = json.load(open(f'{R}/tools/copas.json', encoding='utf-8'))
+fora = {k: v for k, v in C.items() if not k.startswith('_') and isinstance(v, dict)}
+txt = ['// GERADO por tools/gera_copas.py a partir de tools/copas.json.',
+       '// Nao editar a mao: mexa no JSON e rode o pipeline.',
+       '// O formato REAL de cada copa, com quantas fases ela tem, quem entra em cada',
+       '// uma e o que e ida e volta.',
+       'export const COPAS = ' + json.dumps(fora, ensure_ascii=False, indent=1) + ';',
+       '',
+       '// Paises onde a copa nacional simplesmente NAO existe hoje — o jogo nao inventa uma.',
+       'export const SEM_COPA = ' + json.dumps(
+           [k for k in (C.get('_paises_sem_copa_nacional') or {}) if not k.startswith('_')],
+           ensure_ascii=False) + ';',
+       '',
+       '/** A copa nacional daquele pais (a principal). */',
+       "export function copaNacional(pais) {",
+       "  if (SEM_COPA.includes(pais)) return null;   // aqui nao ha copa nacional",
+       "  for (const [nome, c] of Object.entries(COPAS))",
+       "    if (c.pais === pais && c.tipo !== 'estadual' && !c.segunda && !c.supercopa && !c.selecoes) return { nome, ...c };",
+       '  return null;',
+       '}',
+       '/** A SEGUNDA copa nacional, onde existir (a Inglaterra tem duas). */',
+       "export function segundaCopa(pais) {",
+       "  const achadas = Object.entries(COPAS).filter(([, c]) => c.pais === pais && c.tipo !== 'estadual' && !c.supercopa);",
+       '  return achadas.length > 1 ? { nome: achadas[1][0], ...achadas[1][1] } : null;',
+       '}',
+       '/** A copa continental principal e a segunda, por confederacao. */',
+       'export function copasDoContinente(cont) {',
+       '  return Object.entries(COPAS).filter(([, c]) => c.continente === cont && !c.supercopa && !c.selecoes)',
+       '    .map(([nome, c]) => ({ nome, ...c }));',
+       '}',
+       '/** Torneio de SELECOES: Copa do Mundo, Eurocopa, Copa America. */',
+       'export function torneioDeSelecao(nome) {',
+       '  const c = COPAS[nome];',
+       '  return c && c.selecoes ? { nome, ...c } : null;',
+       '}',
+       'export function torneiosDeSelecao() {',
+       '  return Object.entries(COPAS).filter(([, c]) => c.selecoes).map(([nome, c]) => ({ nome, ...c }));',
+       '}',
+       '/** A supercopa daquele pais (campeao da liga x campeao da copa). */',
+       'export function supercopaDoPais(pais) {',
+       '  for (const [nome, c] of Object.entries(COPAS))',
+       '    if (c.supercopa && c.pais === pais) return { nome, ...c };',
+       '  return null;',
+       '}',
+       '/** A supercopa daquela confederacao (Supercopa da UEFA, Recopa Sul-Americana). */',
+       'export function supercopaDoContinente(cont) {',
+       '  for (const [nome, c] of Object.entries(COPAS))',
+       '    if (c.supercopa && c.continente === cont) return { nome, ...c };',
+       '  return null;',
+       '}',
+       '/** Os dois mundiais: o de 32 clubes (de 4 em 4 anos) e a Intercontinental (todo ano). */',
+       'export function mundiais() {',
+       '  return Object.entries(COPAS).filter(([, c]) => c.mundial).map(([nome, c]) => ({ nome, ...c }));',
+       '}',
+       '/** O estadual daquele estado, se ja foi pesquisado. */',
+       'export function copaEstadual(nome) {',
+       "  const c = COPAS[nome];",
+       "  return c && c.tipo === 'estadual' ? { nome, ...c } : null;",
+       '}', '']
+open(f'{R}/src/career/copas.js', 'w', encoding='utf-8').write('\n'.join(txt))
+n_fases = sum(len(v.get('fases') or []) for v in fora.values())
+print(f'{len(fora)} copas -> src/career/copas.js ({n_fases} fases descritas)')

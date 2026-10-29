@@ -1,0 +1,3776 @@
+{
+ "_leia": [
+  "Lista REAL de clubes de cada campeonato, do mais forte para o mais fraco.",
+  "Cada item é [nome no jogo, arquivo do escudo] — o escudo pode ser NULO.",
+  "Escudo nulo = clube real sem escudo oficial; o jogo desenha um brasão para ele.",
+  "A regra antiga era 'só entra quem tem escudo oficial', e ela barrava nome de",
+  "verdade em ligas inteiras da África, da Ásia e das Américas. O resultado era pior:",
+  "o jogo ficava com 'FC Bloemfontein Rovers' inventado no lugar do Mamelodi Sundowns.",
+  "O que continua proibido é INVENTAR: se não souber quem joga a liga, pesquise.",
+  "A ordem importa: o clube do topo recebe o elenco mais forte da liga."
+ ],
+ "_serie_b": [
+  "Os 20 da Série B 2026, confirmados pelo Gustavo em 15/08/2026.",
+  "Os 15 primeiros estão na ordem de valor de mercado do print do Transfermarkt.",
+  "Os 5 últimos (Criciúma, Goiás, Ponte Preta, Náutico, Londrina) eu não consegui ler",
+  "no print — a ORDEM deles é palpite meu e ele pode corrigir. Os NOMES estão certos.",
+  "Saíram daqui, porque na verdade são da Série C ou D: Piauí, Portuguesa, Cascavel,",
+  "Guarani, Amazonas, Paysandu, Ituano e Brusque. Eram os 6 nomes repetidos do jogo."
+ ],
+ "Brasileirão Série B": [
+  [
+   "Fortaleza",
+   "fortaleza"
+  ],
+  [
+   "Sport",
+   "sport-recife"
+  ],
+  [
+   "Juventude",
+   "juventude"
+  ],
+  [
+   "Ceará",
+   "ceara"
+  ],
+  [
+   "Athletic",
+   "athletic"
+  ],
+  [
+   "Novorizontino",
+   "novorizontino"
+  ],
+  [
+   "Vila Nova",
+   "vila-nova"
+  ],
+  [
+   "Cuiabá",
+   "cuiaba"
+  ],
+  [
+   "Atlético-GO",
+   "atletico-goianiense"
+  ],
+  [
+   "Operário-PR",
+   "operario-ferroviario"
+  ],
+  [
+   "América-MG",
+   "america-mineiro"
+  ],
+  [
+   "Botafogo-SP",
+   "botafogo-sp"
+  ],
+  [
+   "CRB",
+   "crb"
+  ],
+  [
+   "São Bernardo",
+   "sao-bernardo"
+  ],
+  [
+   "Avaí",
+   "avai"
+  ],
+  [
+   "Criciúma",
+   "criciuma"
+  ],
+  [
+   "Goiás",
+   "goias"
+  ],
+  [
+   "Ponte Preta",
+   "ponte-preta"
+  ],
+  [
+   "Náutico",
+   "nautico"
+  ],
+  [
+   "Londrina",
+   "londrina"
+  ]
+ ],
+ "Inglaterra — 2ª Divisão": [
+  [
+   "Swansea City",
+   "swansea-city"
+  ],
+  [
+   "West Ham United",
+   "west-ham"
+  ],
+  [
+   "Middlesbrough",
+   "middlesbrough"
+  ],
+  [
+   "Wolverhampton Wanderers",
+   "wolves"
+  ],
+  [
+   "West Bromwich Albion",
+   "west-bromwich-albion"
+  ],
+  [
+   "Queens Park Rangers",
+   "queens-park-rangers"
+  ],
+  [
+   "Stoke City",
+   "stoke-city"
+  ],
+  [
+   "Bristol City",
+   "bristol-city"
+  ],
+  [
+   "Charlton Athletic",
+   "charlton"
+  ],
+  [
+   "Birmingham City",
+   "birmingham"
+  ],
+  [
+   "Millwall",
+   "millwall"
+  ],
+  [
+   "Lincoln City",
+   "lincoln-city"
+  ],
+  [
+   "Southampton",
+   "southampton"
+  ],
+  [
+   "Wrexham",
+   "wrexham"
+  ],
+  [
+   "Bolton Wanderers",
+   "bolton"
+  ],
+  [
+   "Blackburn Rovers",
+   "blackburn-rovers"
+  ],
+  [
+   "Norwich City",
+   "norwich-city"
+  ],
+  [
+   "Sheffield United",
+   "sheffield-united"
+  ],
+  [
+   "Portsmouth",
+   "portsmouth"
+  ],
+  [
+   "Watford",
+   "watford"
+  ],
+  [
+   "Cardiff City",
+   "cardiff-city"
+  ],
+  [
+   "Derby County",
+   "derby-county"
+  ],
+  [
+   "Preston North End",
+   "preston-north-end"
+  ],
+  [
+   "Burnley",
+   null
+  ]
+ ],
+ "Inglaterra — 3ª Divisão": [
+  [
+   "Bradford City",
+   null
+  ],
+  [
+   "Sheffield Wednesday",
+   null
+  ],
+  [
+   "Plymouth Argyle",
+   null
+  ],
+  [
+   "Huddersfield Town",
+   null
+  ],
+  [
+   "Cambridge United",
+   null
+  ],
+  [
+   "Oxford United",
+   null
+  ],
+  [
+   "AFC Wimbledon",
+   null
+  ],
+  [
+   "Reading FC",
+   null
+  ],
+  [
+   "Stockport County",
+   null
+  ],
+  [
+   "Leyton Orient",
+   null
+  ],
+  [
+   "Stevenage",
+   null
+  ],
+  [
+   "Burton Albion",
+   null
+  ],
+  [
+   "Leicester City",
+   null
+  ],
+  [
+   "Wycombe Wanderers",
+   null
+  ],
+  [
+   "Blackpool FC",
+   null
+  ],
+  [
+   "Luton Town",
+   null
+  ],
+  [
+   "Mansfield Town",
+   null
+  ],
+  [
+   "Barnsley",
+   null
+  ],
+  [
+   "Bromley",
+   null
+  ],
+  [
+   "Notts County",
+   null
+  ],
+  [
+   "Doncaster Rovers",
+   null
+  ],
+  [
+   "Milton Keynes Dons",
+   null
+  ],
+  [
+   "Peterborough United",
+   null
+  ],
+  [
+   "Wigan Athletic",
+   null
+  ]
+ ],
+ "Itália — 2ª Divisão": [
+  [
+   "Südtirol",
+   null
+  ],
+  [
+   "Ascoli",
+   "ascoli"
+  ],
+  [
+   "Modena",
+   "modena"
+  ],
+  [
+   "Mantova",
+   "mantova-1911"
+  ],
+  [
+   "Palermo",
+   "palermo"
+  ],
+  [
+   "Empoli",
+   "empoli"
+  ],
+  [
+   "Cesena",
+   "cesena"
+  ],
+  [
+   "Padova",
+   "padova"
+  ],
+  [
+   "Avellino",
+   "us-avellino-1912"
+  ],
+  [
+   "Arezzo",
+   "arezzo"
+  ],
+  [
+   "Pisa",
+   "pisa"
+  ],
+  [
+   "Vicenza",
+   "vicenza"
+  ],
+  [
+   "Juve Stabia",
+   "juve-stabia"
+  ],
+  [
+   "Sampdoria",
+   "sampdoria"
+  ],
+  [
+   "Hellas Verona",
+   null
+  ],
+  [
+   "Carrarese",
+   "carrarese"
+  ],
+  [
+   "Benevento",
+   "benevento"
+  ],
+  [
+   "Virtus Entella",
+   "virtus-entella"
+  ],
+  [
+   "Cremonese",
+   "cremonese"
+  ],
+  [
+   "Catanzaro",
+   "catanzaro"
+  ]
+ ],
+ "Itália — 3ª Divisão": [
+  [
+   "Union Brescia",
+   null
+  ],
+  [
+   "Cittadella",
+   null
+  ],
+  [
+   "Alcione Milano",
+   null
+  ],
+  [
+   "Ospitaletto",
+   null
+  ],
+  [
+   "Juventus Next Gen",
+   null
+  ],
+  [
+   "AlbinoLeffe",
+   null
+  ],
+  [
+   "Dolomiti Bellunesi",
+   null
+  ],
+  [
+   "Trento",
+   null
+  ],
+  [
+   "Arzignano Valchiampo",
+   null
+  ],
+  [
+   "Treviso",
+   null
+  ],
+  [
+   "Lumezzane",
+   null
+  ],
+  [
+   "Desenzano",
+   null
+  ],
+  [
+   "Folgore Caratese",
+   null
+  ],
+  [
+   "Novara",
+   null
+  ],
+  [
+   "Pro Vercelli",
+   null
+  ],
+  [
+   "Lecco",
+   null
+  ],
+  [
+   "Carpi",
+   null
+  ],
+  [
+   "Giana Erminio",
+   null
+  ],
+  [
+   "Renate",
+   null
+  ],
+  [
+   "Pergolettese",
+   null
+  ],
+  [
+   "Guidonia Montecelio",
+   null
+  ],
+  [
+   "Ravenna",
+   null
+  ],
+  [
+   "Vado",
+   null
+  ],
+  [
+   "Grosseto",
+   null
+  ],
+  [
+   "Perugia",
+   null
+  ],
+  [
+   "Reggiana",
+   null
+  ],
+  [
+   "Livorno",
+   null
+  ],
+  [
+   "Spezia",
+   null
+  ],
+  [
+   "Forlì",
+   null
+  ],
+  [
+   "Latina",
+   null
+  ],
+  [
+   "Torres",
+   null
+  ],
+  [
+   "Pescara",
+   null
+  ],
+  [
+   "Atalanta Under 23",
+   null
+  ],
+  [
+   "Campobasso",
+   null
+  ],
+  [
+   "Ostiamare",
+   null
+  ],
+  [
+   "Gubbio",
+   null
+  ],
+  [
+   "Pineto",
+   null
+  ],
+  [
+   "Sambenedettese",
+   null
+  ],
+  [
+   "Vis Pesaro",
+   null
+  ],
+  [
+   "Pianese",
+   null
+  ],
+  [
+   "Potenza",
+   null
+  ],
+  [
+   "Sorrento",
+   null
+  ],
+  [
+   "Picerno",
+   null
+  ],
+  [
+   "Bari",
+   null
+  ],
+  [
+   "Barletta",
+   null
+  ],
+  [
+   "Casertana",
+   null
+  ],
+  [
+   "Inter Under 23",
+   null
+  ],
+  [
+   "Altamura",
+   null
+  ],
+  [
+   "Foggia",
+   null
+  ],
+  [
+   "Audace Cerignola",
+   null
+  ],
+  [
+   "Cavese",
+   null
+  ],
+  [
+   "Monopoli",
+   null
+  ],
+  [
+   "Casarano",
+   null
+  ],
+  [
+   "Salernitana",
+   null
+  ],
+  [
+   "Scafatese",
+   null
+  ],
+  [
+   "Giugliano",
+   null
+  ],
+  [
+   "Savoia",
+   null
+  ],
+  [
+   "Cosenza",
+   null
+  ],
+  [
+   "Catania",
+   null
+  ],
+  [
+   "Crotone",
+   null
+  ]
+ ],
+ "Espanha — 2ª Divisão": [
+  [
+   "Leganés",
+   "leganes"
+  ],
+  [
+   "Girona",
+   "girona"
+  ],
+  [
+   "Granada",
+   "granada"
+  ],
+  [
+   "RC Celta Fortuna",
+   null
+  ],
+  [
+   "Mallorca",
+   "mallorca"
+  ],
+  [
+   "Tenerife",
+   "tenerife"
+  ],
+  [
+   "Castellón",
+   "castellon"
+  ],
+  [
+   "Las Palmas",
+   "las-palmas"
+  ],
+  [
+   "Sporting Gijón",
+   "sporting-gijon"
+  ],
+  [
+   "Eibar",
+   "eibar"
+  ],
+  [
+   "CD Sabadell",
+   null
+  ],
+  [
+   "Real Sociedad B",
+   null
+  ],
+  [
+   "Burgos CF",
+   "burgos"
+  ],
+  [
+   "Real Oviedo",
+   null
+  ],
+  [
+   "Real Valladolid",
+   null
+  ],
+  [
+   "Almería",
+   "almeria"
+  ],
+  [
+   "FC Andorra",
+   "fc-andorra"
+  ],
+  [
+   "Cádiz CF",
+   "cadiz"
+  ],
+  [
+   "Córdoba CF",
+   null
+  ],
+  [
+   "CD Eldense",
+   null
+  ],
+  [
+   "Albacete",
+   "albacete"
+  ],
+  [
+   "AD Ceuta",
+   null
+  ]
+ ],
+ "Espanha — 3ª Divisão": [
+  [
+   "Real Zaragoza",
+   null
+  ],
+  [
+   "Real Murcia",
+   null
+  ],
+  [
+   "Cultural y Deportiva Leonesa",
+   null
+  ],
+  [
+   "FC Cartagena",
+   null
+  ],
+  [
+   "SD Huesca",
+   null
+  ],
+  [
+   "CD Mirandés",
+   null
+  ],
+  [
+   "Hércules CF",
+   null
+  ],
+  [
+   "AD Mérida",
+   null
+  ],
+  [
+   "SD Ponferradina",
+   null
+  ],
+  [
+   "Real Madrid Castilla",
+   null
+  ],
+  [
+   "Bilbao Athletic",
+   null
+  ],
+  [
+   "Atlético Madrileño",
+   null
+  ],
+  [
+   "Villarreal B",
+   null
+  ],
+  [
+   "RC Deportivo Fabril",
+   null
+  ],
+  [
+   "Gimnàstic de Tarragona",
+   null
+  ],
+  [
+   "AD Alcorcón",
+   null
+  ],
+  [
+   "UD Ibiza",
+   null
+  ],
+  [
+   "Racing de Ferrol",
+   null
+  ],
+  [
+   "CD Lugo",
+   null
+  ],
+  [
+   "Pontevedra CF",
+   null
+  ],
+  [
+   "Zamora CF",
+   null
+  ],
+  [
+   "CD Teruel",
+   null
+  ],
+  [
+   "Unionistas de Salamanca",
+   null
+  ],
+  [
+   "UD Logroñés",
+   null
+  ],
+  [
+   "Real Unión de Irún",
+   null
+  ],
+  [
+   "Real Avilés",
+   null
+  ],
+  [
+   "Barakaldo CF",
+   null
+  ],
+  [
+   "Arenas Club",
+   null
+  ],
+  [
+   "CE Europa",
+   null
+  ],
+  [
+   "UE Sant Andreu",
+   null
+  ],
+  [
+   "CF Rayo Majadahonda",
+   null
+  ],
+  [
+   "Algeciras CF",
+   null
+  ],
+  [
+   "Antequera CF",
+   null
+  ],
+  [
+   "Águilas FC",
+   null
+  ],
+  [
+   "Real Jaén",
+   null
+  ],
+  [
+   "CP Cacereño",
+   null
+  ],
+  [
+   "CD Coria",
+   null
+  ],
+  [
+   "CD Extremadura",
+   null
+  ],
+  [
+   "UD Ourense",
+   null
+  ],
+  [
+   "Juventud de Torremolinos",
+   null
+  ]
+ ],
+ "Alemanha — 2ª Divisão": [
+  [
+   "1. FC Nürnberg",
+   null
+  ],
+  [
+   "Hertha BSC",
+   null
+  ],
+  [
+   "VfL Wolfsburg",
+   "wolfsburg"
+  ],
+  [
+   "1. FC Kaiserslautern",
+   null
+  ],
+  [
+   "1. FC Heidenheim 1846",
+   "fc-heidenheim"
+  ],
+  [
+   "1. FC Magdeburg",
+   null
+  ],
+  [
+   "VfL Bochum",
+   null
+  ],
+  [
+   "Karlsruher SC",
+   null
+  ],
+  [
+   "SpVgg Greuther Fürth",
+   null
+  ],
+  [
+   "Arminia Bielefeld",
+   null
+  ],
+  [
+   "Energie Cottbus",
+   "energie-cottbus"
+  ],
+  [
+   "Hannover 96",
+   null
+  ],
+  [
+   "Eintracht Braunschweig",
+   null
+  ],
+  [
+   "FC St. Pauli",
+   "st-pauli"
+  ],
+  [
+   "Holstein Kiel",
+   null
+  ],
+  [
+   "VfL Osnabrück",
+   "osnabruck"
+  ],
+  [
+   "Dynamo Dresden",
+   null
+  ],
+  [
+   "SV Darmstadt 98",
+   null
+  ]
+ ],
+ "Alemanha — 3ª Divisão": [
+  [
+   "1860 Munich",
+   null
+  ],
+  [
+   "Hansa Rostock",
+   null
+  ],
+  [
+   "MSV Duisburg",
+   null
+  ],
+  [
+   "Rot-Weiss Essen",
+   null
+  ],
+  [
+   "Alemannia Aachen",
+   null
+  ],
+  [
+   "Erzgebirge Aue",
+   null
+  ],
+  [
+   "1. FC Saarbrücken",
+   null
+  ],
+  [
+   "Waldhof Mannheim",
+   null
+  ],
+  [
+   "Jahn Regensburg",
+   null
+  ],
+  [
+   "FC Ingolstadt",
+   null
+  ],
+  [
+   "Viktoria Köln",
+   null
+  ],
+  [
+   "SSV Ulm",
+   null
+  ],
+  [
+   "SC Verl",
+   null
+  ],
+  [
+   "Wehen Wiesbaden",
+   null
+  ],
+  [
+   "Schweinfurt 05",
+   null
+  ],
+  [
+   "TSV Havelse",
+   null
+  ],
+  [
+   "VfB Stuttgart II",
+   null
+  ],
+  [
+   "TSG Hoffenheim II",
+   null
+  ],
+  [
+   "Fortuna Düsseldorf",
+   null
+  ]
+ ],
+ "França — 2ª Divisão": [
+  [
+   "AS Saint-Étienne",
+   "as-saint-etienne"
+  ],
+  [
+   "Stade de Reims",
+   "stade-de-reims"
+  ],
+  [
+   "Montpellier HSC",
+   "montpellier"
+  ],
+  [
+   "EA Guingamp",
+   "guingamp"
+  ],
+  [
+   "ESTAC Troyes",
+   "troyes"
+  ],
+  [
+   "Red Star FC",
+   "red-star-fc"
+  ],
+  [
+   "Clermont Foot",
+   "clermont-foot"
+  ],
+  [
+   "Grenoble Foot 38",
+   "grenoble-foot-38"
+  ],
+  [
+   "Pau FC",
+   "pau"
+  ],
+  [
+   "FC Annecy",
+   "annecy"
+  ],
+  [
+   "Rodez AF",
+   "rodez-af"
+  ],
+  [
+   "USL Dunkerque",
+   "dunkerque"
+  ],
+  [
+   "Le Mans FC",
+   "le-mans"
+  ],
+  [
+   "Stade Lavallois",
+   "stade-lavallois"
+  ],
+  [
+   "US Boulogne",
+   "boulogne"
+  ],
+  [
+   "AS Nancy",
+   "nancy"
+  ],
+  [
+   "FC Sochaux",
+   "sochaux"
+  ],
+  [
+   "Dijon FCO",
+   "dijon"
+  ]
+ ],
+ "Holanda — 2ª Divisão": [
+  [
+   "Heracles Almelo",
+   null
+  ],
+  [
+   "MVV Maastricht",
+   null
+  ],
+  [
+   "FC Emmen",
+   null
+  ],
+  [
+   "Almere City",
+   null
+  ],
+  [
+   "Vitesse",
+   null
+  ],
+  [
+   "VVV-Venlo",
+   null
+  ],
+  [
+   "Jong AZ",
+   null
+  ],
+  [
+   "Jong PSV",
+   null
+  ],
+  [
+   "Roda JC Kerkrade",
+   null
+  ],
+  [
+   "RKC Waalwijk",
+   null
+  ],
+  [
+   "NAC Breda",
+   null
+  ],
+  [
+   "Jong Ajax",
+   null
+  ],
+  [
+   "FC Volendam",
+   null
+  ],
+  [
+   "Helmond Sport",
+   null
+  ],
+  [
+   "FC Den Bosch",
+   null
+  ],
+  [
+   "FC Dordrecht",
+   null
+  ],
+  [
+   "FC Eindhoven",
+   null
+  ],
+  [
+   "TOP Oss",
+   null
+  ],
+  [
+   "De Graafschap",
+   null
+  ],
+  [
+   "Jong FC Utrecht",
+   null
+  ]
+ ],
+ "Turquia — 2ª Divisão": [
+  [
+   "Bodrumspor",
+   null
+  ],
+  [
+   "Sakaryaspor",
+   null
+  ],
+  [
+   "Bandırmaspor",
+   null
+  ],
+  [
+   "Boluspor",
+   null
+  ],
+  [
+   "Pendikspor",
+   null
+  ],
+  [
+   "Hatayspor",
+   null
+  ],
+  [
+   "Manisa FK",
+   null
+  ],
+  [
+   "İstanbulspor",
+   null
+  ],
+  [
+   "Keçiörengücü",
+   null
+  ],
+  [
+   "Ümraniyespor",
+   null
+  ],
+  [
+   "Esenler Erokspor",
+   null
+  ],
+  [
+   "Iğdır FK",
+   null
+  ],
+  [
+   "Vanspor FK",
+   null
+  ],
+  [
+   "Sarıyer",
+   null
+  ]
+ ],
+ "Argentina — 1ª Divisão": [
+  [
+   "River Plate",
+   null
+  ],
+  [
+   "Boca Juniors",
+   null
+  ],
+  [
+   "Racing Club",
+   null
+  ],
+  [
+   "Independiente",
+   null
+  ],
+  [
+   "San Lorenzo",
+   null
+  ],
+  [
+   "Vélez Sarsfield",
+   null
+  ],
+  [
+   "Estudiantes de La Plata",
+   null
+  ],
+  [
+   "Rosario Central",
+   null
+  ],
+  [
+   "Newell’s Old Boys",
+   null
+  ],
+  [
+   "Lanús",
+   null
+  ],
+  [
+   "Huracán",
+   null
+  ],
+  [
+   "Argentinos Juniors",
+   null
+  ],
+  [
+   "Talleres",
+   null
+  ],
+  [
+   "Belgrano",
+   null
+  ],
+  [
+   "Instituto",
+   null
+  ],
+  [
+   "Defensa y Justicia",
+   null
+  ],
+  [
+   "Banfield",
+   null
+  ],
+  [
+   "Platense",
+   null
+  ],
+  [
+   "Tigre",
+   null
+  ],
+  [
+   "Barracas Central",
+   "barracas-central"
+  ],
+  [
+   "Gimnasia La Plata",
+   null
+  ],
+  [
+   "Sarmiento",
+   "sarmiento"
+  ],
+  [
+   "Central Córdoba",
+   "central-cordoba"
+  ],
+  [
+   "Atlético Tucumán",
+   "atletico-tucuman"
+  ],
+  [
+   "Unión",
+   "union"
+  ],
+  [
+   "Independiente Rivadavia",
+   "independiente-rivadavia"
+  ],
+  [
+   "Deportivo Riestra",
+   "deportivo-riestra"
+  ],
+  [
+   "Aldosivi",
+   "aldosivi"
+  ],
+  [
+   "Gimnasia de Mendoza",
+   null
+  ],
+  [
+   "Estudiantes de Río Cuarto",
+   "estudiantes-de-rio-cuarto"
+  ]
+ ],
+ "Argentina — 2ª Divisão": [
+  [
+   "Colón",
+   null
+  ],
+  [
+   "Godoy Cruz",
+   null
+  ],
+  [
+   "Patronato",
+   null
+  ],
+  [
+   "Ferro Carril Oeste",
+   null
+  ],
+  [
+   "Chacarita Juniors",
+   null
+  ],
+  [
+   "Quilmes",
+   null
+  ],
+  [
+   "All Boys",
+   null
+  ],
+  [
+   "Nueva Chicago",
+   null
+  ],
+  [
+   "Atlanta",
+   null
+  ],
+  [
+   "Almagro",
+   null
+  ],
+  [
+   "Temperley",
+   null
+  ],
+  [
+   "Los Andes",
+   null
+  ],
+  [
+   "San Telmo",
+   null
+  ],
+  [
+   "Deportivo Morón",
+   null
+  ],
+  [
+   "Defensores de Belgrano",
+   null
+  ],
+  [
+   "Colegiales",
+   null
+  ],
+  [
+   "San Miguel",
+   null
+  ],
+  [
+   "Tristán Suárez",
+   null
+  ],
+  [
+   "Acassuso",
+   null
+  ],
+  [
+   "Ferrocarril Midland",
+   null
+  ],
+  [
+   "Atlético de Rafaela",
+   null
+  ],
+  [
+   "Deportivo Maipú",
+   null
+  ],
+  [
+   "Deportivo Madryn",
+   null
+  ],
+  [
+   "Agropecuario",
+   null
+  ],
+  [
+   "Ciudad de Bolívar",
+   null
+  ],
+  [
+   "Almirante Brown",
+   null
+  ],
+  [
+   "Estudiantes de Buenos Aires",
+   null
+  ],
+  [
+   "Gimnasia y Esgrima de Jujuy",
+   null
+  ],
+  [
+   "Gimnasia y Tiro",
+   null
+  ],
+  [
+   "Central Norte",
+   null
+  ],
+  [
+   "Chaco For Ever",
+   null
+  ],
+  [
+   "Güemes",
+   null
+  ],
+  [
+   "Mitre",
+   null
+  ],
+  [
+   "San Martín de San Juan",
+   null
+  ],
+  [
+   "San Martín de Tucumán",
+   null
+  ],
+  [
+   "Racing de Córdoba",
+   null
+  ]
+ ],
+ "Arábia Saudita — Liga": [
+  [
+   "Al-Hilal",
+   null
+  ],
+  [
+   "Al-Nassr",
+   null
+  ],
+  [
+   "Al-Ittihad",
+   null
+  ],
+  [
+   "Al-Ahli",
+   null
+  ],
+  [
+   "Al-Qadsiah",
+   null
+  ],
+  [
+   "Al-Shabab",
+   null
+  ],
+  [
+   "Al-Ettifaq",
+   null
+  ],
+  [
+   "Al-Taawoun",
+   null
+  ],
+  [
+   "Neom SC",
+   null
+  ],
+  [
+   "Al-Khaleej",
+   null
+  ],
+  [
+   "Al-Fateh",
+   null
+  ],
+  [
+   "Al-Riyadh",
+   null
+  ],
+  [
+   "Al-Fayha",
+   null
+  ],
+  [
+   "Al-Hazem",
+   null
+  ],
+  [
+   "Al-Kholood",
+   null
+  ],
+  [
+   "Al-Diriyah",
+   null
+  ],
+  [
+   "Al-Faisaly",
+   null
+  ],
+  [
+   "Abha",
+   null
+  ]
+ ],
+ "Estados Unidos — 1ª Divisão": [
+  [
+   "Inter Miami CF",
+   "inter-miami-cf"
+  ],
+  [
+   "Los Angeles FC",
+   "los-angeles-fc"
+  ],
+  [
+   "LA Galaxy",
+   "la-galaxy"
+  ],
+  [
+   "Atlanta United",
+   "atlanta-united"
+  ],
+  [
+   "Seattle Sounders",
+   "seattle-sounders-fc"
+  ],
+  [
+   "New York City FC",
+   "new-york-city-fc"
+  ],
+  [
+   "New York Red Bulls",
+   "new-york-red-bulls"
+  ],
+  [
+   "Columbus Crew",
+   "columbus-crew"
+  ],
+  [
+   "FC Cincinnati",
+   "fc-cincinnati"
+  ],
+  [
+   "Portland Timbers",
+   "portland-timbers"
+  ],
+  [
+   "Philadelphia Union",
+   "philadelphia-union"
+  ],
+  [
+   "Austin FC",
+   "austins-fc"
+  ],
+  [
+   "Nashville SC",
+   "nashville-sc"
+  ],
+  [
+   "Orlando City",
+   "orlando-city"
+  ],
+  [
+   "Charlotte FC",
+   "charlotte-fc"
+  ],
+  [
+   "St. Louis City SC",
+   "st-louis-city-sc"
+  ],
+  [
+   "Minnesota United",
+   "minnesota-united-fc"
+  ],
+  [
+   "Sporting Kansas City",
+   "sporting-kansas-city"
+  ],
+  [
+   "Real Salt Lake",
+   "real-salt-lake"
+  ],
+  [
+   "Houston Dynamo",
+   "houston-dynamo"
+  ],
+  [
+   "FC Dallas",
+   "fc-dallas"
+  ],
+  [
+   "Colorado Rapids",
+   "colorado-rapids"
+  ],
+  [
+   "San Diego FC",
+   "san-diego-fc"
+  ],
+  [
+   "San Jose Earthquakes",
+   "san-jose-earthquakes"
+  ],
+  [
+   "DC United",
+   "dc-united"
+  ],
+  [
+   "New England Revolution",
+   "new-england-revolution"
+  ],
+  [
+   "Chicago Fire FC",
+   "chicago-fire-fc"
+  ],
+  [
+   "Toronto FC",
+   "toronto-fc"
+  ],
+  [
+   "CF Montréal",
+   "cf-montreal"
+  ],
+  [
+   "Vancouver Whitecaps",
+   "vancouver-whitecaps-fc"
+  ]
+ ],
+ "Canadá — Liga": [
+  [
+   "Forge FC",
+   null
+  ],
+  [
+   "Cavalry FC",
+   null
+  ],
+  [
+   "Atlético Ottawa",
+   null
+  ],
+  [
+   "Pacific FC",
+   null
+  ],
+  [
+   "Vancouver FC",
+   null
+  ],
+  [
+   "HFX Wanderers",
+   null
+  ],
+  [
+   "Inter Toronto FC",
+   null
+  ],
+  [
+   "FC Supra du Québec",
+   null
+  ]
+ ],
+ "Finlândia — Liga": [
+  [
+   "HJK Helsinki",
+   null
+  ],
+  [
+   "KuPS",
+   null
+  ],
+  [
+   "Ilves",
+   null
+  ],
+  [
+   "SJK",
+   null
+  ],
+  [
+   "FC Inter Turku",
+   null
+  ],
+  [
+   "AC Oulu",
+   null
+  ],
+  [
+   "FC Lahti",
+   null
+  ],
+  [
+   "FF Jaro",
+   null
+  ],
+  [
+   "IF Gnistan",
+   null
+  ],
+  [
+   "IFK Mariehamn",
+   null
+  ],
+  [
+   "TPS",
+   null
+  ],
+  [
+   "VPS",
+   null
+  ]
+ ],
+ "Hungria — Liga": [
+  [
+   "Ferencvárosi TC",
+   null
+  ],
+  [
+   "Debreceni VSC",
+   null
+  ],
+  [
+   "Puskás Akadémia",
+   null
+  ],
+  [
+   "Paksi FC",
+   null
+  ],
+  [
+   "Újpest FC",
+   null
+  ],
+  [
+   "MTK Budapest",
+   null
+  ],
+  [
+   "Győri ETO",
+   null
+  ],
+  [
+   "Kisvárda FC",
+   null
+  ],
+  [
+   "Nyíregyháza Spartacus",
+   null
+  ],
+  [
+   "Zalaegerszegi TE",
+   null
+  ],
+  [
+   "Vasas SC",
+   null
+  ],
+  [
+   "Kispest Honvéd",
+   null
+  ]
+ ],
+ "Irlanda — Liga": [
+  [
+   "Shamrock Rovers",
+   null
+  ],
+  [
+   "Shelbourne",
+   null
+  ],
+  [
+   "Bohemians",
+   null
+  ],
+  [
+   "Derry City",
+   null
+  ],
+  [
+   "St Patrick’s Athletic",
+   null
+  ],
+  [
+   "Sligo Rovers",
+   null
+  ],
+  [
+   "Galway United",
+   null
+  ],
+  [
+   "Waterford",
+   null
+  ],
+  [
+   "Drogheda United",
+   null
+  ],
+  [
+   "Dundalk",
+   null
+  ]
+ ],
+ "Chipre — Liga": [
+  [
+   "APOEL",
+   null
+  ],
+  [
+   "Omonia Nicosia",
+   null
+  ],
+  [
+   "Pafos FC",
+   null
+  ],
+  [
+   "Aris Limassol",
+   null
+  ],
+  [
+   "AEK Larnaca",
+   null
+  ],
+  [
+   "Apollon Limassol",
+   null
+  ],
+  [
+   "Anorthosis Famagusta",
+   null
+  ],
+  [
+   "AEL Limassol",
+   null
+  ],
+  [
+   "Nea Salamis",
+   null
+  ],
+  [
+   "Omonia Aradippou",
+   null
+  ],
+  [
+   "Olympiakos Nicosia",
+   null
+  ],
+  [
+   "Karmiotissa FC",
+   null
+  ],
+  [
+   "Krasava ENY Ypsonas",
+   null
+  ],
+  [
+   "Omonia 29M",
+   null
+  ]
+ ],
+ "África do Sul — Liga": [
+  [
+   "Mamelodi Sundowns",
+   null
+  ],
+  [
+   "Orlando Pirates",
+   null
+  ],
+  [
+   "Kaizer Chiefs",
+   null
+  ],
+  [
+   "Stellenbosch",
+   null
+  ],
+  [
+   "Sekhukhune United",
+   null
+  ],
+  [
+   "AmaZulu",
+   null
+  ],
+  [
+   "TS Galaxy",
+   null
+  ],
+  [
+   "Richards Bay",
+   null
+  ],
+  [
+   "Polokwane City",
+   null
+  ],
+  [
+   "Chippa United",
+   null
+  ],
+  [
+   "Golden Arrows",
+   null
+  ],
+  [
+   "Marumo Gallants",
+   null
+  ],
+  [
+   "Durban City",
+   null
+  ],
+  [
+   "Magesi",
+   null
+  ],
+  [
+   "Orbit College",
+   null
+  ],
+  [
+   "Siwelele",
+   null
+  ]
+ ],
+ "Costa do Marfim — Liga": [
+  [
+   "ASEC Mimosas",
+   null
+  ],
+  [
+   "Stade d'Abidjan",
+   null
+  ],
+  [
+   "RC Abidjan",
+   null
+  ],
+  [
+   "Stella Club d'Adjamé",
+   null
+  ],
+  [
+   "FC San Pédro",
+   null
+  ],
+  [
+   "AFAD Djékanou",
+   null
+  ],
+  [
+   "SC Bouaké",
+   null
+  ],
+  [
+   "ES Agboville",
+   null
+  ],
+  [
+   "ISCA",
+   null
+  ],
+  [
+   "AS Korhogo",
+   null
+  ],
+  [
+   "Mouna FC",
+   null
+  ],
+  [
+   "Olympic Sport d'Abobo",
+   null
+  ],
+  [
+   "SO Armée",
+   null
+  ],
+  [
+   "SOL FC",
+   null
+  ],
+  [
+   "Tchologo FC",
+   null
+  ],
+  [
+   "Zoman Sport",
+   null
+  ]
+ ],
+ "Senegal — Liga": [
+  [
+   "ASC Jaraaf",
+   null
+  ],
+  [
+   "Teungueth FC",
+   null
+  ],
+  [
+   "Génération Foot",
+   null
+  ],
+  [
+   "Casa Sports",
+   null
+  ],
+  [
+   "AS Pikine",
+   null
+  ],
+  [
+   "US Gorée",
+   null
+  ],
+  [
+   "Dakar Sacré-Cœur",
+   null
+  ],
+  [
+   "Guédiawaye FC",
+   null
+  ],
+  [
+   "Stade de Mbour",
+   null
+  ],
+  [
+   "Linguère",
+   null
+  ],
+  [
+   "AJEL Rufisque",
+   null
+  ],
+  [
+   "AS Cambérène",
+   null
+  ],
+  [
+   "ASC HLM",
+   null
+  ],
+  [
+   "SoNaCOS",
+   null
+  ],
+  [
+   "US Ouakam",
+   null
+  ],
+  [
+   "Wally Daan",
+   null
+  ]
+ ],
+ "Austrália — Liga": [
+  [
+   "Melbourne City",
+   null
+  ],
+  [
+   "Melbourne Victory",
+   null
+  ],
+  [
+   "Sydney FC",
+   null
+  ],
+  [
+   "Auckland FC",
+   null
+  ],
+  [
+   "Adelaide United",
+   null
+  ],
+  [
+   "Central Coast Mariners",
+   null
+  ],
+  [
+   "Western Sydney Wanderers",
+   null
+  ],
+  [
+   "Wellington Phoenix",
+   null
+  ],
+  [
+   "Macarthur FC",
+   null
+  ],
+  [
+   "Brisbane Roar",
+   null
+  ],
+  [
+   "Perth Glory",
+   null
+  ],
+  [
+   "Newcastle Jets",
+   "newcastle"
+  ]
+ ],
+ "Paraguai — Liga": [
+  [
+   "Olimpia",
+   null
+  ],
+  [
+   "Libertad",
+   null
+  ],
+  [
+   "Cerro Porteño",
+   null
+  ],
+  [
+   "Guaraní",
+   null
+  ],
+  [
+   "Nacional Asunción",
+   null
+  ],
+  [
+   "Sportivo Luqueño",
+   null
+  ],
+  [
+   "Sportivo Ameliano",
+   null
+  ],
+  [
+   "Sportivo Trinidense",
+   null
+  ],
+  [
+   "2 de Mayo",
+   null
+  ],
+  [
+   "Deportivo Recoleta",
+   "deportivo"
+  ],
+  [
+   "Rubio Ñu",
+   null
+  ],
+  [
+   "Sportivo San Lorenzo",
+   null
+  ]
+ ],
+ "Uruguai — Liga": [
+  [
+   "Peñarol",
+   null
+  ],
+  [
+   "Nacional",
+   null
+  ],
+  [
+   "Defensor Sporting",
+   null
+  ],
+  [
+   "Liverpool Montevideo",
+   null
+  ],
+  [
+   "Montevideo City Torque",
+   null
+  ],
+  [
+   "Danubio",
+   null
+  ],
+  [
+   "Racing",
+   null
+  ],
+  [
+   "Cerro Largo",
+   null
+  ],
+  [
+   "Boston River",
+   null
+  ],
+  [
+   "Montevideo Wanderers",
+   null
+  ],
+  [
+   "Juventud",
+   null
+  ],
+  [
+   "Deportivo Maldonado",
+   null
+  ],
+  [
+   "Progreso",
+   null
+  ],
+  [
+   "Cerro",
+   null
+  ],
+  [
+   "Albion",
+   null
+  ],
+  [
+   "Central Español",
+   null
+  ]
+ ],
+ "Chile — Liga": [
+  [
+   "Colo-Colo",
+   null
+  ],
+  [
+   "Universidad de Chile",
+   null
+  ],
+  [
+   "Universidad Católica",
+   null
+  ],
+  [
+   "Coquimbo Unido",
+   null
+  ],
+  [
+   "Palestino",
+   null
+  ],
+  [
+   "Huachipato",
+   null
+  ],
+  [
+   "Ñublense",
+   null
+  ],
+  [
+   "O'Higgins",
+   null
+  ],
+  [
+   "Audax Italiano",
+   null
+  ],
+  [
+   "Cobresal",
+   null
+  ],
+  [
+   "Unión La Calera",
+   null
+  ],
+  [
+   "Everton de Viña del Mar",
+   null
+  ],
+  [
+   "Deportes La Serena",
+   null
+  ],
+  [
+   "Deportes Limache",
+   null
+  ],
+  [
+   "Deportes Concepción",
+   null
+  ],
+  [
+   "Universidad de Concepción",
+   null
+  ]
+ ],
+ "Colômbia — Liga": [
+  [
+   "Atlético Nacional",
+   null
+  ],
+  [
+   "Millonarios",
+   null
+  ],
+  [
+   "América de Cali",
+   null
+  ],
+  [
+   "Junior",
+   null
+  ],
+  [
+   "Independiente Medellín",
+   null
+  ],
+  [
+   "Deportivo Cali",
+   null
+  ],
+  [
+   "Santa Fe",
+   null
+  ],
+  [
+   "Deportes Tolima",
+   null
+  ],
+  [
+   "Once Caldas",
+   null
+  ],
+  [
+   "Atlético Bucaramanga",
+   null
+  ],
+  [
+   "Águilas Doradas",
+   null
+  ],
+  [
+   "Deportivo Pereira",
+   null
+  ],
+  [
+   "Deportivo Pasto",
+   null
+  ],
+  [
+   "Alianza",
+   null
+  ],
+  [
+   "Fortaleza FC",
+   null
+  ],
+  [
+   "Jaguares de Córdoba",
+   null
+  ],
+  [
+   "Llaneros FC",
+   null
+  ],
+  [
+   "Boyacá Chicó",
+   null
+  ],
+  [
+   "Cúcuta Deportivo",
+   null
+  ],
+  [
+   "Internacional de Bogotá",
+   null
+  ]
+ ],
+ "Peru — Liga": [
+  [
+   "Universitario",
+   null
+  ],
+  [
+   "Alianza Lima",
+   null
+  ],
+  [
+   "Sporting Cristal",
+   null
+  ],
+  [
+   "Melgar",
+   null
+  ],
+  [
+   "Cienciano",
+   null
+  ],
+  [
+   "Cusco",
+   null
+  ],
+  [
+   "Sport Huancayo",
+   null
+  ],
+  [
+   "Atlético Grau",
+   null
+  ],
+  [
+   "ADT",
+   null
+  ],
+  [
+   "Alianza Atlético",
+   null
+  ],
+  [
+   "Deportivo Garcilaso",
+   null
+  ],
+  [
+   "Los Chankas",
+   null
+  ],
+  [
+   "Sport Boys",
+   null
+  ],
+  [
+   "UTC",
+   null
+  ],
+  [
+   "Comerciantes Unidos",
+   null
+  ],
+  [
+   "Juan Pablo II College",
+   null
+  ],
+  [
+   "Cajamarca",
+   null
+  ],
+  [
+   "Deportivo Moquegua",
+   null
+  ]
+ ],
+ "Equador — Liga": [
+  [
+   "Independiente del Valle",
+   null
+  ],
+  [
+   "LDU Quito",
+   null
+  ],
+  [
+   "Barcelona SC",
+   null
+  ],
+  [
+   "Emelec",
+   null
+  ],
+  [
+   "Universidad Católica de Quito",
+   null
+  ],
+  [
+   "Aucas",
+   null
+  ],
+  [
+   "Orense",
+   null
+  ],
+  [
+   "Delfín",
+   null
+  ],
+  [
+   "Deportivo Cuenca",
+   null
+  ],
+  [
+   "Macará",
+   null
+  ],
+  [
+   "Técnico Universitario",
+   null
+  ],
+  [
+   "Mushuc Runa",
+   null
+  ],
+  [
+   "Libertad de Loja",
+   null
+  ],
+  [
+   "Manta",
+   null
+  ],
+  [
+   "Leones",
+   null
+  ],
+  [
+   "Guayaquil City",
+   null
+  ]
+ ],
+ "Bolívia — Liga": [
+  [
+   "Bolívar",
+   null
+  ],
+  [
+   "The Strongest",
+   null
+  ],
+  [
+   "Always Ready",
+   null
+  ],
+  [
+   "Oriente Petrolero",
+   null
+  ],
+  [
+   "Blooming",
+   null
+  ],
+  [
+   "Nacional Potosí",
+   null
+  ],
+  [
+   "Independiente Petrolero",
+   null
+  ],
+  [
+   "Aurora",
+   null
+  ],
+  [
+   "Real Tomayapo",
+   null
+  ],
+  [
+   "GV San José",
+   null
+  ],
+  [
+   "Real Oruro",
+   null
+  ],
+  [
+   "Real Potosí",
+   null
+  ],
+  [
+   "Guabirá",
+   null
+  ],
+  [
+   "San Antonio Bulo Bulo",
+   null
+  ],
+  [
+   "Universitario de Vinto",
+   null
+  ],
+  [
+   "Academia del Balompié Boliviano",
+   null
+  ]
+ ],
+ "Venezuela — Liga": [
+  [
+   "Caracas",
+   null
+  ],
+  [
+   "Deportivo Táchira",
+   null
+  ],
+  [
+   "Deportivo La Guaira",
+   null
+  ],
+  [
+   "Carabobo",
+   null
+  ],
+  [
+   "Academia Puerto Cabello",
+   null
+  ],
+  [
+   "Monagas",
+   null
+  ],
+  [
+   "Metropolitanos",
+   null
+  ],
+  [
+   "Estudiantes de Mérida",
+   null
+  ],
+  [
+   "Zamora",
+   null
+  ],
+  [
+   "Portuguesa",
+   null
+  ],
+  [
+   "Universidad Central",
+   null
+  ],
+  [
+   "Rayo Zuliano",
+   null
+  ],
+  [
+   "Anzoátegui",
+   null
+  ],
+  [
+   "Trujillanos",
+   null
+  ]
+ ],
+ "Japão — Liga": [
+  [
+   "Vissel Kobe",
+   null
+  ],
+  [
+   "Kawasaki Frontale",
+   null
+  ],
+  [
+   "Urawa Red Diamonds",
+   null
+  ],
+  [
+   "Yokohama F. Marinos",
+   null
+  ],
+  [
+   "Kashima Antlers",
+   null
+  ],
+  [
+   "Sanfrecce Hiroshima",
+   null
+  ],
+  [
+   "Gamba Osaka",
+   null
+  ],
+  [
+   "Cerezo Osaka",
+   null
+  ],
+  [
+   "FC Tokyo",
+   null
+  ],
+  [
+   "Nagoya Grampus",
+   null
+  ],
+  [
+   "Kashiwa Reysol",
+   null
+  ],
+  [
+   "Kyoto Sanga",
+   null
+  ],
+  [
+   "Machida Zelvia",
+   null
+  ],
+  [
+   "Avispa Fukuoka",
+   null
+  ],
+  [
+   "Shimizu S-Pulse",
+   null
+  ],
+  [
+   "Tokyo Verdy",
+   null
+  ],
+  [
+   "V-Varen Nagasaki",
+   null
+  ],
+  [
+   "Fagiano Okayama",
+   null
+  ],
+  [
+   "JEF United Chiba",
+   null
+  ],
+  [
+   "Mito HollyHock",
+   null
+  ]
+ ],
+ "China — 1ª Divisão": [
+  [
+   "Shanghai Port",
+   null
+  ],
+  [
+   "Shanghai Shenhua",
+   null
+  ],
+  [
+   "Beijing Guoan",
+   null
+  ],
+  [
+   "Chengdu Rongcheng",
+   null
+  ],
+  [
+   "Shandong Taishan",
+   null
+  ],
+  [
+   "Zhejiang Professional",
+   null
+  ],
+  [
+   "Wuhan Three Towns",
+   null
+  ],
+  [
+   "Henan",
+   null
+  ],
+  [
+   "Tianjin Jinmen Tiger",
+   null
+  ],
+  [
+   "Qingdao Hainiu",
+   null
+  ],
+  [
+   "Dalian Yingbo",
+   null
+  ],
+  [
+   "Yunnan Yukun",
+   null
+  ],
+  [
+   "Shenzhen Peng City",
+   null
+  ],
+  [
+   "Liaoning Tieren",
+   null
+  ],
+  [
+   "Qingdao West Coast",
+   null
+  ],
+  [
+   "Chongqing Tonglianglong",
+   null
+  ]
+ ],
+ "País de Gales — Liga": [
+  [
+   "The New Saints",
+   null
+  ],
+  [
+   "Connah's Quay Nomads",
+   null
+  ],
+  [
+   "Penybont",
+   null
+  ],
+  [
+   "Caernarfon Town",
+   null
+  ],
+  [
+   "Barry Town United",
+   null
+  ],
+  [
+   "Haverfordwest County",
+   null
+  ],
+  [
+   "Cardiff Met",
+   null
+  ],
+  [
+   "Colwyn Bay",
+   null
+  ],
+  [
+   "Flint Town United",
+   null
+  ],
+  [
+   "Airbus UK Broughton",
+   null
+  ],
+  [
+   "Briton Ferry Llansawel",
+   null
+  ],
+  [
+   "Llandudno",
+   null
+  ],
+  [
+   "Ammanford",
+   null
+  ],
+  [
+   "Cambrian United",
+   null
+  ],
+  [
+   "Holywell Town",
+   null
+  ],
+  [
+   "Trefelin",
+   null
+  ]
+ ],
+ "Nova Zelândia — Liga": [
+  [
+   "Auckland City",
+   null
+  ],
+  [
+   "Auckland FC Reserves",
+   null
+  ],
+  [
+   "Wellington Olympic",
+   null
+  ],
+  [
+   "Eastern Suburbs",
+   null
+  ],
+  [
+   "Auckland United",
+   null
+  ],
+  [
+   "Birkenhead United",
+   null
+  ],
+  [
+   "Cashmere Technical",
+   null
+  ],
+  [
+   "Napier City Rovers",
+   null
+  ],
+  [
+   "Miramar Rangers",
+   null
+  ],
+  [
+   "Ferrymead Bays",
+   null
+  ],
+  [
+   "Wellington Phoenix Reserves",
+   null
+  ]
+ ],
+ "Estados Unidos — 2ª Divisão": [
+  [
+   "Louisville City FC",
+   null
+  ],
+  [
+   "San Antonio FC",
+   null
+  ],
+  [
+   "Sacramento Republic FC",
+   null
+  ],
+  [
+   "Phoenix Rising FC",
+   null
+  ],
+  [
+   "Detroit City FC",
+   null
+  ],
+  [
+   "Indy Eleven",
+   null
+  ],
+  [
+   "Tampa Bay Rowdies",
+   null
+  ],
+  [
+   "Charleston Battery",
+   null
+  ],
+  [
+   "New Mexico United",
+   null
+  ],
+  [
+   "Pittsburgh Riverhounds SC",
+   null
+  ],
+  [
+   "Colorado Springs Switchbacks FC",
+   null
+  ],
+  [
+   "El Paso Locomotive FC",
+   null
+  ],
+  [
+   "Birmingham Legion FC",
+   null
+  ],
+  [
+   "Hartford Athletic",
+   null
+  ],
+  [
+   "Orange County SC",
+   null
+  ],
+  [
+   "Rhode Island FC",
+   null
+  ],
+  [
+   "FC Tulsa",
+   null
+  ],
+  [
+   "Loudoun United FC",
+   null
+  ],
+  [
+   "Oakland Roots SC",
+   null
+  ],
+  [
+   "Monterey Bay FC",
+   null
+  ],
+  [
+   "Miami FC",
+   null
+  ],
+  [
+   "Las Vegas Lights FC",
+   null
+  ],
+  [
+   "Lexington SC",
+   null
+  ],
+  [
+   "Brooklyn FC",
+   null
+  ],
+  [
+   "Sporting Club Jacksonville",
+   null
+  ]
+ ],
+ "Emirados Árabes Unidos — Liga": [
+  [
+   "Al Ain",
+   null
+  ],
+  [
+   "Shabab Al Ahli",
+   null
+  ],
+  [
+   "Al Wasl",
+   null
+  ],
+  [
+   "Sharjah",
+   null
+  ],
+  [
+   "Al Jazira",
+   null
+  ],
+  [
+   "Al Wahda",
+   null
+  ],
+  [
+   "Al Nasr",
+   null
+  ],
+  [
+   "Baniyas",
+   null
+  ],
+  [
+   "Khor Fakkan",
+   null
+  ],
+  [
+   "Kalba",
+   null
+  ],
+  [
+   "Ajman",
+   null
+  ],
+  [
+   "Al Dhafra",
+   null
+  ],
+  [
+   "Al Bataeh",
+   null
+  ],
+  [
+   "Dibba",
+   null
+  ]
+ ],
+ "México — Liga": [
+  [
+   "Club América",
+   null
+  ],
+  [
+   "Cruz Azul",
+   null
+  ],
+  [
+   "Chivas Guadalajara",
+   null
+  ],
+  [
+   "Tigres UANL",
+   null
+  ],
+  [
+   "Monterrey",
+   null
+  ],
+  [
+   "Toluca",
+   null
+  ],
+  [
+   "Pumas UNAM",
+   null
+  ],
+  [
+   "Pachuca",
+   null
+  ],
+  [
+   "León",
+   null
+  ],
+  [
+   "Santos Laguna",
+   null
+  ],
+  [
+   "Atlas",
+   null
+  ],
+  [
+   "Necaxa",
+   null
+  ],
+  [
+   "Puebla",
+   null
+  ],
+  [
+   "Querétaro",
+   null
+  ],
+  [
+   "Tijuana",
+   null
+  ],
+  [
+   "Atlético San Luis",
+   null
+  ],
+  [
+   "FC Juárez",
+   null
+  ],
+  [
+   "Atlante",
+   null
+  ]
+ ],
+ "Índia — Liga": [
+  [
+   "Mohun Bagan Super Giant",
+   null
+  ],
+  [
+   "Bengaluru FC",
+   null
+  ],
+  [
+   "FC Goa",
+   null
+  ],
+  [
+   "Mumbai City FC",
+   null
+  ],
+  [
+   "East Bengal FC",
+   null
+  ],
+  [
+   "Kerala Blasters FC",
+   null
+  ],
+  [
+   "Odisha FC",
+   null
+  ],
+  [
+   "NorthEast United FC",
+   null
+  ],
+  [
+   "Punjab FC",
+   null
+  ],
+  [
+   "Chennaiyin FC",
+   null
+  ],
+  [
+   "Inter Kashi",
+   null
+  ],
+  [
+   "SC Delhi",
+   null
+  ],
+  [
+   "Churchill Brothers",
+   null
+  ]
+ ],
+ "Coreia do Sul — Liga": [
+  [
+   "Jeonbuk Hyundai Motors",
+   null
+  ],
+  [
+   "Ulsan HD",
+   null
+  ],
+  [
+   "FC Seoul",
+   null
+  ],
+  [
+   "Pohang Steelers",
+   null
+  ],
+  [
+   "Gwangju FC",
+   null
+  ],
+  [
+   "Daejeon Hana Citizen",
+   null
+  ],
+  [
+   "Gangwon FC",
+   null
+  ],
+  [
+   "Jeju SK",
+   null
+  ],
+  [
+   "Gimcheon Sangmu",
+   null
+  ],
+  [
+   "Incheon United",
+   null
+  ],
+  [
+   "FC Anyang",
+   null
+  ],
+  [
+   "Bucheon FC 1995",
+   null
+  ]
+ ],
+ "Romênia — 2ª Divisão": [
+  [
+   "CSA Steaua București",
+   null
+  ],
+  [
+   "SSU Politehnica Timișoara",
+   null
+  ],
+  [
+   "FC Bihor Oradea",
+   null
+  ],
+  [
+   "Gloria Bistrița",
+   null
+  ],
+  [
+   "Chindia Târgoviște",
+   null
+  ],
+  [
+   "Unirea Slobozia",
+   null
+  ],
+  [
+   "Metalul Buzău",
+   null
+  ],
+  [
+   "Concordia Chiajna",
+   null
+  ],
+  [
+   "Metaloglobus București",
+   null
+  ],
+  [
+   "CSM Reșița",
+   null
+  ],
+  [
+   "CSM Slatina",
+   null
+  ],
+  [
+   "CSM Olimpia Satu Mare",
+   null
+  ],
+  [
+   "CSC Dumbrăvița",
+   null
+  ],
+  [
+   "CSC 1599 Șelimbăr",
+   null
+  ],
+  [
+   "SCM Râmnicu Vâlcea",
+   null
+  ],
+  [
+   "CS Afumați",
+   null
+  ],
+  [
+   "ASA Târgu Mureș",
+   null
+  ],
+  [
+   "FC Bacău",
+   null
+  ],
+  [
+   "Cetatea Suceava",
+   null
+  ],
+  [
+   "CS Popești-Leordeni",
+   null
+  ],
+  [
+   "CSL Ștefănești",
+   null
+  ]
+ ],
+ "China — 2ª Divisão": [
+  [
+   "Changchun Yatai",
+   null
+  ],
+  [
+   "Meizhou Hakka",
+   null
+  ],
+  [
+   "Nantong Zhiyun",
+   null
+  ],
+  [
+   "Nanjing City",
+   null
+  ],
+  [
+   "Shijiazhuang Gongfu",
+   null
+  ],
+  [
+   "Suzhou Dongwu",
+   null
+  ],
+  [
+   "Guangxi Hengchen",
+   null
+  ],
+  [
+   "Yanbian Longding",
+   null
+  ],
+  [
+   "Dalian K’un City",
+   null
+  ],
+  [
+   "Foshan Nanshi",
+   null
+  ],
+  [
+   "Guangdong GZ-Power",
+   null
+  ],
+  [
+   "Jiangxi Dingnan United",
+   null
+  ],
+  [
+   "Ningbo",
+   null
+  ],
+  [
+   "Shaanxi Union",
+   null
+  ],
+  [
+   "Shenzhen Juniors",
+   null
+  ],
+  [
+   "Wuxi Wugo",
+   null
+  ]
+ ],
+ "Polônia — 2ª Divisão": [
+  [
+   "Lechia Gdańsk",
+   null
+  ],
+  [
+   "Arka Gdynia",
+   null
+  ],
+  [
+   "Ruch Chorzów",
+   null
+  ],
+  [
+   "ŁKS Łódź",
+   null
+  ],
+  [
+   "Warta Poznań",
+   null
+  ],
+  [
+   "Stal Mielec",
+   null
+  ],
+  [
+   "Miedź Legnica",
+   null
+  ],
+  [
+   "Polonia Warszawa",
+   null
+  ],
+  [
+   "Polonia Bytom",
+   null
+  ],
+  [
+   "Puszcza Niepołomice",
+   null
+  ],
+  [
+   "Chrobry Głogów",
+   null
+  ],
+  [
+   "Odra Opole",
+   null
+  ],
+  [
+   "Podbeskidzie Bielsko-Biała",
+   null
+  ],
+  [
+   "Bruk-Bet Termalica",
+   null
+  ],
+  [
+   "Stal Rzeszów",
+   null
+  ],
+  [
+   "Pogoń Siedlce",
+   null
+  ],
+  [
+   "Pogoń Grodzisk Mazowiecki",
+   null
+  ],
+  [
+   "Unia Skierniewice",
+   null
+  ]
+ ],
+ "Alemanha — 4ª Divisão": [
+  [
+   "TSV Buchbach",
+   null
+  ],
+  [
+   "FC Memmingen",
+   null
+  ],
+  [
+   "DJK Vilzing",
+   null
+  ],
+  [
+   "SC Eltersdorf",
+   null
+  ],
+  [
+   "FV Illertissen",
+   null
+  ],
+  [
+   "SpVgg Unterhaching",
+   null
+  ],
+  [
+   "SV Wacker Burghausen",
+   null
+  ],
+  [
+   "TSV Aubstadt",
+   null
+  ],
+  [
+   "SpVgg Bayreuth",
+   null
+  ],
+  [
+   "VfB Eichstätt",
+   null
+  ]
+ ],
+ "Inglaterra — 4ª Divisão": [
+  [
+   "Salford City",
+   null
+  ],
+  [
+   "Port Vale",
+   null
+  ],
+  [
+   "Chesterfield",
+   null
+  ],
+  [
+   "Bristol Rovers",
+   null
+  ],
+  [
+   "Northampton Town",
+   null
+  ],
+  [
+   "Rotherham United",
+   null
+  ],
+  [
+   "Swindon Town",
+   null
+  ],
+  [
+   "Crewe Alexandra",
+   null
+  ],
+  [
+   "Barnet",
+   null
+  ],
+  [
+   "Tranmere Rovers",
+   null
+  ],
+  [
+   "Colchester United",
+   null
+  ],
+  [
+   "Grimsby Town",
+   null
+  ],
+  [
+   "Shrewsbury Town",
+   null
+  ],
+  [
+   "Newport County",
+   null
+  ],
+  [
+   "Gillingham",
+   null
+  ],
+  [
+   "Walsall",
+   null
+  ],
+  [
+   "Cheltenham Town",
+   null
+  ],
+  [
+   "Crawley Town",
+   null
+  ],
+  [
+   "Rochdale",
+   null
+  ],
+  [
+   "Exeter City",
+   null
+  ],
+  [
+   "Fleetwood Town",
+   null
+  ],
+  [
+   "Oldham Athletic",
+   null
+  ],
+  [
+   "Accrington Stanley",
+   null
+  ],
+  [
+   "York City",
+   null
+  ]
+ ],
+ "Inglaterra — 5ª Divisão": [
+  [
+   "Barrow",
+   null
+  ],
+  [
+   "Harrogate Town",
+   null
+  ],
+  [
+   "Forest Green Rovers",
+   null
+  ],
+  [
+   "Southend United",
+   null
+  ],
+  [
+   "Boston United",
+   null
+  ],
+  [
+   "Eastleigh",
+   null
+  ],
+  [
+   "Hartlepool United",
+   null
+  ],
+  [
+   "Solihull Moors",
+   null
+  ],
+  [
+   "Woking",
+   null
+  ],
+  [
+   "Altrincham",
+   null
+  ],
+  [
+   "Scunthorpe United",
+   null
+  ],
+  [
+   "Aldershot Town",
+   null
+  ],
+  [
+   "Carlisle United",
+   null
+  ],
+  [
+   "Yeovil Town",
+   null
+  ],
+  [
+   "Hornchurch",
+   null
+  ],
+  [
+   "FC Halifax Town",
+   null
+  ],
+  [
+   "Gateshead",
+   null
+  ],
+  [
+   "AFC Fylde",
+   null
+  ],
+  [
+   "Kidderminster Harriers",
+   null
+  ],
+  [
+   "Boreham Wood",
+   null
+  ],
+  [
+   "Wealdstone",
+   null
+  ],
+  [
+   "Sutton United",
+   null
+  ],
+  [
+   "Tamworth",
+   null
+  ],
+  [
+   "Worthing",
+   null
+  ]
+ ]
+}

@@ -1,0 +1,1867 @@
+{
+  "_leia_me": [
+    "Bancos de nomes por país, usados por rename_generic.py para substituir os 405",
+    "clubes inventados que tinham nome português/espanhol em ligas do mundo inteiro",
+    "(havia um 'Serra Atlético' na República Tcheca).",
+    "",
+    "pre  = prefixos típicos do país (FK, SK, FC...). '' significa sem prefixo.",
+    "suf  = sufixos típicos ('', 'United', 'City'...).",
+    "cid  = cidades reais do país.",
+    "",
+    "O gerador combina cidade + prefixo/sufixo e nunca repete nome dentro da liga."
+  ],
+  "República Tcheca": {
+    "pre": [
+      "FK",
+      "SK",
+      "FC",
+      "1. FC"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Brno",
+      "Ostrava",
+      "Olomouc",
+      "Liberec",
+      "Hradec Králové",
+      "Zlín",
+      "Teplice",
+      "Jablonec",
+      "Mladá Boleslav",
+      "Pardubice",
+      "České Budějovice",
+      "Karviná",
+      "Příbram",
+      "Ústí nad Labem",
+      "Opava",
+      "Jihlava",
+      "Slovácko",
+      "Vysočina"
+    ]
+  },
+  "Sérvia": {
+    "pre": [
+      "FK",
+      "OFK"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Beograd",
+      "Novi Sad",
+      "Niš",
+      "Kragujevac",
+      "Subotica",
+      "Zrenjanin",
+      "Čačak",
+      "Kruševac",
+      "Leskovac",
+      "Šabac",
+      "Valjevo",
+      "Smederevo",
+      "Pančevo",
+      "Sombor",
+      "Užice",
+      "Vranje",
+      "Zaječar",
+      "Loznica"
+    ]
+  },
+  "Croácia": {
+    "pre": [
+      "NK",
+      "HNK"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Zagreb",
+      "Split",
+      "Rijeka",
+      "Osijek",
+      "Zadar",
+      "Varaždin",
+      "Slavonski Brod",
+      "Pula",
+      "Karlovac",
+      "Sisak",
+      "Šibenik",
+      "Vinkovci",
+      "Dubrovnik",
+      "Bjelovar",
+      "Koprivnica",
+      "Samobor",
+      "Velika Gorica",
+      "Gorica"
+    ]
+  },
+  "Ucrânia": {
+    "pre": [
+      "FK",
+      "SK"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Kyiv",
+      "Kharkiv",
+      "Odesa",
+      "Lviv",
+      "Dnipro",
+      "Zaporizhzhia",
+      "Vinnytsia",
+      "Poltava",
+      "Chernihiv",
+      "Cherkasy",
+      "Zhytomyr",
+      "Sumy",
+      "Rivne",
+      "Ternopil",
+      "Lutsk",
+      "Uzhhorod",
+      "Kropyvnytskyi",
+      "Mykolaiv"
+    ]
+  },
+  "Rússia": {
+    "pre": [
+      "FK",
+      "PFK"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Moskva",
+      "Sankt-Peterburg",
+      "Kazan",
+      "Samara",
+      "Rostov",
+      "Krasnodar",
+      "Ufa",
+      "Perm",
+      "Volgograd",
+      "Voronezh",
+      "Saratov",
+      "Tyumen",
+      "Sochi",
+      "Khimki",
+      "Tula",
+      "Orenburg",
+      "Yaroslavl",
+      "Nizhny Novgorod"
+    ]
+  },
+  "Polônia": {
+    "pre": [
+      "KS",
+      "MKS",
+      "GKS"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Warszawa",
+      "Kraków",
+      "Łódź",
+      "Wrocław",
+      "Poznań",
+      "Gdańsk",
+      "Szczecin",
+      "Bydgoszcz",
+      "Lublin",
+      "Katowice",
+      "Białystok",
+      "Gdynia",
+      "Częstochowa",
+      "Radom",
+      "Sosnowiec",
+      "Toruń",
+      "Kielce",
+      "Rzeszów"
+    ]
+  },
+  "Hungria": {
+    "pre": [
+      "FC",
+      "SC",
+      "MTK"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Budapest",
+      "Debrecen",
+      "Szeged",
+      "Miskolc",
+      "Pécs",
+      "Győr",
+      "Nyíregyháza",
+      "Kecskemét",
+      "Székesfehérvár",
+      "Szombathely",
+      "Szolnok",
+      "Tatabánya",
+      "Kaposvár",
+      "Békéscsaba",
+      "Zalaegerszeg",
+      "Sopron",
+      "Eger",
+      "Veszprém"
+    ]
+  },
+  "Romênia": {
+    "pre": [
+      "FC",
+      "CS",
+      "ACS"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "București",
+      "Cluj-Napoca",
+      "Timișoara",
+      "Iași",
+      "Constanța",
+      "Craiova",
+      "Galați",
+      "Brașov",
+      "Ploiești",
+      "Oradea",
+      "Sibiu",
+      "Arad",
+      "Pitești",
+      "Bacău",
+      "Târgu Mureș",
+      "Botoșani",
+      "Buzău",
+      "Satu Mare"
+    ]
+  },
+  "Grécia": {
+    "pre": [
+      "AO",
+      "PAS",
+      "AE"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Athina",
+      "Thessaloniki",
+      "Patra",
+      "Larisa",
+      "Iraklio",
+      "Volos",
+      "Ioannina",
+      "Chania",
+      "Kavala",
+      "Serres",
+      "Katerini",
+      "Trikala",
+      "Kalamata",
+      "Xanthi",
+      "Lamia",
+      "Veria",
+      "Kozani",
+      "Rodos"
+    ]
+  },
+  "Chipre": {
+    "pre": [
+      "AC",
+      "AE",
+      "ASIL"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Nicosia",
+      "Limassol",
+      "Larnaca",
+      "Paphos",
+      "Famagusta",
+      "Kyrenia",
+      "Aradippou",
+      "Paralimni",
+      "Athienou",
+      "Lakatamia",
+      "Dali",
+      "Ypsonas",
+      "Geroskipou",
+      "Polis",
+      "Kiti",
+      "Xylofagou",
+      "Deryneia",
+      "Peyia"
+    ]
+  },
+  "Finlândia": {
+    "pre": [
+      "FC",
+      "IF",
+      "PK"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Helsinki",
+      "Espoo",
+      "Tampere",
+      "Vantaa",
+      "Oulu",
+      "Turku",
+      "Jyväskylä",
+      "Lahti",
+      "Kuopio",
+      "Pori",
+      "Kouvola",
+      "Joensuu",
+      "Lappeenranta",
+      "Vaasa",
+      "Rovaniemi",
+      "Seinäjoki",
+      "Mikkeli",
+      "Kotka"
+    ]
+  },
+  "Costa do Marfim": {
+    "pre": [
+      "AS",
+      "SC",
+      "US"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Abidjan",
+      "Bouaké",
+      "Daloa",
+      "Yamoussoukro",
+      "San-Pédro",
+      "Korhogo",
+      "Man",
+      "Divo",
+      "Gagnoa",
+      "Abengourou",
+      "Anyama",
+      "Agboville",
+      "Grand-Bassam",
+      "Dabou",
+      "Séguéla",
+      "Odienné",
+      "Bondoukou",
+      "Soubré"
+    ]
+  },
+  "Senegal": {
+    "pre": [
+      "AS",
+      "US",
+      "ASC"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Dakar",
+      "Thiès",
+      "Kaolack",
+      "Saint-Louis",
+      "Ziguinchor",
+      "Touba",
+      "Mbour",
+      "Rufisque",
+      "Diourbel",
+      "Louga",
+      "Tambacounda",
+      "Kolda",
+      "Fatick",
+      "Matam",
+      "Kaffrine",
+      "Sédhiou",
+      "Podor",
+      "Bignona"
+    ]
+  },
+  "África do Sul": {
+    "pre": [
+      "FC",
+      ""
+    ],
+    "suf": [
+      "United",
+      "City",
+      "FC",
+      "Rovers"
+    ],
+    "cid": [
+      "Johannesburg",
+      "Cape Town",
+      "Durban",
+      "Pretoria",
+      "Gqeberha",
+      "Bloemfontein",
+      "Polokwane",
+      "Nelspruit",
+      "Kimberley",
+      "Rustenburg",
+      "Witbank",
+      "Soweto",
+      "Tembisa",
+      "Vereeniging",
+      "Welkom",
+      "George",
+      "Mthatha",
+      "Newcastle"
+    ]
+  },
+  "Emirados Árabes Unidos": {
+    "pre": [
+      "Al",
+      ""
+    ],
+    "suf": [
+      "SC",
+      "FC",
+      "Club"
+    ],
+    "cid": [
+      "Dubai",
+      "Abu Dhabi",
+      "Sharjah",
+      "Ajman",
+      "Fujairah",
+      "Ras Al Khaimah",
+      "Umm Al Quwain",
+      "Al Ain",
+      "Khor Fakkan",
+      "Dibba",
+      "Kalba",
+      "Madinat Zayed",
+      "Ruwais",
+      "Ghayathi",
+      "Liwa",
+      "Hatta",
+      "Masafi",
+      "Jebel Ali"
+    ]
+  },
+  "Nova Zelândia": {
+    "pre": [
+      ""
+    ],
+    "suf": [
+      "United",
+      "City",
+      "FC",
+      "Rovers",
+      "Athletic"
+    ],
+    "cid": [
+      "Auckland",
+      "Wellington",
+      "Christchurch",
+      "Hamilton",
+      "Tauranga",
+      "Dunedin",
+      "Napier",
+      "Palmerston",
+      "Nelson",
+      "Rotorua",
+      "Whangārei",
+      "Invercargill",
+      "New Plymouth",
+      "Gisborne",
+      "Timaru",
+      "Taupō",
+      "Blenheim",
+      "Queenstown"
+    ]
+  },
+  "Canadá": {
+    "pre": [
+      ""
+    ],
+    "suf": [
+      "FC",
+      "City",
+      "United",
+      "SC"
+    ],
+    "cid": [
+      "Toronto",
+      "Montréal",
+      "Vancouver",
+      "Calgary",
+      "Edmonton",
+      "Ottawa",
+      "Winnipeg",
+      "Québec",
+      "Hamilton",
+      "Halifax",
+      "Victoria",
+      "Saskatoon",
+      "Regina",
+      "London",
+      "Windsor",
+      "Kelowna",
+      "St. John's",
+      "Kitchener"
+    ]
+  },
+  "País de Gales": {
+    "pre": [
+      ""
+    ],
+    "suf": [
+      "Town",
+      "City",
+      "United",
+      "FC",
+      "Rovers"
+    ],
+    "cid": [
+      "Cardiff",
+      "Swansea",
+      "Newport",
+      "Wrexham",
+      "Bangor",
+      "Aberystwyth",
+      "Barry",
+      "Caernarfon",
+      "Llanelli",
+      "Merthyr",
+      "Rhyl",
+      "Colwyn Bay",
+      "Haverfordwest",
+      "Bridgend",
+      "Neath",
+      "Pontypridd",
+      "Flint",
+      "Connah's Quay"
+    ]
+  },
+  "México": {
+    "pre": [
+      "Club",
+      "CD",
+      "Atlético"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Guadalajara",
+      "Monterrey",
+      "Puebla",
+      "Toluca",
+      "León",
+      "Querétaro",
+      "Torreón",
+      "Mérida",
+      "Culiacán",
+      "Mazatlán",
+      "Tijuana",
+      "Juárez",
+      "Morelia",
+      "Veracruz",
+      "Aguascalientes",
+      "San Luis",
+      "Oaxaca",
+      "Zacatecas"
+    ]
+  },
+  "China": {
+    "pre": [
+      ""
+    ],
+    "suf": [
+      "FC",
+      "Zhongyou",
+      "Shenhua",
+      "Guoan"
+    ],
+    "cid": [
+      "Beijing",
+      "Shanghai",
+      "Guangzhou",
+      "Shenzhen",
+      "Chengdu",
+      "Wuhan",
+      "Tianjin",
+      "Hangzhou",
+      "Chongqing",
+      "Qingdao",
+      "Dalian",
+      "Jinan",
+      "Zhengzhou",
+      "Xi'an",
+      "Nanjing",
+      "Changsha",
+      "Shenyang",
+      "Kunming"
+    ]
+  },
+  "Japão": {
+    "pre": [
+      ""
+    ],
+    "suf": [
+      "FC",
+      "Reysol",
+      "Frontale",
+      "Antlers",
+      "Sanga"
+    ],
+    "cid": [
+      "Tokyo",
+      "Osaka",
+      "Nagoya",
+      "Yokohama",
+      "Sapporo",
+      "Fukuoka",
+      "Kobe",
+      "Kyoto",
+      "Hiroshima",
+      "Sendai",
+      "Niigata",
+      "Shizuoka",
+      "Kashima",
+      "Urawa",
+      "Chiba",
+      "Okayama",
+      "Matsumoto",
+      "Oita"
+    ]
+  },
+  "Coreia do Sul": {
+    "pre": [
+      ""
+    ],
+    "suf": [
+      "FC",
+      "United",
+      "Citizen"
+    ],
+    "cid": [
+      "Seoul",
+      "Busan",
+      "Incheon",
+      "Daegu",
+      "Daejeon",
+      "Gwangju",
+      "Ulsan",
+      "Suwon",
+      "Jeonju",
+      "Pohang",
+      "Seongnam",
+      "Jeju",
+      "Gangwon",
+      "Cheonan",
+      "Ansan",
+      "Bucheon",
+      "Gimcheon",
+      "Changwon"
+    ]
+  },
+  "Turquia": {
+    "pre": [
+      ""
+    ],
+    "suf": [
+      "spor",
+      "SK"
+    ],
+    "cid": [
+      "Ankara",
+      "Izmir",
+      "Bursa",
+      "Adana",
+      "Konya",
+      "Antalya",
+      "Gaziantep",
+      "Kayseri",
+      "Trabzon",
+      "Samsun",
+      "Eskişehir",
+      "Malatya",
+      "Denizli",
+      "Sivas",
+      "Rize",
+      "Erzurum",
+      "Van",
+      "Sakarya"
+    ]
+  },
+  "Áustria": {
+    "pre": [
+      "SK",
+      "SV",
+      "FC"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Wien",
+      "Graz",
+      "Linz",
+      "Salzburg",
+      "Innsbruck",
+      "Klagenfurt",
+      "Villach",
+      "Wels",
+      "St. Pölten",
+      "Dornbirn",
+      "Steyr",
+      "Wiener Neustadt",
+      "Feldkirch",
+      "Bregenz",
+      "Leoben",
+      "Krems",
+      "Amstetten",
+      "Ried"
+    ]
+  },
+  "Suíça": {
+    "pre": [
+      "FC",
+      "SC"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Zürich",
+      "Genève",
+      "Basel",
+      "Bern",
+      "Lausanne",
+      "Winterthur",
+      "Luzern",
+      "St. Gallen",
+      "Lugano",
+      "Biel",
+      "Thun",
+      "Sion",
+      "Aarau",
+      "Chur",
+      "Vaduz",
+      "Neuchâtel",
+      "Fribourg",
+      "Schaffhausen"
+    ]
+  },
+  "Dinamarca": {
+    "pre": [
+      "FC",
+      "BK"
+    ],
+    "suf": [
+      "IF",
+      ""
+    ],
+    "cid": [
+      "København",
+      "Aarhus",
+      "Odense",
+      "Aalborg",
+      "Esbjerg",
+      "Randers",
+      "Kolding",
+      "Horsens",
+      "Vejle",
+      "Roskilde",
+      "Herning",
+      "Silkeborg",
+      "Næstved",
+      "Fredericia",
+      "Viborg",
+      "Køge",
+      "Holstebro",
+      "Slagelse"
+    ]
+  },
+  "Noruega": {
+    "pre": [
+      "FK",
+      "IL"
+    ],
+    "suf": [
+      "IF",
+      ""
+    ],
+    "cid": [
+      "Oslo",
+      "Bergen",
+      "Trondheim",
+      "Stavanger",
+      "Drammen",
+      "Fredrikstad",
+      "Kristiansand",
+      "Tromsø",
+      "Sandnes",
+      "Bodø",
+      "Ålesund",
+      "Sarpsborg",
+      "Skien",
+      "Haugesund",
+      "Molde",
+      "Lillestrøm",
+      "Moss",
+      "Hamar"
+    ]
+  },
+  "Suécia": {
+    "pre": [
+      "IF",
+      "IK"
+    ],
+    "suf": [
+      "FF",
+      "AIK",
+      ""
+    ],
+    "cid": [
+      "Stockholm",
+      "Göteborg",
+      "Malmö",
+      "Uppsala",
+      "Västerås",
+      "Örebro",
+      "Linköping",
+      "Helsingborg",
+      "Jönköping",
+      "Norrköping",
+      "Lund",
+      "Umeå",
+      "Gävle",
+      "Borås",
+      "Södertälje",
+      "Eskilstuna",
+      "Halmstad",
+      "Växjö"
+    ]
+  },
+  "Bélgica": {
+    "pre": [
+      "KV",
+      "RC",
+      "KAA"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Brussel",
+      "Antwerpen",
+      "Gent",
+      "Charleroi",
+      "Liège",
+      "Brugge",
+      "Namur",
+      "Leuven",
+      "Mons",
+      "Mechelen",
+      "Kortrijk",
+      "Hasselt",
+      "Oostende",
+      "Genk",
+      "Aalst",
+      "Sint-Truiden",
+      "Waregem",
+      "Eupen"
+    ]
+  },
+  "Holanda": {
+    "pre": [
+      "FC",
+      "SC"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Amsterdam",
+      "Rotterdam",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Tilburg",
+      "Almere",
+      "Breda",
+      "Nijmegen",
+      "Enschede",
+      "Arnhem",
+      "Haarlem",
+      "Zwolle",
+      "Heerenveen",
+      "Alkmaar",
+      "Sittard",
+      "Venlo",
+      "Deventer"
+    ]
+  },
+  "Escócia": {
+    "pre": [
+      ""
+    ],
+    "suf": [
+      "United",
+      "City",
+      "Athletic",
+      "Rovers",
+      "Thistle"
+    ],
+    "cid": [
+      "Glasgow",
+      "Edinburgh",
+      "Aberdeen",
+      "Dundee",
+      "Inverness",
+      "Perth",
+      "Falkirk",
+      "Kilmarnock",
+      "Motherwell",
+      "Paisley",
+      "Ayr",
+      "Stirling",
+      "Dunfermline",
+      "Livingston",
+      "Hamilton",
+      "Greenock",
+      "Kirkcaldy",
+      "Airdrie"
+    ]
+  },
+  "Irlanda": {
+    "pre": [
+      ""
+    ],
+    "suf": [
+      "United",
+      "City",
+      "Rovers",
+      "Town",
+      "Harps"
+    ],
+    "cid": [
+      "Dublin",
+      "Cork",
+      "Limerick",
+      "Galway",
+      "Waterford",
+      "Drogheda",
+      "Dundalk",
+      "Sligo",
+      "Bray",
+      "Athlone",
+      "Wexford",
+      "Kilkenny",
+      "Longford",
+      "Tralee",
+      "Ennis",
+      "Carlow",
+      "Navan",
+      "Derry"
+    ]
+  },
+  "Portugal": {
+    "pre": [
+      "SC",
+      "GD",
+      "CD",
+      "AD"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Braga",
+      "Guimarães",
+      "Coimbra",
+      "Aveiro",
+      "Faro",
+      "Setúbal",
+      "Leiria",
+      "Viseu",
+      "Funchal",
+      "Portimão",
+      "Barcelos",
+      "Chaves",
+      "Famalicão",
+      "Estoril",
+      "Tondela",
+      "Penafiel",
+      "Feirense",
+      "Moreirense"
+    ]
+  },
+  "Espanha": {
+    "pre": [
+      "CD",
+      "UD",
+      "CF",
+      "Real"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Zaragoza",
+      "Málaga",
+      "Murcia",
+      "Valladolid",
+      "Gijón",
+      "Córdoba",
+      "Granada",
+      "Santander",
+      "Elche",
+      "Almería",
+      "Tenerife",
+      "Las Palmas",
+      "Oviedo",
+      "Cádiz",
+      "Huesca",
+      "Albacete",
+      "Alcorcón",
+      "Lugo"
+    ]
+  },
+  "Itália": {
+    "pre": [
+      "AC",
+      "US",
+      "SS",
+      "Calcio"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Bari",
+      "Palermo",
+      "Verona",
+      "Padova",
+      "Brescia",
+      "Modena",
+      "Parma",
+      "Reggiana",
+      "Cesena",
+      "Pisa",
+      "Perugia",
+      "Ancona",
+      "Catania",
+      "Lecce",
+      "Ternana",
+      "Cremona",
+      "Vicenza",
+      "Salerno"
+    ]
+  },
+  "Alemanha": {
+    "pre": [
+      "FC",
+      "SV",
+      "VfL",
+      "1. FC"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Nürnberg",
+      "Hannover",
+      "Duisburg",
+      "Bochum",
+      "Karlsruhe",
+      "Bielefeld",
+      "Rostock",
+      "Dresden",
+      "Magdeburg",
+      "Aachen",
+      "Saarbrücken",
+      "Kaiserslautern",
+      "Osnabrück",
+      "Braunschweig",
+      "Münster",
+      "Essen",
+      "Chemnitz",
+      "Jena"
+    ]
+  },
+  "Inglaterra": {
+    "pre": [
+      ""
+    ],
+    "suf": [
+      "United",
+      "City",
+      "Town",
+      "Rovers",
+      "Albion",
+      "Athletic"
+    ],
+    "cid": [
+      "Bolton",
+      "Preston",
+      "Blackpool",
+      "Ipswich",
+      "Norwich",
+      "Reading",
+      "Coventry",
+      "Hull",
+      "Sunderland",
+      "Middlesbrough",
+      "Stoke",
+      "Derby",
+      "Portsmouth",
+      "Millwall",
+      "Barnsley",
+      "Rotherham",
+      "Luton",
+      "Bristol"
+    ]
+  },
+  "França": {
+    "pre": [
+      "FC",
+      "AS",
+      "US",
+      "Stade"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Toulouse",
+      "Nantes",
+      "Strasbourg",
+      "Bordeaux",
+      "Rennes",
+      "Le Havre",
+      "Reims",
+      "Metz",
+      "Angers",
+      "Dijon",
+      "Caen",
+      "Amiens",
+      "Auxerre",
+      "Troyes",
+      "Clermont",
+      "Grenoble",
+      "Nancy",
+      "Valenciennes"
+    ]
+  },
+  "Argentina": {
+    "pre": [
+      "Club",
+      "CA",
+      "Atlético"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Rosario",
+      "Córdoba",
+      "Mendoza",
+      "La Plata",
+      "Tucumán",
+      "Santa Fe",
+      "Salta",
+      "Mar del Plata",
+      "Bahía Blanca",
+      "Corrientes",
+      "Neuquén",
+      "Paraná",
+      "Resistencia",
+      "Posadas",
+      "San Juan",
+      "Jujuy",
+      "Río Cuarto",
+      "Formosa"
+    ]
+  },
+  "Chile": {
+    "pre": [
+      "CD",
+      "Club",
+      "Deportes"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Santiago",
+      "Valparaíso",
+      "Concepción",
+      "Antofagasta",
+      "Temuco",
+      "Rancagua",
+      "Iquique",
+      "La Serena",
+      "Talca",
+      "Puerto Montt",
+      "Arica",
+      "Chillán",
+      "Osorno",
+      "Valdivia",
+      "Copiapó",
+      "Calama",
+      "Curicó",
+      "Coquimbo"
+    ]
+  },
+  "Colômbia": {
+    "pre": [
+      "CD",
+      "Atlético",
+      "Deportivo"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Bogotá",
+      "Medellín",
+      "Cali",
+      "Barranquilla",
+      "Cartagena",
+      "Bucaramanga",
+      "Pereira",
+      "Manizales",
+      "Cúcuta",
+      "Ibagué",
+      "Santa Marta",
+      "Villavicencio",
+      "Pasto",
+      "Neiva",
+      "Armenia",
+      "Montería",
+      "Popayán",
+      "Tunja"
+    ]
+  },
+  "Uruguai": {
+    "pre": [
+      "CA",
+      "Club"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Montevideo",
+      "Salto",
+      "Paysandú",
+      "Maldonado",
+      "Rivera",
+      "Tacuarembó",
+      "Melo",
+      "Mercedes",
+      "Artigas",
+      "Minas",
+      "San José",
+      "Durazno",
+      "Florida",
+      "Treinta y Tres",
+      "Rocha",
+      "Colonia",
+      "Fray Bentos",
+      "Canelones"
+    ]
+  },
+  "Peru": {
+    "pre": [
+      "Club",
+      "Deportivo",
+      "Atlético"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Lima",
+      "Arequipa",
+      "Trujillo",
+      "Chiclayo",
+      "Piura",
+      "Cusco",
+      "Huancayo",
+      "Iquitos",
+      "Tacna",
+      "Chimbote",
+      "Juliaca",
+      "Ica",
+      "Sullana",
+      "Ayacucho",
+      "Cajamarca",
+      "Pucallpa",
+      "Tarapoto",
+      "Huánuco"
+    ]
+  },
+  "Equador": {
+    "pre": [
+      "CD",
+      "Club",
+      "Deportivo"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Quito",
+      "Guayaquil",
+      "Cuenca",
+      "Ambato",
+      "Manta",
+      "Machala",
+      "Portoviejo",
+      "Loja",
+      "Riobamba",
+      "Esmeraldas",
+      "Ibarra",
+      "Quevedo",
+      "Milagro",
+      "Babahoyo",
+      "Latacunga",
+      "Tulcán",
+      "Santo Domingo",
+      "Salinas"
+    ]
+  },
+  "Paraguai": {
+    "pre": [
+      "Club",
+      "Deportivo"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Asunción",
+      "Ciudad del Este",
+      "Encarnación",
+      "Luque",
+      "Pedro Juan Caballero",
+      "Concepción",
+      "Villarrica",
+      "Coronel Oviedo",
+      "Caaguazú",
+      "Pilar",
+      "San Lorenzo",
+      "Itauguá",
+      "Areguá",
+      "Fernando de la Mora",
+      "Capiatá",
+      "Ñemby",
+      "Lambaré",
+      "Paraguarí"
+    ]
+  },
+  "Bolívia": {
+    "pre": [
+      "Club",
+      "CD"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "La Paz",
+      "Santa Cruz",
+      "Cochabamba",
+      "Sucre",
+      "Oruro",
+      "Potosí",
+      "Tarija",
+      "Trinidad",
+      "Cobija",
+      "Montero",
+      "Riberalta",
+      "Yacuiba",
+      "Quillacollo",
+      "Sacaba",
+      "Tupiza",
+      "Villazón",
+      "Camiri",
+      "Bermejo"
+    ]
+  },
+  "Venezuela": {
+    "pre": [
+      "Deportivo",
+      "Atlético"
+    ],
+    "suf": [
+      "FC",
+      ""
+    ],
+    "cid": [
+      "Caracas",
+      "Maracaibo",
+      "Valencia",
+      "Barquisimeto",
+      "Maracay",
+      "Ciudad Guayana",
+      "Barcelona",
+      "Maturín",
+      "Cumaná",
+      "Mérida",
+      "San Cristóbal",
+      "Puerto La Cruz",
+      "Barinas",
+      "Acarigua",
+      "Coro",
+      "Los Teques",
+      "Guarenas",
+      "Cabimas"
+    ]
+  },
+  "Austrália": {
+    "pre": [
+      ""
+    ],
+    "suf": [
+      "City",
+      "United",
+      "FC",
+      "Wanderers",
+      "Glory"
+    ],
+    "cid": [
+      "Sydney",
+      "Melbourne",
+      "Brisbane",
+      "Perth",
+      "Adelaide",
+      "Newcastle",
+      "Canberra",
+      "Wollongong",
+      "Geelong",
+      "Hobart",
+      "Townsville",
+      "Cairns",
+      "Darwin",
+      "Toowoomba",
+      "Ballarat",
+      "Bendigo",
+      "Launceston",
+      "Mackay"
+    ]
+  },
+  "Arábia Saudita": {
+    "pre": [
+      "Al"
+    ],
+    "suf": [
+      "FC",
+      "SC"
+    ],
+    "cid": [
+      "Riyadh",
+      "Jeddah",
+      "Dammam",
+      "Mecca",
+      "Medina",
+      "Taif",
+      "Buraydah",
+      "Tabuk",
+      "Khamis Mushait",
+      "Hail",
+      "Najran",
+      "Jubail",
+      "Abha",
+      "Yanbu",
+      "Khobar",
+      "Arar",
+      "Sakaka",
+      "Jizan"
+    ]
+  },
+  "Índia": {
+    "pre": [
+      ""
+    ],
+    "suf": [
+      "FC",
+      "United",
+      "City",
+      "SC"
+    ],
+    "cid": [
+      "Mumbai",
+      "Delhi",
+      "Bengaluru",
+      "Kolkata",
+      "Chennai",
+      "Hyderabad",
+      "Pune",
+      "Ahmedabad",
+      "Kochi",
+      "Goa",
+      "Jamshedpur",
+      "Guwahati",
+      "Bhubaneswar",
+      "Kozhikode",
+      "Imphal",
+      "Shillong",
+      "Jaipur",
+      "Lucknow"
+    ]
+  },
+  "Egito": {
+    "pre": [
+      "Al",
+      ""
+    ],
+    "suf": [
+      "SC",
+      "FC"
+    ],
+    "cid": [
+      "Cairo",
+      "Alexandria",
+      "Giza",
+      "Port Said",
+      "Suez",
+      "Mansoura",
+      "Tanta",
+      "Ismailia",
+      "Aswan",
+      "Luxor",
+      "Asyut",
+      "Damanhur",
+      "Zagazig",
+      "Fayoum",
+      "Minya",
+      "Beni Suef",
+      "Sohag",
+      "Qena"
+    ]
+  },
+  "Marrocos": {
+    "pre": [
+      "AS",
+      "CO",
+      "RS"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Casablanca",
+      "Rabat",
+      "Marrakech",
+      "Fès",
+      "Tanger",
+      "Agadir",
+      "Meknès",
+      "Oujda",
+      "Kénitra",
+      "Tétouan",
+      "Safi",
+      "Salé",
+      "Nador",
+      "El Jadida",
+      "Beni Mellal",
+      "Khouribga",
+      "Berkane",
+      "Settat"
+    ]
+  },
+  "Nigéria": {
+    "pre": [
+      ""
+    ],
+    "suf": [
+      "FC",
+      "United",
+      "Stars",
+      "Rangers"
+    ],
+    "cid": [
+      "Lagos",
+      "Kano",
+      "Ibadan",
+      "Abuja",
+      "Port Harcourt",
+      "Benin City",
+      "Kaduna",
+      "Enugu",
+      "Jos",
+      "Warri",
+      "Aba",
+      "Onitsha",
+      "Ilorin",
+      "Calabar",
+      "Uyo",
+      "Owerri",
+      "Akure",
+      "Maiduguri"
+    ]
+  },
+  "Gana": {
+    "pre": [
+      ""
+    ],
+    "suf": [
+      "United",
+      "FC",
+      "Stars",
+      "Chelsea"
+    ],
+    "cid": [
+      "Accra",
+      "Kumasi",
+      "Tamale",
+      "Takoradi",
+      "Cape Coast",
+      "Sunyani",
+      "Ho",
+      "Koforidua",
+      "Techiman",
+      "Obuasi",
+      "Tema",
+      "Bolgatanga",
+      "Wa",
+      "Berekum",
+      "Dormaa",
+      "Nkawkaw",
+      "Winneba",
+      "Aiyinase"
+    ]
+  },
+  "Argélia": {
+    "pre": [
+      "MC",
+      "JS",
+      "CR",
+      "USM"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Alger",
+      "Oran",
+      "Constantine",
+      "Annaba",
+      "Blida",
+      "Batna",
+      "Sétif",
+      "Djelfa",
+      "Sidi Bel Abbès",
+      "Béjaïa",
+      "Tlemcen",
+      "Béchar",
+      "Skikda",
+      "Tiaret",
+      "Mostaganem",
+      "Biskra",
+      "Chlef",
+      "Ouargla"
+    ]
+  },
+  "Tunísia": {
+    "pre": [
+      "CS",
+      "ES",
+      "US",
+      "AS"
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Tunis",
+      "Sfax",
+      "Sousse",
+      "Kairouan",
+      "Bizerte",
+      "Gabès",
+      "Ariana",
+      "Gafsa",
+      "Monastir",
+      "Ben Arous",
+      "Kasserine",
+      "Médenine",
+      "Nabeul",
+      "Tataouine",
+      "Béja",
+      "Jendouba",
+      "Mahdia",
+      "Zarzis"
+    ]
+  },
+  "Estados Unidos": {
+    "pre": [
+      ""
+    ],
+    "suf": [
+      "FC",
+      "United",
+      "City",
+      "SC"
+    ],
+    "cid": [
+      "Portland",
+      "Seattle",
+      "Austin",
+      "Nashville",
+      "Denver",
+      "Kansas City",
+      "Columbus",
+      "Orlando",
+      "Minnesota",
+      "Charlotte",
+      "Cincinnati",
+      "San Jose",
+      "Houston",
+      "Dallas",
+      "Philadelphia",
+      "New England",
+      "Salt Lake",
+      "Chicago"
+    ]
+  },
+  "_padrao": {
+    "pre": [
+      "FC",
+      "SC",
+      "AC"
+    ],
+    "suf": [
+      "United",
+      "City",
+      "FC",
+      ""
+    ],
+    "cid": [
+      "Norte",
+      "Sul",
+      "Leste",
+      "Oeste",
+      "Central",
+      "Real",
+      "Nova",
+      "Alta",
+      "Baixa",
+      "Velha",
+      "Grande",
+      "Bela",
+      "Verde",
+      "Azul",
+      "Alta Vista",
+      "Monte",
+      "Vale",
+      "Costa"
+    ]
+  },
+  "Brasil": {
+    "pre": [
+      ""
+    ],
+    "suf": [
+      ""
+    ],
+    "cid": [
+      "Juventude",
+      "Paysandu",
+      "ABC",
+      "CRB",
+      "CSA",
+      "Náutico",
+      "Santa Cruz",
+      "Sampaio Corrêa",
+      "Ferroviário",
+      "Botafogo-PB",
+      "Treze",
+      "Confiança",
+      "Altos",
+      "Manaus",
+      "Castanhal",
+      "São Raimundo",
+      "Tombense",
+      "Caldense",
+      "Villa Nova",
+      "Uberlândia",
+      "Ipatinga",
+      "Portuguesa",
+      "São Bento",
+      "Rio Branco",
+      "Marcílio Dias",
+      "Hercílio Luz",
+      "Concórdia",
+      "Joinville",
+      "Cascavel",
+      "Maringá",
+      "Londrina",
+      "Aparecidense",
+      "Anápolis",
+      "Brasiliense",
+      "Gama",
+      "Ceilândia",
+      "Guarani",
+      "Ponte Preta",
+      "Bragantino-SP",
+      "Novorizontino",
+      "Ituano",
+      "Botafogo-SP",
+      "Velo Clube",
+      "Água Santa",
+      "Portuguesa-RJ",
+      "Volta Redonda",
+      "Madureira",
+      "Nova Iguaçu",
+      "Boavista",
+      "Resende",
+      "Serra Branca",
+      "Nacional-AM",
+      "Princesa do Solimões",
+      "Trem",
+      "Ypiranga-AP",
+      "Humaitá",
+      "Rio Branco-AC",
+      "Real Ariquemes",
+      "Porto Velho",
+      "União-RO",
+      "Genus",
+      "Tocantinópolis",
+      "Palmas",
+      "Interporto",
+      "Sergipe",
+      "Itabaiana",
+      "Lagarto",
+      "Bahia de Feira",
+      "Jacuipense",
+      "Atlético-BA",
+      "Juazeirense",
+      "Fluminense-PI",
+      "Parnahyba",
+      "Piauí",
+      "4 de Julho",
+      "Iguatu",
+      "Crato",
+      "Caucaia",
+      "Icasa"
+    ]
+  }
+}

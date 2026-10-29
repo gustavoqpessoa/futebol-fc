@@ -1,0 +1,4421 @@
+// GERADO por tools/gera_copas.py a partir de tools/copas.json.
+// Nao editar a mao: mexa no JSON e rode o pipeline.
+// O formato REAL de cada copa, com quantas fases ela tem, quem entra em cada
+// uma e o que e ida e volta.
+export const COPAS = {
+ "Copa do Brasil": {
+  "pais": "Brasil",
+  "fonte": "pesquisa",
+  "entram": 126,
+  "detalhe": "126 clubes de todos os 26 estados e do DF. Mata-mata puro. As duas primeiras fases sao jogo unico; da terceira em diante e ida e volta.",
+  "fases": [
+   {
+    "nome": "Primeira fase",
+    "clubes": 80,
+    "entram_aqui": 80,
+    "ida_volta": false,
+    "quem": "70 vindos dos estaduais e 10 pelo ranking da CBF"
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 40,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Terceira fase",
+    "clubes": 32,
+    "entram_aqui": 12,
+    "ida_volta": true,
+    "quem": "o campeao vigente e os melhores da Serie A"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 8,
+    "ida_volta": true,
+    "quem": "os clubes que estao na Libertadores entram direto aqui"
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ],
+  "observacao": "Quem disputa a Libertadores ENTRA MESMO nas oitavas — isso nao e erro. O que faltava no jogo eram as seis fases antes dela."
+ },
+ "FA Cup": {
+  "pais": "Inglaterra",
+  "fonte": "pesquisa",
+  "entram": 732,
+  "detalhe": "Cerca de 732 clubes, incluindo o futebol amador. Jogo unico em todas as fases; desde 2024-25 nao ha mais replay a partir da primeira fase principal — empatou, tem prorrogacao e penaltis no mesmo dia.",
+  "fases": [
+   {
+    "nome": "Eliminatorias",
+    "clubes": 700,
+    "entram_aqui": 700,
+    "ida_volta": false,
+    "quem": "clubes de fora da liga, do 5º ao 10º nivel; 32 sobrevivem"
+   },
+   {
+    "nome": "Primeira fase",
+    "clubes": 80,
+    "entram_aqui": 48,
+    "ida_volta": false,
+    "quem": "League One e League Two entram aqui, em novembro"
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 40,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Terceira fase",
+    "clubes": 64,
+    "entram_aqui": 44,
+    "ida_volta": false,
+    "quem": "Premier League e Championship entram aqui, em janeiro"
+   },
+   {
+    "nome": "Quarta fase",
+    "clubes": 32,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quinta fase",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa da Liga Inglesa": {
+  "pais": "Inglaterra",
+  "fonte": "pesquisa",
+  "entram": 92,
+  "apelido": "Carabao Cup / EFL Cup",
+  "detalhe": "Os 92 clubes profissionais da Inglaterra, em sete fases. Jogo unico em tudo, menos a semifinal, que e ida e volta desde sempre. A final e em Wembley.",
+  "fases": [
+   {
+    "nome": "Primeira fase",
+    "clubes": 70,
+    "entram_aqui": 70,
+    "ida_volta": false,
+    "quem": "League One, League Two e os clubes de Championship sem vaga europeia"
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 50,
+    "entram_aqui": 13,
+    "ida_volta": false,
+    "quem": "os clubes da Premier League que nao jogam a Europa"
+   },
+   {
+    "nome": "Terceira fase",
+    "clubes": 32,
+    "entram_aqui": 7,
+    "ida_volta": false,
+    "quem": "quem disputa competicao europeia entra so aqui"
+   },
+   {
+    "nome": "Quarta fase",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ],
+  "observacao": "A Inglaterra tem DUAS copas nacionais, como o Gustavo lembrou: a FA Cup e esta."
+ },
+ "Copa Libertadores": {
+  "continente": "CONMEBOL",
+  "fonte": "pesquisa (Wikipédia da edição de 2026)",
+  "entram": 47,
+  "detalhe": "47 clubes das 10 federações. Três fases preliminares em ida e volta, depois 8 grupos de 4 e mata-mata das oitavas à final. A final é jogo único em campo neutro desde 2019.",
+  "vagas": {
+   "Brasil": 7,
+   "Argentina": 6,
+   "_padrao": 4
+  },
+  "observacao": "As 45 vagas por país mais o campeão da Libertadores e o da Sul-Americana dão 47. Aqui os dois campeões viram vaga extra para o time melhor colocado que sobrou.",
+  "fases": [
+   {
+    "nome": "Primeira fase",
+    "clubes": 6,
+    "entram_aqui": 6,
+    "ida_volta": true,
+    "quem": "o 4º colocado de Bolívia, Equador, Paraguai, Peru, Uruguai e Venezuela"
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 16,
+    "entram_aqui": 13,
+    "ida_volta": true,
+    "quem": "os 3 que passaram mais 13: o 6º e o 7º do Brasil, o 6º da Argentina, o 3º e o 4º de Chile e Colômbia e o 3º dos outros seis países"
+   },
+   {
+    "nome": "Terceira fase",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": true,
+    "quem": "os 8 que passaram da segunda; 4 vão à fase de grupos"
+   },
+   {
+    "nome": "Fase de grupos",
+    "clubes": 32,
+    "entram_aqui": 28,
+    "grupos": 8,
+    "por_grupo": 4,
+    "avancam_por_grupo": 2,
+    "ida_volta": true,
+    "quem": "28 entram direto (1º ao 5º de Brasil e Argentina, 1º e 2º dos outros oito, mais os dois campeões) e 4 vêm da terceira fase"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false,
+    "quem": "jogo único em campo neutro desde 2019"
+   }
+  ]
+ },
+ "Copa Sul-Americana": {
+  "continente": "CONMEBOL",
+  "fonte": "pesquisa (Wikipédia da edição de 2026)",
+  "entram": 56,
+  "detalhe": "56 clubes. Primeira fase só entre clubes do mesmo país (fora Brasil e Argentina), depois 8 grupos de 4. O 1º de cada grupo vai às oitavas e o 2º joga um playoff contra os 8 terceiros colocados dos grupos da Libertadores.",
+  "vagas": {
+   "Brasil": 6,
+   "Argentina": 6,
+   "_padrao": 4
+  },
+  "observacao": "As vagas por país dão 44. Os outros 12 vêm da Libertadores: 4 eliminados na terceira fase, que entram na fase de grupos, e os 8 terceiros dos grupos, que entram no playoff das oitavas. Aqui esses 12 são preenchidos pelos clubes melhor colocados que sobraram, porque o jogo não faz um clube passar de uma copa para a outra no meio da temporada. O 1º de cada grupo não joga o playoff: vai direto às oitavas.",
+  "fases": [
+   {
+    "nome": "Primeira fase",
+    "clubes": 32,
+    "entram_aqui": 32,
+    "ida_volta": true,
+    "quem": "4 clubes de cada um dos oito países fora Brasil e Argentina, se enfrentando dentro do próprio país"
+   },
+   {
+    "nome": "Fase de grupos",
+    "clubes": 32,
+    "entram_aqui": 16,
+    "grupos": 8,
+    "por_grupo": 4,
+    "avancam_por_grupo": 2,
+    "ida_volta": true,
+    "quem": "os 16 da primeira fase mais 6 do Brasil, 6 da Argentina e 4 que caíram da Libertadores"
+   },
+   {
+    "nome": "Playoff das oitavas",
+    "clubes": 16,
+    "entram_aqui": 8,
+    "ida_volta": true,
+    "quem": "os 8 segundos de grupo contra os 8 terceiros dos grupos da Libertadores"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": true,
+    "quem": "os 8 primeiros de grupo mais os 8 que venceram o playoff"
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false,
+    "quem": "jogo único em campo neutro"
+   }
+  ]
+ },
+ "Champions League": {
+  "continente": "UEFA",
+  "fonte": "pesquisa",
+  "entram": 36,
+  "detalhe": "Mudou em 2024-25 e NAO tem mais fase de grupos. Agora e uma LIGA: 36 clubes numa tabela unica, cada um joga 8 partidas (4 em casa, 4 fora) contra adversarios diferentes.",
+  "fases": [
+   {
+    "nome": "Fase de liga",
+    "clubes": 36,
+    "tabela_unica": true,
+    "jogos_por_clube": 8,
+    "quem": "tabela unica de 36; do 1º ao 8º vao direto as oitavas, do 9º ao 24º ao playoff"
+   },
+   {
+    "nome": "Playoff das oitavas",
+    "clubes": 16,
+    "ida_volta": true,
+    "quem": "do 9º ao 24º da tabela"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "ida_volta": true
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "ida_volta": true
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa del Rey": {
+  "pais": "Espanha",
+  "fonte": "pesquisa",
+  "entram": 126,
+  "detalhe": "126 clubes, incluindo times pequenos. Jogo unico em tudo, com o time de divisao menor mandando; so a semifinal e ida e volta. A final e em campo neutro, quase sempre em Sevilha.",
+  "fases": [
+   {
+    "nome": "Primeira fase",
+    "clubes": 112,
+    "entram_aqui": 112,
+    "ida_volta": false,
+    "quem": "clubes pequenos e a maioria dos de LaLiga"
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 56,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Fase de 32",
+    "clubes": 32,
+    "entram_aqui": 4,
+    "ida_volta": false,
+    "quem": "os 4 da Supercopa entram aqui"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Coppa Italia": {
+  "pais": "Itália",
+  "fonte": "pesquisa",
+  "entram": 44,
+  "detalhe": "44 clubes em sete fases. Jogo unico, so a semifinal e ida e volta; a final e em Roma. Desde 2024-25 so ha prorrogacao na semifinal e na final — nas outras fases, empatou vai direto para os penaltis.",
+  "fases": [
+   {
+    "nome": "Preliminar",
+    "clubes": 8,
+    "entram_aqui": 8,
+    "ida_volta": false,
+    "quem": "os 8 clubes de ranking mais baixo"
+   },
+   {
+    "nome": "Primeira fase",
+    "clubes": 32,
+    "entram_aqui": 28,
+    "ida_volta": false,
+    "quem": "12 da Serie A e 16 da Serie B"
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 8,
+    "ida_volta": false,
+    "quem": "os 8 primeiros da Serie A entram aqui"
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "DFB-Pokal": {
+  "pais": "Alemanha",
+  "fonte": "pesquisa",
+  "entram": 64,
+  "detalhe": "64 clubes: toda a Bundesliga, toda a 2. Bundesliga, os 4 melhores da 3. Liga e os campeoes das copas regionais. Jogo unico em todas as fases, com prorrogacao e penaltis. Desde 1982 o time amador joga em casa.",
+  "fases": [
+   {
+    "nome": "Primeira fase",
+    "clubes": 64,
+    "entram_aqui": 64,
+    "ida_volta": false
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 32,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Coupe de France": {
+  "pais": "França",
+  "fonte": "pesquisa",
+  "entram": 7000,
+  "detalhe": "Mais de 7.000 clubes, o torneio mais aberto que existe. 14 fases no total, e a Ligue 1 so entra na fase de 64. Jogo unico sempre; empatou, penaltis.",
+  "fases": [
+   {
+    "nome": "Fases regionais",
+    "clubes": 7000,
+    "entram_aqui": 7000,
+    "ida_volta": false,
+    "quem": "de 4 a 8 rodadas antes dos profissionais"
+   },
+   {
+    "nome": "Fase de 128",
+    "clubes": 128,
+    "entram_aqui": 36,
+    "ida_volta": false,
+    "quem": "a Ligue 2 entra na setima fase"
+   },
+   {
+    "nome": "Fase de 64",
+    "clubes": 64,
+    "entram_aqui": 18,
+    "ida_volta": false,
+    "quem": "a Ligue 1 entra aqui"
+   },
+   {
+    "nome": "Fase de 32",
+    "clubes": 32,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "AFC Champions League Elite": {
+  "continente": "AFC",
+  "fonte": "pesquisa",
+  "entram": 32,
+  "detalhe": "32 clubes divididos em Leste e Oeste (16 de cada lado). Fase de liga com 8 jogos contra adversarios da propria regiao, 4 em casa e 4 fora. Os 8 melhores de cada lado vao as oitavas, ainda dentro da regiao e em ida e volta. Das quartas em diante os lados se cruzam e e JOGO UNICO, em sede fixa.",
+  "fases": [
+   {
+    "nome": "Fase de liga",
+    "clubes": 32,
+    "tabela_unica": true,
+    "regioes": [
+     "Leste",
+     "Oeste"
+    ],
+    "jogos_por_clube": 8,
+    "avancam_por_regiao": 8
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "ida_volta": true,
+    "quem": "cada regiao decide a sua"
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "ida_volta": false,
+    "quem": "a partir daqui as regioes se cruzam, em sede unica"
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "ida_volta": false
+   }
+  ]
+ },
+ "CAF Champions League": {
+  "continente": "CAF",
+  "fonte": "pesquisa",
+  "entram": 58,
+  "detalhe": "Duas fases preliminares de ida e volta, depois 16 clubes em quatro grupos de quatro. Passam os dois primeiros de cada grupo. Do mata-mata ate a FINAL e tudo ida e volta — a final tambem, diferente da Libertadores.",
+  "fases": [
+   {
+    "nome": "Preliminar",
+    "clubes": 30,
+    "entram_aqui": 30,
+    "ida_volta": true,
+    "quem": "clubes de federacoes de ranking menor"
+   },
+   {
+    "nome": "Primeira fase",
+    "clubes": 32,
+    "entram_aqui": 16,
+    "ida_volta": true,
+    "quem": "os clubes melhor ranqueados entram aqui"
+   },
+   {
+    "nome": "Fase de grupos",
+    "clubes": 16,
+    "grupos": 4,
+    "por_grupo": 4,
+    "avancam_por_grupo": 2,
+    "ida_volta": true
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "ida_volta": true
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "ida_volta": true
+   }
+  ],
+  "vagas": {
+   "_padrao": 8
+  },
+  "observacao": "A de verdade tem 58 clubes de quase 50 federações, com 1 ou 2 vagas por país. Este jogo só tem três ligas africanas (África do Sul, Senegal e Costa do Marfim), então cada uma recebe 8 vagas em vez de 2 — senão a competição teria 6 clubes. É a única forma de a CAF existir aqui, e está escrito para não parecer erro."
+ },
+ "Concacaf Champions Cup": {
+  "continente": "CONCACAF",
+  "fonte": "pesquisa",
+  "entram": 27,
+  "detalhe": "27 clubes, mata-mata do inicio ao fim, sem fase de grupos. 22 entram na primeira fase e 5 campeoes entram direto nas oitavas. Ida e volta ate a semifinal; a final e jogo unico.",
+  "fases": [
+   {
+    "nome": "Primeira fase",
+    "clubes": 22,
+    "entram_aqui": 22,
+    "ida_volta": true
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 5,
+    "ida_volta": true,
+    "quem": "os campeoes da MLS, da Liga MX, da Leagues Cup, da Copa Centro-Americana e da Copa do Caribe"
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "ida_volta": true
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Liga Europa": {
+  "continente": "UEFA",
+  "fonte": "pesquisa",
+  "entram": 36,
+  "detalhe": "Mesmo formato novo da Champions desde 2024-25: 36 clubes numa tabela unica, 8 jogos cada. Do 1º ao 8º vao direto as oitavas, do 9º ao 24º ao playoff, e do 25º ao 36º estao eliminados. A final e jogo unico em campo neutro. Quem ganha vai a Champions no ano seguinte.",
+  "fases": [
+   {
+    "nome": "Fase de liga",
+    "clubes": 36,
+    "tabela_unica": true,
+    "jogos_por_clube": 8
+   },
+   {
+    "nome": "Playoff das oitavas",
+    "clubes": 16,
+    "ida_volta": true,
+    "quem": "do 9º ao 24º"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "ida_volta": true
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "ida_volta": true
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Campeonato Paulista": {
+  "pais": "Brasil",
+  "tipo": "estadual",
+  "fonte": "pesquisa",
+  "entram": 16,
+  "detalhe": "16 clubes em quatro grupos de quatro, mas quem esta no MESMO grupo nao se enfrenta — sao 12 rodadas. Passam os dois melhores de cada grupo. Quartas e semifinal em jogo unico; so a final e ida e volta.",
+  "calendario": "janeiro a abril",
+  "caem": 2,
+  "fases": [
+   {
+    "nome": "Fase de grupos",
+    "clubes": 16,
+    "grupos": 4,
+    "por_grupo": 4,
+    "avancam_por_grupo": 2,
+    "rodadas": 12,
+    "cruzado": true,
+    "quem": "cada clube joga contra os 12 dos OUTROS grupos"
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "ida_volta": true
+   }
+  ],
+  "observacao": "Os 6 melhores vao a Copa do Brasil e os 3 primeiros a Serie D."
+ },
+ "Campeonato Carioca": {
+  "pais": "Brasil",
+  "tipo": "estadual",
+  "fonte": "pesquisa",
+  "entram": 12,
+  "detalhe": "Dois turnos com dono proprio. Na Taca Guanabara os 12 clubes ficam em dois grupos (com Flamengo, Fluminense, Botafogo e Vasco separados dois a dois) e cada um enfrenta os do seu grupo; o 1º de um grupo pega o 2º do outro na semifinal. Na Taca Rio os mesmos grupos jogam contra o grupo ADVERSARIO, e ha semifinal e final de novo. Os campeoes das duas tacas se enfrentam em ida e volta pelo titulo do estado.",
+  "calendario": "janeiro a abril",
+  "fases": [
+   {
+    "nome": "Taça Guanabara",
+    "clubes": 12,
+    "grupos": 2,
+    "por_grupo": 6,
+    "avancam_por_grupo": 2
+   },
+   {
+    "nome": "Taça Rio",
+    "clubes": 12,
+    "grupos": 2,
+    "por_grupo": 6,
+    "avancam_por_grupo": 2,
+    "cruzado": true
+   },
+   {
+    "nome": "Final do estado",
+    "clubes": 2,
+    "ida_volta": true,
+    "quem": "campeao da Guanabara x campeao da Taca Rio"
+   }
+  ]
+ },
+ "Taça de Portugal": {
+  "pais": "Portugal",
+  "fonte": "pesquisa",
+  "entram": 155,
+  "detalhe": "155 clubes em 8 fases. Jogo unico em tudo, menos a semifinal, que e ida e volta. Os clubes da Primeira Liga entram na TERCEIRA fase, os da segunda na segunda, e os das divisoes de baixo abrem a competicao.",
+  "fases": [
+   {
+    "nome": "Primeira fase",
+    "clubes": 100,
+    "entram_aqui": 100,
+    "ida_volta": false,
+    "quem": "terceira divisao para baixo"
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 68,
+    "entram_aqui": 18,
+    "ida_volta": false,
+    "quem": "a segunda divisao entra aqui"
+   },
+   {
+    "nome": "Terceira fase",
+    "clubes": 52,
+    "entram_aqui": 18,
+    "ida_volta": false,
+    "quem": "a Primeira Liga entra aqui"
+   },
+   {
+    "nome": "Quarta fase",
+    "clubes": 26,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "KNVB Beker": {
+  "pais": "Holanda",
+  "fonte": "pesquisa",
+  "entram": 64,
+  "fonte_url": "knvb.com, livesoccertv e paginas de edicao 2025-26",
+  "detalhe": "78 clubes amadores jogam duas eliminatorias e 21 sobrevivem, juntando-se a 43 profissionais numa chave principal de 64. Sao seis fases, e TUDO e jogo unico — inclusive semifinal e final. A elite entra na segunda fase, mas quem disputa competicao europeia entra depois. A final e sempre em De Kuip.",
+  "fases": [
+   {
+    "nome": "Eliminatorias",
+    "clubes": 78,
+    "entram_aqui": 78,
+    "ida_volta": false,
+    "quem": "clubes amadores"
+   },
+   {
+    "nome": "Primeira fase",
+    "clubes": 64,
+    "entram_aqui": 43,
+    "ida_volta": false,
+    "quem": "os profissionais entram aqui"
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 32,
+    "entram_aqui": 0,
+    "ida_volta": false,
+    "quem": "quem joga a Europa aparece por aqui"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa da Turquia": {
+  "pais": "Turquia",
+  "fonte": "pesquisa",
+  "entram": 164,
+  "detalhe": "164 clubes dos quatro primeiros niveis mais a liga amadora regional, em 8 fases. Jogo unico em TUDO, inclusive a final. A Super Lig entra na terceira fase. Nao ha fase de grupos (existiu de 2012-13 ate 2016 e acabou).",
+  "fases": [
+   {
+    "nome": "Preliminar",
+    "clubes": 100,
+    "entram_aqui": 100,
+    "ida_volta": false
+   },
+   {
+    "nome": "Primeira fase",
+    "clubes": 80,
+    "entram_aqui": 30,
+    "ida_volta": false
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 56,
+    "entram_aqui": 16,
+    "ida_volta": false
+   },
+   {
+    "nome": "Terceira fase",
+    "clubes": 52,
+    "entram_aqui": 24,
+    "ida_volta": false,
+    "quem": "a Super Lig entra aqui"
+   },
+   {
+    "nome": "Quarta fase",
+    "clubes": 26,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa Argentina": {
+  "pais": "Argentina",
+  "fonte": "pesquisa",
+  "entram": 64,
+  "detalhe": "64 clubes de varias divisoes. Mata-mata, e uma particularidade: TODOS os jogos sao em campo neutro. A primeira divisao entra na fase de 32. Quem ganha vai a Libertadores.",
+  "fases": [
+   {
+    "nome": "Primeira fase",
+    "clubes": 64,
+    "entram_aqui": 64,
+    "ida_volta": false
+   },
+   {
+    "nome": "Fase de 32",
+    "clubes": 32,
+    "entram_aqui": 0,
+    "ida_volta": false,
+    "quem": "a primeira divisao entra aqui"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ],
+  "observacao": "A fonte nao diz se alguma fase e ida e volta — tratei tudo como jogo unico, que e o que ela descreve."
+ },
+ "Copa da Escócia": {
+  "pais": "Escócia",
+  "fonte": "pesquisa",
+  "entram": 137,
+  "detalhe": "137 clubes. Entrada escalonada: os menores comecam na preliminar e a Premiership so entra na QUARTA fase, em janeiro. Jogo unico; desde 2022-23 nao ha mais replay a partir da primeira fase — prorrogacao e penaltis no mesmo dia.",
+  "fases": [
+   {
+    "nome": "Preliminar",
+    "clubes": 80,
+    "entram_aqui": 80,
+    "ida_volta": false
+   },
+   {
+    "nome": "Primeira fase",
+    "clubes": 64,
+    "entram_aqui": 24,
+    "ida_volta": false
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 48,
+    "entram_aqui": 16,
+    "ida_volta": false
+   },
+   {
+    "nome": "Terceira fase",
+    "clubes": 32,
+    "entram_aqui": 8,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quarta fase",
+    "clubes": 32,
+    "entram_aqui": 16,
+    "ida_volta": false,
+    "quem": "a Premiership entra aqui, em janeiro"
+   },
+   {
+    "nome": "Quinta fase",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa do Imperador": {
+  "pais": "Japão",
+  "fonte": "pesquisa",
+  "entram": 88,
+  "detalhe": "88 clubes, e o torneio mais aberto do Japao: entram campeoes estaduais, J3, liga amadora e ate times de universidade e de colegio. J1 e J2 entram direto na SEGUNDA fase, e quem esta melhor ranqueado joga em casa. Jogo unico do inicio ao fim — zebra faz parte.",
+  "fases": [
+   {
+    "nome": "Primeira fase",
+    "clubes": 48,
+    "entram_aqui": 48,
+    "ida_volta": false,
+    "quem": "estaduais, J3, JFL, universidades e colegios"
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 64,
+    "entram_aqui": 40,
+    "ida_volta": false,
+    "quem": "J1 e J2 entram aqui"
+   },
+   {
+    "nome": "Terceira fase",
+    "clubes": 32,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa da Bélgica": {
+  "pais": "Bélgica",
+  "fonte": "pesquisa",
+  "entram": 350,
+  "detalhe": "Cerca de 350 clubes, do profissional ao provincial, em 8 fases. Jogo unico em tudo, menos a semifinal, que e ida e volta. A primeira divisao so entra na SETIMA fase (as oitavas), em novembro. Na primeira fase o sorteio e por regiao, para o clube pequeno nao gastar com viagem, e quando o amador pega um profissional entre a quinta e a setima fase, o amador joga em casa.",
+  "fases": [
+   {
+    "nome": "Primeira fase",
+    "clubes": 256,
+    "entram_aqui": 256,
+    "ida_volta": false
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 128,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Terceira fase",
+    "clubes": 64,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quarta fase",
+    "clubes": 48,
+    "entram_aqui": 16,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quinta fase",
+    "clubes": 32,
+    "entram_aqui": 8,
+    "ida_volta": false
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false,
+    "quem": "a primeira divisao entra aqui"
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "US Open Cup": {
+  "pais": "Estados Unidos",
+  "fonte": "pesquisa",
+  "entram": 100,
+  "detalhe": "Cerca de 100 clubes, do profissional ao amador. Jogo unico do inicio ao fim, com prorrogacao e penaltis. O sorteio e por REGIAO ate sobrar uma chave de 4 por regiao. A partir de 2027 todos os times da MLS voltam a jogar, entrando na fase de 64, em julho.",
+  "fases": [
+   {
+    "nome": "Eliminatorias",
+    "clubes": 64,
+    "entram_aqui": 64,
+    "ida_volta": false,
+    "quem": "divisoes de baixo e amadores"
+   },
+   {
+    "nome": "Fase de 64",
+    "clubes": 64,
+    "entram_aqui": 32,
+    "ida_volta": false,
+    "quem": "a MLS entra aqui"
+   },
+   {
+    "nome": "Fase de 32",
+    "clubes": 32,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa da Rússia": {
+  "pais": "Rússia",
+  "fonte": "pesquisa",
+  "entram": 107,
+  "detalhe": "107 clubes, num formato que nao existe em nenhum outro lugar: DOIS CAMINHOS. Os clubes da primeira divisao jogam o caminho deles, comecando por uma fase de grupos de ida e volta; as divisoes de baixo e os amadores jogam um mata-mata comum, de jogo unico. Depois os dois caminhos se cruzam numa chave de dupla eliminacao — perder uma vez nao elimina.",
+  "fases": [
+   {
+    "nome": "Fase de grupos",
+    "clubes": 16,
+    "grupos": 4,
+    "por_grupo": 4,
+    "avancam_por_grupo": 2,
+    "ida_volta": true,
+    "quem": "caminho da primeira divisao; quem joga a Europa entra so nas oitavas"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "ida_volta": true
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "ida_volta": true
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "ida_volta": false
+   }
+  ],
+  "observacao": "O jogo NAO reproduz a dupla eliminacao dos dois caminhos: aqui e o caminho da primeira divisao, com grupos e mata-mata. Fica registrado que o de verdade e mais complicado."
+ },
+ "Svenska Cupen": {
+  "pais": "Suécia",
+  "fonte": "pesquisa",
+  "entram": 96,
+  "detalhe": "96 clubes: os 16 da Allsvenskan, os 16 da Superettan e 64 das divisoes de baixo. A primeira fase e so dos 64 pequenos; os 32 grandes entram na SEGUNDA. Depois vem uma FASE DE GRUPOS com os 32 sobreviventes, e so entao o mata-mata. A final e jogo unico e da vaga na Liga Europa.",
+  "fases": [
+   {
+    "nome": "Primeira fase",
+    "clubes": 64,
+    "entram_aqui": 64,
+    "ida_volta": false,
+    "quem": "divisoes de baixo"
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 64,
+    "entram_aqui": 32,
+    "ida_volta": false,
+    "quem": "Allsvenskan e Superettan entram aqui"
+   },
+   {
+    "nome": "Fase de grupos",
+    "clubes": 32,
+    "grupos": 8,
+    "por_grupo": 4,
+    "avancam_por_grupo": 1,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa do Rei (Arábia Saudita)": {
+  "pais": "Arábia Saudita",
+  "fonte": "pesquisa",
+  "entram": 32,
+  "fonte_url": "asharq sports, kooora e Wikipedia em arabe, edicoes 2025-26 e 2026-27",
+  "detalhe": "32 clubes em DOIS niveis de 16. O primeiro nivel tem os clubes da Roshan League mais o campeao da segunda divisao; o segundo nivel tem os recem-promovidos, os rebaixados no ano anterior e o resto da segunda divisao. Todo mundo entra na fase de 32 e e jogo unico dali ate a final.",
+  "fases": [
+   {
+    "nome": "Fase de 32",
+    "clubes": 32,
+    "entram_aqui": 32,
+    "ida_volta": false,
+    "quem": "os dois niveis entram juntos"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa Chile": {
+  "pais": "Chile",
+  "fonte": "pesquisa",
+  "entram": 32,
+  "detalhe": "32 clubes, aberta a TODOS os niveis do futebol chileno: primeira divisao, Primera B, Segunda e ate clubes amadores da ANFA. Os pequenos entram cedo e os grandes so depois. Jogo unico, com penaltis quando empata.",
+  "fases": [
+   {
+    "nome": "Fase de 32",
+    "clubes": 32,
+    "entram_aqui": 32,
+    "ida_volta": false
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa Colombia": {
+  "pais": "Colômbia",
+  "fonte": "pesquisa",
+  "entram": 36,
+  "fonte_url": "Dimayor via El Tiempo, Infobae e 365scores, edicao 2026",
+  "detalhe": "36 clubes num sistema misto que depende de como voce foi na LIGA. A Fase 1A junta os eliminados dos cuadrangulares da B e os 12 que ficaram fora dos playoffs da A: sao quatro grupos de cinco, cada um joga quatro partidas (duas em casa, duas fora) e passam os dois primeiros. A Fase 1B tem oito confrontos entre os 16 que se classificaram nos playoffs. Oitavas e quartas em JOGO UNICO; semifinal e final de ida e volta. Quem ganha vai a Sul-Americana.",
+  "fases": [
+   {
+    "nome": "Fase de grupos",
+    "clubes": 20,
+    "grupos": 4,
+    "por_grupo": 5,
+    "avancam_por_grupo": 2,
+    "ida_volta": false,
+    "quem": "os eliminados da fase final da liga"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 8,
+    "ida_volta": false,
+    "quem": "os classificados dos playoffs entram aqui"
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ]
+ },
+ "Copa Paraguai": {
+  "pais": "Paraguai",
+  "fonte": "pesquisa",
+  "entram": 74,
+  "detalhe": "74 clubes da Primera, da Intermedia e das divisoes de baixo, e TODOS entram na primeira fase — nao ha entrada tardia para os grandes. Jogo unico do inicio ao fim, de abril a novembro. Quem ganha vai a Libertadores.",
+  "fases": [
+   {
+    "nome": "Fase de 64",
+    "clubes": 64,
+    "entram_aqui": 64,
+    "ida_volta": false
+   },
+   {
+    "nome": "Fase de 32",
+    "clubes": 32,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa Uruguai": {
+  "pais": "Uruguai",
+  "fonte": "pesquisa",
+  "entram": 32,
+  "detalhe": "32 clubes: 10 da primeira divisao, 6 da segunda, 4 da amadora, 2 da Divisional D e 10 da Copa Nacional de Clubes. Jogo unico, e a semifinal e a final em campo neutro. Formato assim desde 2024, por causa de custo e calendario. Quem ganha vai a Libertadores.",
+  "fases": [
+   {
+    "nome": "Fase de 32",
+    "clubes": 32,
+    "entram_aqui": 32,
+    "ida_volta": false
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa Equador": {
+  "pais": "Equador",
+  "fonte": "pesquisa",
+  "entram": 48,
+  "detalhe": "48 clubes: os 10 da Serie B e os 22 campeoes provinciais se enfrentam em 16 confrontos de ida e volta, e os vencedores encontram os 16 da Serie A na fase de 32. Dali para frente e tudo ida e volta, menos a final.",
+  "fases": [
+   {
+    "nome": "Fase preliminar",
+    "clubes": 32,
+    "entram_aqui": 32,
+    "ida_volta": true,
+    "quem": "Serie B e campeoes provinciais"
+   },
+   {
+    "nome": "Fase de 32",
+    "clubes": 32,
+    "entram_aqui": 16,
+    "ida_volta": true,
+    "quem": "a Serie A entra aqui"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa da Áustria": {
+  "pais": "Áustria",
+  "fonte": "pesquisa",
+  "entram": 64,
+  "fonte_url": "livesoccertv e paginas de edicao da Austrian Cup",
+  "detalhe": "64 clubes dos quatro primeiros escaloes, e a Bundesliga e a segunda divisao ja entram na PRIMEIRA FASE — com 64 participantes nao ha eliminatoria nenhuma. Jogo unico em todas as fases, com a final em campo neutro. O lema e 'gols para a Europa': sao 6 ou 7 jogos ate a vaga na Liga Europa.",
+  "fases": [
+   {
+    "nome": "Fase de 64",
+    "clubes": 64,
+    "entram_aqui": 64,
+    "ida_volta": false
+   },
+   {
+    "nome": "Fase de 32",
+    "clubes": 32,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa da Suíça": {
+  "pais": "Suíça",
+  "fonte": "pesquisa",
+  "entram": 64,
+  "fonte_url": "livesoccertv e paginas de edicao da Swiss Cup",
+  "detalhe": "64 clubes de todas as categorias, e mais de 20 vagas sao de times regionais ou amadores. A Super League, a Challenge League e os 4 melhores da Promotion League entram direto na fase de 64. Jogo unico, com o time de divisao menor mandando. O sorteio tem duas travas: clubes das duas primeiras categorias nao podem se enfrentar nas duas primeiras fases, e o sorteio e por regiao.",
+  "fases": [
+   {
+    "nome": "Fase de 64",
+    "clubes": 64,
+    "entram_aqui": 64,
+    "ida_volta": false
+   },
+   {
+    "nome": "Fase de 32",
+    "clubes": 32,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa da Grécia": {
+  "pais": "Grécia",
+  "fonte": "pesquisa",
+  "entram": 28,
+  "detalhe": "Reformada em 2025-26 e hoje so tem clubes da Super League 1 e 2 — os campeoes das copas regionais nao entram mais. Tem eliminatorias, depois uma FASE DE LIGA, e as quartas passaram a ser em jogo unico.",
+  "fases": [
+   {
+    "nome": "Eliminatorias",
+    "clubes": 28,
+    "entram_aqui": 28,
+    "ida_volta": false
+   },
+   {
+    "nome": "Fase de liga",
+    "clubes": 16,
+    "tabela_unica": true,
+    "jogos_por_clube": 4
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa da Dinamarca": {
+  "pais": "Dinamarca",
+  "fonte": "pesquisa",
+  "entram": 92,
+  "detalhe": "92 clubes: 56 vindos das copas regionais e 12 de cada uma das tres divisoes de baixo. A entrada da elite e em DOIS degraus — na segunda fase entram os clubes da Superliga que terminaram do 7o ao 12o, e so na terceira entram os seis primeiros. Jogo unico, menos a semifinal, que e ida e volta.",
+  "fases": [
+   {
+    "nome": "Primeira fase",
+    "clubes": 92,
+    "entram_aqui": 92,
+    "ida_volta": false
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 52,
+    "entram_aqui": 6,
+    "ida_volta": false,
+    "quem": "do 7o ao 12o da Superliga"
+   },
+   {
+    "nome": "Terceira fase",
+    "clubes": 32,
+    "entram_aqui": 6,
+    "ida_volta": false,
+    "quem": "os seis primeiros da Superliga"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa da Polônia": {
+  "pais": "Polônia",
+  "fonte": "pesquisa",
+  "entram": 70,
+  "detalhe": "Chamada de 'a copa dos mil times' pela quantidade de clubes que disputam as fases regionais, mas o torneio propriamente dito tem 70. A primeira e a segunda divisao entram direto. Jogo unico SEMPRE, e sempre no campo do time de divisao menor — inclusive a final, que voltou a ser jogo unico em 2007.",
+  "fases": [
+   {
+    "nome": "Fase de 64",
+    "clubes": 64,
+    "entram_aqui": 64,
+    "ida_volta": false
+   },
+   {
+    "nome": "Fase de 32",
+    "clubes": 32,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa da Tchéquia": {
+  "pais": "República Tcheca",
+  "fonte": "pesquisa",
+  "entram": 135,
+  "apelido": "MOL Cup",
+  "fonte_url": "paginas de edicao da Czech Cup e sofascore",
+  "detalhe": "135 clubes. A entrada da elite e dividida pela EUROPA: os 11 clubes da primeira divisao que NAO jogam competicao europeia entram na segunda fase, e os 5 que jogam entram so na terceira. Jogo unico em todas as fases.",
+  "fases": [
+   {
+    "nome": "Preliminar",
+    "clubes": 64,
+    "entram_aqui": 64,
+    "ida_volta": false
+   },
+   {
+    "nome": "Primeira fase",
+    "clubes": 64,
+    "entram_aqui": 32,
+    "ida_volta": false
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 48,
+    "entram_aqui": 11,
+    "ida_volta": false,
+    "quem": "os clubes da primeira divisao sem competicao europeia"
+   },
+   {
+    "nome": "Terceira fase",
+    "clubes": 32,
+    "entram_aqui": 5,
+    "ida_volta": false,
+    "quem": "os que jogam a Europa entram aqui"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa da Croácia": {
+  "pais": "Croácia",
+  "fonte": "pesquisa",
+  "entram": 48,
+  "detalhe": "48 clubes: os 16 melhores por coeficiente, 21 campeoes de copas regionais e 11 vices. Os 32 vindos das regionais jogam uma preliminar e os 16 sobreviventes encontram os 16 grandes na fase de 32. Jogo unico em tudo — as quartas viraram jogo unico em 2015-16, a semifinal em 2017-18 e a final em 2014-15.",
+  "fases": [
+   {
+    "nome": "Preliminar",
+    "clubes": 32,
+    "entram_aqui": 32,
+    "ida_volta": false,
+    "quem": "vindos das copas regionais"
+   },
+   {
+    "nome": "Fase de 32",
+    "clubes": 32,
+    "entram_aqui": 16,
+    "ida_volta": false,
+    "quem": "a primeira divisao entra aqui"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa da Sérvia": {
+  "pais": "Sérvia",
+  "fonte": "pesquisa",
+  "entram": 32,
+  "fonte_url": "paginas de edicao da Serbian Cup",
+  "detalhe": "Uma preliminar corta o campo ate 32 e ali entram os 27 clubes da SuperLiga e das divisoes de baixo — so 5 vem da preliminar. Jogo unico, com penaltis quando empata. Quem ganha vai as eliminatorias da Liga Europa.",
+  "fases": [
+   {
+    "nome": "Preliminar",
+    "clubes": 10,
+    "entram_aqui": 10,
+    "ida_volta": false
+   },
+   {
+    "nome": "Fase de 32",
+    "clubes": 32,
+    "entram_aqui": 27,
+    "ida_volta": false,
+    "quem": "a SuperLiga entra aqui"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Cupa României": {
+  "pais": "Romênia",
+  "fonte": "pesquisa",
+  "entram": 202,
+  "detalhe": "202 clubes, comecando por uma fase de condado que rende 42 times e subindo por cinco fases nacionais. Os 18 da Liga I entram todos de uma vez na FASE DE 32, e ali ha cabeca de chave: os melhores da Liga I pegam times de divisao menor. Nao ha fase de grupos. Nas primeiras fases o sorteio e por regiao, para reduzir viagem.",
+  "fases": [
+   {
+    "nome": "Fase de condado",
+    "clubes": 128,
+    "entram_aqui": 128,
+    "ida_volta": false
+   },
+   {
+    "nome": "Primeira fase nacional",
+    "clubes": 64,
+    "entram_aqui": 22,
+    "ida_volta": false,
+    "quem": "Liga III e Liga II entram aos poucos"
+   },
+   {
+    "nome": "Fase de 32",
+    "clubes": 32,
+    "entram_aqui": 18,
+    "ida_volta": false,
+    "quem": "os 18 da Liga I entram aqui"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ],
+  "observacao": "A federacao decide TODO ANO se as oitavas, quartas e semifinal sao de ida e volta ou jogo unico, conforme o calendario. Aqui esta como jogo unico."
+ },
+ "Copa da Ucrânia": {
+  "pais": "Ucrânia",
+  "fonte": "pesquisa",
+  "entram": 74,
+  "detalhe": "Entrada escalonada: 18 clubes das federacoes regionais abrem, depois entram 56 na fase de 64 (12 da primeira divisao, 14 da segunda, 15 da terceira e 6 campeoes amadores), e os 4 ultimos da primeira divisao so aparecem na fase de 32. Jogo unico por fase — o formato de ida e volta acabou. O time de divisao menor joga em casa. Tem pausa de inverno de novembro a marco.",
+  "fases": [
+   {
+    "nome": "Eliminatorias",
+    "clubes": 18,
+    "entram_aqui": 18,
+    "ida_volta": false,
+    "quem": "federacoes regionais"
+   },
+   {
+    "nome": "Fase de 64",
+    "clubes": 64,
+    "entram_aqui": 56,
+    "ida_volta": false,
+    "quem": "12 da primeira divisao e as divisoes de baixo"
+   },
+   {
+    "nome": "Fase de 32",
+    "clubes": 32,
+    "entram_aqui": 4,
+    "ida_volta": false,
+    "quem": "os 4 clubes restantes da primeira divisao"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Magyar Kupa": {
+  "pais": "Hungria",
+  "fonte": "pesquisa",
+  "entram": 144,
+  "fonte_url": "nemzetisport.hu, nb1.hu e MLSZ, edicao 2026-27",
+  "detalhe": "Comeca com 144 clubes em agosto e termina em maio. As duas primeiras fases sao so da terceira divisao para baixo; a primeira e a segunda divisao entram na TERCEIRA fase, com 64 clubes — e ali os 12 da elite sao cabeca de chave e nao podem se enfrentar. Jogo unico, e a final e no Puskas Arena.",
+  "fases": [
+   {
+    "nome": "Primeira fase",
+    "clubes": 144,
+    "entram_aqui": 144,
+    "ida_volta": false,
+    "quem": "terceira divisao para baixo"
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 72,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Terceira fase",
+    "clubes": 64,
+    "entram_aqui": 28,
+    "ida_volta": false,
+    "quem": "primeira e segunda divisao entram aqui"
+   },
+   {
+    "nome": "Quarta fase",
+    "clubes": 32,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa da Bulgária": {
+  "pais": "Bulgária",
+  "fonte": "pesquisa",
+  "entram": 68,
+  "detalhe": "Terceira e quarta divisao jogam eliminatorias. Na primeira fase entram 20 clubes da segunda divisao, e na SEGUNDA entram os 16 da primeira. Jogo unico em tudo, menos a semifinal, que e ida e volta. Quem ganha vai a Liga Europa.",
+  "fases": [
+   {
+    "nome": "Eliminatorias",
+    "clubes": 24,
+    "entram_aqui": 24,
+    "ida_volta": false,
+    "quem": "terceira e quarta divisao"
+   },
+   {
+    "nome": "Primeira fase",
+    "clubes": 32,
+    "entram_aqui": 20,
+    "ida_volta": false,
+    "quem": "a segunda divisao entra aqui"
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 32,
+    "entram_aqui": 16,
+    "ida_volta": false,
+    "quem": "a primeira divisao entra aqui"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa do Estado de Israel": {
+  "pais": "Israel",
+  "fonte": "pesquisa",
+  "entram": 100,
+  "detalhe": "Treze fases no total: nove preliminares e depois quartas, semifinal e final. Cada divisao entra num degrau — a Liga Alef na quinta fase, os campeoes das ligas de baixo na sexta, e a primeira divisao so na SETIMA, quando restam 32 clubes. Jogo unico sempre. O sorteio e feito tirando o nome de um pote, sem cabeca de chave, e e transmitido ao vivo.",
+  "fases": [
+   {
+    "nome": "Quinta fase",
+    "clubes": 48,
+    "entram_aqui": 48,
+    "ida_volta": false,
+    "quem": "Liga Alef"
+   },
+   {
+    "nome": "Sexta fase",
+    "clubes": 32,
+    "entram_aqui": 16,
+    "ida_volta": false,
+    "quem": "campeoes da Liga Bet e da Liga Gimel"
+   },
+   {
+    "nome": "Sétima fase",
+    "clubes": 32,
+    "entram_aqui": 14,
+    "ida_volta": false,
+    "quem": "a primeira divisao entra aqui"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa do Chipre": {
+  "pais": "Chipre",
+  "fonte": "pesquisa",
+  "entram": 32,
+  "detalhe": "So primeira e segunda divisao desde 2008 — terceira e quarta tem copa propria. A preliminar e jogo unico, mas DA PRIMEIRA FASE EM DIANTE e tudo ida e volta, menos a final. E o contrario de quase todas as outras copas do mundo.",
+  "fases": [
+   {
+    "nome": "Preliminar",
+    "clubes": 16,
+    "entram_aqui": 16,
+    "ida_volta": false
+   },
+   {
+    "nome": "Fase de 32",
+    "clubes": 32,
+    "entram_aqui": 24,
+    "ida_volta": true,
+    "quem": "a primeira divisao entra aqui"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "FAI Cup": {
+  "pais": "Irlanda",
+  "fonte": "pesquisa",
+  "entram": 44,
+  "detalhe": "44 clubes: os 20 da League of Ireland (10 da primeira divisao e 10 da segunda) e 24 de fora da liga, que se classificam pela FAI Intermediate Cup ou pela FAI Junior Cup. Os 20 profissionais entram na SEGUNDA fase. Jogo unico.",
+  "fases": [
+   {
+    "nome": "Primeira fase",
+    "clubes": 24,
+    "entram_aqui": 24,
+    "ida_volta": false,
+    "quem": "clubes de fora da liga"
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 32,
+    "entram_aqui": 20,
+    "ida_volta": false,
+    "quem": "a League of Ireland entra aqui"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa da Noruega": {
+  "pais": "Noruega",
+  "fonte": "pesquisa",
+  "entram": 272,
+  "detalhe": "272 clubes, de todos os niveis: 176 dos quarto, quinto e sexto escaloes jogam duas fases eliminatorias em marco e abril. As tres primeiras divisoes inteiras entram na PRIMEIRA FASE, em abril. Jogo unico em tudo, e da terceira fase ate a semifinal o mando tambem e sorteado. A final e no Ullevaal, em novembro ou dezembro.",
+  "fases": [
+   {
+    "nome": "Eliminatorias",
+    "clubes": 176,
+    "entram_aqui": 176,
+    "ida_volta": false,
+    "quem": "quarto, quinto e sexto escaloes"
+   },
+   {
+    "nome": "Primeira fase",
+    "clubes": 128,
+    "entram_aqui": 96,
+    "ida_volta": false,
+    "quem": "as tres primeiras divisoes entram aqui"
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 64,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Terceira fase",
+    "clubes": 32,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa da Finlândia": {
+  "pais": "Finlândia",
+  "fonte": "pesquisa",
+  "entram": 364,
+  "fonte_url": "veikkausliiga.com e Palloliitto, edicao 2026",
+  "detalhe": "Aberta a todos os clubes filiados — 364 times, comecando em janeiro. A elite entra em DOIS degraus, separada pela Europa: na terceira fase entram os oito clubes da Veikkausliiga que NAO jogam competicao europeia, junto com as divisoes de baixo; os quatro que jogam a Europa entram so na QUINTA. Da quinta fase em diante todos vao para o mesmo pote de sorteio. Nao ha fase de grupos.",
+  "fases": [
+   {
+    "nome": "Primeira fase",
+    "clubes": 256,
+    "entram_aqui": 256,
+    "ida_volta": false
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 128,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Terceira fase",
+    "clubes": 64,
+    "entram_aqui": 8,
+    "ida_volta": false,
+    "quem": "os clubes da Veikkausliiga sem competicao europeia"
+   },
+   {
+    "nome": "Quarta fase",
+    "clubes": 32,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quinta fase",
+    "clubes": 20,
+    "entram_aqui": 4,
+    "ida_volta": false,
+    "quem": "os quatro que jogam a Europa entram aqui"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa de Gales": {
+  "pais": "País de Gales",
+  "fonte": "pesquisa",
+  "entram": 253,
+  "fonte_url": "faw.cymru, sorteios da edicao atual",
+  "detalhe": "232 clubes do terceiro escalao para baixo abrem na primeira eliminatoria; os 4 melhores do terceiro escalao entram na segunda. Os 28 piores do segundo escalao entram na PRIMEIRA FASE, e os 16 clubes da Cymru Premier entram na SEGUNDA, junto com os 4 melhores do segundo escalao. Jogo unico; a final foi de ida e volta so entre 1961-62 e 1984-85.",
+  "fases": [
+   {
+    "nome": "Primeira eliminatoria",
+    "clubes": 232,
+    "entram_aqui": 232,
+    "ida_volta": false,
+    "quem": "terceiro escalao para baixo"
+   },
+   {
+    "nome": "Segunda eliminatoria",
+    "clubes": 120,
+    "entram_aqui": 4,
+    "ida_volta": false
+   },
+   {
+    "nome": "Primeira fase",
+    "clubes": 64,
+    "entram_aqui": 28,
+    "ida_volta": false,
+    "quem": "os 28 piores do segundo escalao"
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 52,
+    "entram_aqui": 20,
+    "ida_volta": false,
+    "quem": "a Cymru Premier entra aqui"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa da Coreia": {
+  "pais": "Coreia do Sul",
+  "fonte": "pesquisa",
+  "entram": 63,
+  "fonte_url": "namu.wiki, goal.com Coreia e KFA, edicao 2026",
+  "detalhe": "63 clubes, da K League 1 ate a quinta divisao amadora, em oito fases de JOGO UNICO. As tres primeiras sao eliminatorias, comecando pelos amadores da K5. Os 8 clubes da K League 1 que NAO jogam a AFC Champions League entram na terceira fase; os 4 que jogam entram so nas OITAVAS. Quem ganha vai a Champions Elite se terminar entre os quatro primeiros da liga, e a Champions Two se ficar fora.",
+  "fases": [
+   {
+    "nome": "Primeira fase",
+    "clubes": 32,
+    "entram_aqui": 32,
+    "ida_volta": false,
+    "quem": "amadores da quinta divisao para cima"
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 32,
+    "entram_aqui": 16,
+    "ida_volta": false,
+    "quem": "a K League 2 entra aqui"
+   },
+   {
+    "nome": "Terceira fase",
+    "clubes": 24,
+    "entram_aqui": 8,
+    "ida_volta": false,
+    "quem": "os clubes da K League 1 sem AFC entram aqui"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 4,
+    "ida_volta": false,
+    "quem": "os quatro da AFC Champions League entram aqui"
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa da China": {
+  "pais": "China",
+  "fonte": "pesquisa",
+  "entram": 80,
+  "fonte_url": "pagina da edicao 2026 da Chinese FA Cup",
+  "detalhe": "80 clubes em oito fases, de marco a dezembro, sempre em jogo unico. A entrada e em degraus de 16: na primeira fase 29 amadores e 3 da terceira divisao; na segunda entram 16 da terceira divisao; na terceira, 16 da segunda; e so na QUARTA entram os 16 da Super League. Cada uma dessas fases comeca com 32 clubes.",
+  "fases": [
+   {
+    "nome": "Primeira fase",
+    "clubes": 32,
+    "entram_aqui": 32,
+    "ida_volta": false,
+    "quem": "29 amadores e 3 da China League Two"
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 32,
+    "entram_aqui": 16,
+    "ida_volta": false,
+    "quem": "a China League Two entra aqui"
+   },
+   {
+    "nome": "Terceira fase",
+    "clubes": 32,
+    "entram_aqui": 16,
+    "ida_volta": false,
+    "quem": "a China League One entra aqui"
+   },
+   {
+    "nome": "Quarta fase",
+    "clubes": 32,
+    "entram_aqui": 16,
+    "ida_volta": false,
+    "quem": "a Super League entra aqui"
+   },
+   {
+    "nome": "Quinta fase",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Australia Cup": {
+  "pais": "Austrália",
+  "fonte": "pesquisa",
+  "entram": 32,
+  "detalhe": "O torneio propriamente dito e um mata-mata de 32 clubes em cinco fases. A partir de 2026 TODOS os clubes australianos da A-League entram na fase de 32 (antes so os oito ou nove melhores entravam direto). Os outros 21 ou 22 lugares vao para semiprofissionais e amadores das federacoes estaduais, e quantos cada estado manda depende do numero de jogadores registrados ali. Jogo unico, com prorrogacao e penaltis.",
+  "fases": [
+   {
+    "nome": "Fase de 32",
+    "clubes": 32,
+    "entram_aqui": 32,
+    "ida_volta": false,
+    "quem": "a A-League inteira entra aqui, mais os classificados dos estados"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Nedbank Cup": {
+  "pais": "África do Sul",
+  "fonte": "pesquisa",
+  "entram": 32,
+  "detalhe": "32 clubes na chave principal: os 16 da primeira divisao entram direto, 8 da segunda entram depois de um mata-mata entre eles, e 8 amadores chegam pelas eliminatorias. A partir da fase de 32 nao ha cabeca de chave — quem sai primeiro no sorteio joga em casa. Nao existe mais replay: empatou, prorrogacao e penaltis.",
+  "fases": [
+   {
+    "nome": "Eliminatorias",
+    "clubes": 32,
+    "entram_aqui": 32,
+    "ida_volta": false,
+    "quem": "segunda divisao e amadores"
+   },
+   {
+    "nome": "Fase de 32",
+    "clubes": 32,
+    "entram_aqui": 16,
+    "ida_volta": false,
+    "quem": "a primeira divisao entra aqui"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa do Presidente (Emirados)": {
+  "pais": "Emirados Árabes Unidos",
+  "fonte": "pesquisa",
+  "entram": 30,
+  "fonte_url": "Wikipedia em arabe e imprensa esportiva emiradense",
+  "detalhe": "Cinco fases, sendo a primeira preliminar. Entram 13 clubes profissionais e 17 da segunda divisao; da preliminar saem 15 para as oitavas. Existe desde 1974 e quem ganha vai a AFC Champions League.",
+  "fases": [
+   {
+    "nome": "Preliminar",
+    "clubes": 30,
+    "entram_aqui": 30,
+    "ida_volta": false
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 1,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Super Cup (Índia)": {
+  "pais": "Índia",
+  "fonte": "pesquisa",
+  "entram": 16,
+  "detalhe": "E a copa principal do pais, criada em 2018 como reforma da Federation Cup. Ate 2019 era mata-mata de 16; desde 2024 tem FASE DE GRUPOS — os clubes da Indian Super League entram direto nos grupos e os da segunda divisao disputam as vagas restantes. Sao quatro grupos de quatro em turno unico, passa so o primeiro de cada, e dali vao para a semifinal.",
+  "calendario": "comeco da temporada, logo depois da Durand Cup",
+  "fases": [
+   {
+    "nome": "Fase de grupos",
+    "clubes": 16,
+    "grupos": 4,
+    "por_grupo": 4,
+    "avancam_por_grupo": 1,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ],
+  "observacao": "A Durand Cup existe e e importante, mas nao e a copa principal — a principal e esta."
+ },
+ "Campeonato Mineiro": {
+  "pais": "Brasil",
+  "tipo": "estadual",
+  "fonte": "pesquisa",
+  "entram": 12,
+  "fonte_url": "lance.com.br e itatiaia.com.br, edicao 2026; regulamento da FMF",
+  "detalhe": "12 clubes em TRES grupos de quatro, e ninguem enfrenta quem esta no proprio grupo — sao 8 jogos na primeira fase. Passam os tres lideres mais o melhor segundo colocado no geral. A semifinal e de ida e volta, com o melhor classificado escolhendo a ordem dos jogos. A final voltou a ser JOGO UNICO em 2026. Os dois piores no geral caem para o Modulo II.",
+  "calendario": "janeiro a marco",
+  "caem": 2,
+  "fases": [
+   {
+    "nome": "Fase de grupos",
+    "clubes": 12,
+    "grupos": 3,
+    "por_grupo": 4,
+    "avancam_por_grupo": 1,
+    "rodadas": 8,
+    "cruzado": true,
+    "quem": "cada clube joga contra os oito dos OUTROS grupos"
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true,
+    "quem": "os tres lideres de grupo mais o melhor segundo"
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Campeonato Gaúcho": {
+  "pais": "Brasil",
+  "tipo": "estadual",
+  "fonte": "pesquisa",
+  "entram": 12,
+  "fonte_url": "lance.com.br, goal.com e FGF, edicao 2026",
+  "detalhe": "12 clubes em DOIS grupos, e tambem nao se joga contra o proprio grupo — sao 6 partidas na primeira fase. Passam os QUATRO primeiros de cada grupo, e as quartas sao dentro da propria chave, em jogo unico: o 1o pega o 4o e o 2o pega o 3o. Semifinal e final de ida e volta. De 10 de janeiro a 8 de marco.",
+  "calendario": "10 de janeiro a 8 de marco",
+  "caem": 2,
+  "fases": [
+   {
+    "nome": "Fase de grupos",
+    "clubes": 12,
+    "grupos": 2,
+    "por_grupo": 6,
+    "avancam_por_grupo": 4,
+    "rodadas": 6,
+    "cruzado": true,
+    "quem": "cada clube joga contra os seis do OUTRO grupo"
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false,
+    "quem": "dentro da propria chave: 1o x 4o e 2o x 3o"
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ],
+  "observacao": "O rebaixamento tem forma propria: o 5o e o 6o de cada grupo fazem um quadrangular de ida e volta pela permanencia, e os dois piores dali e que caem."
+ },
+ "Canadian Championship": {
+  "pais": "Canadá",
+  "fonte": "pesquisa",
+  "entram": 15,
+  "detalhe": "So 15 clubes: os 8 da Canadian Premier League, os 3 canadenses da MLS e os 4 campeoes provinciais (Alberta, Columbia Britanica, Ontario e Quebec). A preliminar e jogo unico; desde 2024 as QUARTAS e a SEMIFINAL sao ida e volta. Os quatro cabecas de chave sao pre-posicionados para so poderem se encontrar na semifinal, e o mando ate a semi sai do desempenho nas tres edicoes anteriores.",
+  "fases": [
+   {
+    "nome": "Preliminar",
+    "clubes": 8,
+    "entram_aqui": 8,
+    "ida_volta": false,
+    "quem": "campeoes provinciais e CPL"
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 4,
+    "ida_volta": true,
+    "quem": "os clubes da MLS entram aqui"
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Chatham Cup": {
+  "pais": "Nova Zelândia",
+  "fonte": "pesquisa",
+  "entram": 122,
+  "detalhe": "122 clubes em 2025, de abril a setembro. As primeiras fases sao por regiao (o pais tem tres). Jogo unico, com prorrogacao e penaltis. A final foi de ida e volta so entre 1986 e 1988.",
+  "fases": [
+   {
+    "nome": "Preliminar",
+    "clubes": 64,
+    "entram_aqui": 64,
+    "ida_volta": false
+   },
+   {
+    "nome": "Primeira fase",
+    "clubes": 64,
+    "entram_aqui": 32,
+    "ida_volta": false
+   },
+   {
+    "nome": "Segunda fase",
+    "clubes": 32,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa Venezuela": {
+  "pais": "Venezuela",
+  "fonte": "pesquisa",
+  "entram": 28,
+  "fonte_url": "FVF, El Nacional e balonazos, edicao 2026",
+  "detalhe": "28 clubes, e o caminho depende de como voce foi na LIGA. A fase de grupos tem 20: os 14 da segunda divisao e os 6 da primeira que NAO chegaram aos cuadrangulares, em cinco grupos de quatro, jogando ida e volta dentro do grupo. Passam os cinco primeiros e os tres melhores segundos. Nas OITAVAS entram os clubes da primeira divisao que jogaram os cuadrangulares, fechando 16. Das oitavas ate a final e tudo ida e volta. Comeca em junho e a fase final e em outubro.",
+  "fases": [
+   {
+    "nome": "Fase de grupos",
+    "clubes": 20,
+    "grupos": 5,
+    "por_grupo": 4,
+    "avancam_por_grupo": 1,
+    "ida_volta": true,
+    "quem": "a segunda divisao inteira e os 6 da primeira que ficaram fora dos cuadrangulares"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 8,
+    "ida_volta": true,
+    "quem": "os clubes da primeira divisao que jogaram os cuadrangulares"
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ]
+ },
+ "Coupe de Côte d'Ivoire": {
+  "pais": "Costa do Marfim",
+  "fonte": "pesquisa (imprensa marfinense; a Wikipédia não tem o formato)",
+  "entram": 48,
+  "fonte_url": "stadivoire.com, sport-ivoire.ci e sportnewsafrica.com",
+  "detalhe": "Chamada de Coupe Nationale. Os clubes da Ligue 2 e da Division 3 se enfrentam numa fase preliminar, e os da Ligue 1 entram a partir dos 16-avos (a fase de 32). Daí em diante é mata-mata em jogo único até a final. Na edição 2025-26 o sorteio dos 16-avos caiu o clássico ASEC Mimosas x Africa Sports, e também confrontos como Bouaké FC contra FC Mouna.",
+  "fases": [
+   {
+    "nome": "Fase preliminar",
+    "clubes": 32,
+    "entram_aqui": 32,
+    "ida_volta": false,
+    "quem": "só clubes da Ligue 2 e da Division 3; os da Ligue 1 ainda não entraram"
+   },
+   {
+    "nome": "Fase de 32",
+    "clubes": 32,
+    "entram_aqui": 16,
+    "ida_volta": false,
+    "quem": "os 16 que passaram mais os 16 da Ligue 1"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ],
+  "observacao": "A copa que mais me deu trabalho. A Wikipédia em inglês E em francês tem a seção de formato VAZIA — só listam campeões desde 1953. Tentei oito fontes. O que está confirmado: a fase final começa nos 16-avos, é jogo único, e os clubes da Ligue 2 e da D3 jogam as fases anteriores enquanto os da Ligue 1 entram nos 16-avos. O que NÃO achei em fonte nenhuma: o número total de clubes inscritos e quantas fases preliminares existem de verdade. Os 48 e a fase preliminar única são a menor suposição que fecha a conta (16 da Ligue 1 + 32 de baixo) — não são pesquisa. CONFERIR."
+ },
+ "Copa do Senegal": {
+  "pais": "Senegal",
+  "fonte": "pesquisa",
+  "entram": 64,
+  "fonte_url": "Wikipedia em frances (edicoes 2023-24 a 2025-26) e allafrica",
+  "detalhe": "64 clubes na fase final, a partir da FASE DE 32 (que no Senegal chamam de 32-avos): os 32 profissionais — 16 da Ligue 1 e 16 da Ligue 2 — mais 14 do National 1, 9 do National 2 e 9 das divisoes regionais que vieram das preliminares. Ou seja, os profissionais so entram depois que os amadores ja se bateram. Mata-mata, misturando amador e profissional.",
+  "fases": [
+   {
+    "nome": "Preliminares",
+    "clubes": 32,
+    "entram_aqui": 32,
+    "ida_volta": false,
+    "quem": "regionais e National 2"
+   },
+   {
+    "nome": "Fase de 64",
+    "clubes": 64,
+    "entram_aqui": 46,
+    "ida_volta": false,
+    "quem": "Ligue 1, Ligue 2 e National 1 entram aqui"
+   },
+   {
+    "nome": "Fase de 32",
+    "clubes": 32,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Conference League": {
+  "continente": "UEFA",
+  "fonte": "pesquisa (UEFA.com e imprensa portuguesa do sorteio de 2026-27)",
+  "entram": 36,
+  "detalhe": "A terceira competição da UEFA. Fase de liga com 36 clubes numa tabela única, mas cada um joga SEIS partidas — três em casa e três fora — e não oito como na Champions e na Liga Europa. Do 1º ao 8º vão direto às oitavas; do 9º ao 24º jogam o playoff; do 25º ao 36º estão eliminados.",
+  "vagas": {
+   "_padrao": 2
+  },
+  "observacao": "Clube da mesma associação não se enfrenta na fase de liga, e ninguém pega mais de dois adversários do mesmo país.",
+  "fases": [
+   {
+    "nome": "Fase de liga",
+    "clubes": 36,
+    "tabela_unica": true,
+    "jogos_por_clube": 6,
+    "quem": "tabela única de 36; do 1º ao 8º vão direto às oitavas, do 9º ao 24º ao playoff"
+   },
+   {
+    "nome": "Playoff das oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": true,
+    "quem": "do 9º ao 24º da tabela"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false,
+    "quem": "jogo único em campo neutro"
+   }
+  ]
+ },
+ "Mundial de Clubes": {
+  "mundial": true,
+  "fonte": "pesquisa (Wikipédia da Copa do Mundo de Clubes da FIFA, formato de 2025 em diante)",
+  "entram": 32,
+  "de_quantos_em_quantos_anos": 4,
+  "detalhe": "O formato novo, de 2025 em diante: 32 clubes em 8 grupos de 4, cada um joga 3 partidas, passam os 2 melhores de cada grupo e o mata-mata vai das oitavas à final. Acontece de quatro em quatro anos, não todo ano.",
+  "vagas_por_continente": {
+   "UEFA": 12,
+   "CONMEBOL": 6,
+   "CAF": 4,
+   "AFC": 4,
+   "CONCACAF": 4,
+   "OFC": 1,
+   "anfitrião": 1
+  },
+  "observacao": "Não tem disputa de terceiro lugar. Como o jogo não tem clubes da Oceania, essa vaga e a do anfitrião vão para quem ficou logo atrás.",
+  "fases": [
+   {
+    "nome": "Fase de grupos",
+    "clubes": 32,
+    "grupos": 8,
+    "por_grupo": 4,
+    "avancam_por_grupo": 2,
+    "jogos_por_clube": 3,
+    "ida_volta": false,
+    "entram_aqui": 32
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa Intercontinental": {
+  "mundial": true,
+  "fonte": "pesquisa (Wikipédia da FIFA Intercontinental Cup)",
+  "entram": 6,
+  "de_quantos_em_quantos_anos": 1,
+  "detalhe": "Seis clubes, um campeão de cada confederação, num mata-mata escalonado. O campeão da Champions entra DIRETO NA FINAL: os outros cinco se enfrentam para chegar até ele.",
+  "observacao": "As fases têm nome próprio: play-off África-Ásia-Pacífico, Copa África-Ásia-Pacífico, Derby das Américas e Challenger Cup. Aqui elas ficam com esses nomes mesmo.",
+  "fases": [
+   {
+    "nome": "Play-off África-Ásia-Pacífico",
+    "clubes": 2,
+    "entram_aqui": 2,
+    "ida_volta": false,
+    "quem": "o campeão da Oceania contra o da Ásia ou o da África"
+   },
+   {
+    "nome": "Copa África-Ásia-Pacífico",
+    "clubes": 2,
+    "entram_aqui": 1,
+    "ida_volta": false,
+    "quem": "quem venceu contra o outro campeão de Ásia/África, que folgou"
+   },
+   {
+    "nome": "Challenger Cup",
+    "clubes": 2,
+    "entram_aqui": 1,
+    "ida_volta": false,
+    "quem": "o vencedor acima contra quem ganhou o Derby das Américas (Libertadores x Concacaf)"
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 1,
+    "ida_volta": false,
+    "quem": "o campeão da Champions League, que entra direto aqui"
+   }
+  ]
+ },
+ "Supercopa da UEFA": {
+  "supercopa": true,
+  "continente": "UEFA",
+  "fonte": "pesquisa",
+  "entram": 2,
+  "detalhe": "Jogo único entre o campeão da Champions League e o campeão da Liga Europa, no começo da temporada.",
+  "disputam": [
+   "campeão da Champions League",
+   "campeão da Liga Europa"
+  ],
+  "fases": [
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 2,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Recopa Sul-Americana": {
+  "supercopa": true,
+  "continente": "CONMEBOL",
+  "fonte": "pesquisa",
+  "entram": 2,
+  "detalhe": "IDA E VOLTA entre o campeão da Libertadores e o da Sul-Americana do ano anterior. A volta é na casa do campeão da Libertadores.",
+  "disputam": [
+   "campeão da Copa Libertadores",
+   "campeão da Copa Sul-Americana"
+  ],
+  "fases": [
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 2,
+    "ida_volta": true
+   }
+  ]
+ },
+ "Supercopa Rei": {
+  "supercopa": true,
+  "pais": "Brasil",
+  "fonte": "pesquisa",
+  "entram": 2,
+  "detalhe": "Jogo único entre os dois campeões.",
+  "disputam_txt": "o campeão do Brasileirão e o da Copa do Brasil; se for o mesmo clube, entra o vice do Brasileirão",
+  "fases": [
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 2,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Supercopa de España": {
+  "supercopa": true,
+  "pais": "Espanha",
+  "fonte": "pesquisa",
+  "entram": 4,
+  "detalhe": "Quatro clubes: duas semifinais e a final.",
+  "disputam_txt": "campeão e vice de La Liga e campeão e vice da Copa del Rey, em semifinais cruzadas e final — disputada na Arábia Saudita desde 2020",
+  "fases": [
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 4,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Community Shield": {
+  "supercopa": true,
+  "pais": "Inglaterra",
+  "fonte": "pesquisa",
+  "entram": 2,
+  "detalhe": "Jogo único entre os dois campeões.",
+  "disputam_txt": "o campeão da Premier League e o da FA Cup, em Wembley, antes de a temporada começar",
+  "fases": [
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 2,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Supercoppa Italiana": {
+  "supercopa": true,
+  "pais": "Itália",
+  "fonte": "pesquisa",
+  "entram": 2,
+  "detalhe": "Jogo único entre os dois campeões.",
+  "disputam_txt": "o campeão da Serie A e o da Coppa Italia; voltou a ser jogo único depois de um período com quatro clubes",
+  "fases": [
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 2,
+    "ida_volta": false
+   }
+  ]
+ },
+ "DFL-Supercup": {
+  "supercopa": true,
+  "pais": "Alemanha",
+  "fonte": "pesquisa",
+  "entram": 2,
+  "detalhe": "Jogo único entre os dois campeões.",
+  "disputam_txt": "o campeão da Bundesliga e o da DFB-Pokal",
+  "fases": [
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 2,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Trophée des Champions": {
+  "supercopa": true,
+  "pais": "França",
+  "fonte": "pesquisa",
+  "entram": 2,
+  "detalhe": "Jogo único entre os dois campeões.",
+  "disputam_txt": "o campeão da Ligue 1 e o da Coupe de France",
+  "fases": [
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 2,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Supertaça Cândido de Oliveira": {
+  "supercopa": true,
+  "pais": "Portugal",
+  "fonte": "pesquisa",
+  "entram": 2,
+  "detalhe": "Jogo único entre os dois campeões.",
+  "disputam_txt": "o campeão da Primeira Liga e o da Taça de Portugal",
+  "fases": [
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 2,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Johan Cruijff Schaal": {
+  "supercopa": true,
+  "pais": "Holanda",
+  "fonte": "pesquisa",
+  "entram": 2,
+  "detalhe": "Jogo único entre os dois campeões.",
+  "disputam_txt": "o campeão da Eredivisie e o da KNVB Beker",
+  "fases": [
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 2,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Supercopa da Argentina": {
+  "supercopa": true,
+  "pais": "Argentina",
+  "fonte": "pesquisa",
+  "entram": 2,
+  "detalhe": "Jogo único entre os dois campeões.",
+  "disputam_txt": "o campeão da Liga Profesional e o da Copa Argentina",
+  "fases": [
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 2,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Türkiye Süper Kupa": {
+  "supercopa": true,
+  "pais": "Turquia",
+  "fonte": "pesquisa",
+  "entram": 2,
+  "detalhe": "Jogo único entre os dois campeões.",
+  "disputam_txt": "o campeão da Süper Lig e o da Copa da Turquia",
+  "fases": [
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 2,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Supercopa da Bélgica": {
+  "supercopa": true,
+  "pais": "Bélgica",
+  "fonte": "pesquisa",
+  "entram": 2,
+  "detalhe": "Jogo único entre os dois campeões.",
+  "disputam_txt": "o campeão da Pro League e o da Copa da Bélgica",
+  "fases": [
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 2,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Supercopa da Escócia": {
+  "supercopa": true,
+  "pais": "Escócia",
+  "fonte": "pesquisa",
+  "entram": 2,
+  "detalhe": "Jogo único entre os dois campeões.",
+  "disputam_txt": "o campeão da Premiership e o da Copa da Escócia",
+  "fases": [
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 2,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Supercopa da Polônia": {
+  "supercopa": true,
+  "pais": "Polônia",
+  "fonte": "pesquisa",
+  "entram": 2,
+  "detalhe": "Jogo único entre os dois campeões.",
+  "disputam_txt": "o campeão da Ekstraklasa e o da Copa da Polônia",
+  "fases": [
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 2,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Supercopa da Rússia": {
+  "supercopa": true,
+  "pais": "Rússia",
+  "fonte": "pesquisa",
+  "entram": 2,
+  "detalhe": "Jogo único entre os dois campeões.",
+  "disputam_txt": "o campeão da Premier League russa e o da Copa da Rússia",
+  "fases": [
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 2,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Copa do Mundo": {
+  "selecoes": true,
+  "fonte": "pesquisa (Wikipédia da Copa do Mundo de 2026)",
+  "entram": 48,
+  "de_quantos_em_quantos_anos": 4,
+  "anos": "2026, 2030, 2034",
+  "detalhe": "Formato novo, de 2026 em diante: 48 seleções em 12 grupos de 4. Passam os 2 primeiros de cada grupo mais os 8 melhores terceiros, o que dá 32 — e aí começa o mata-mata na fase de 32. São 104 jogos no total, contra 64 do formato antigo.",
+  "fases": [
+   {
+    "nome": "Fase de grupos",
+    "clubes": 48,
+    "grupos": 12,
+    "por_grupo": 4,
+    "avancam_por_grupo": 2,
+    "jogos_por_clube": 3,
+    "entram_aqui": 48,
+    "quem": "passam ainda os 8 melhores terceiros"
+   },
+   {
+    "nome": "Fase de 32",
+    "clubes": 32,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ],
+  "observacao": "Tem disputa de terceiro lugar."
+ },
+ "Eurocopa": {
+  "selecoes": true,
+  "continente": "UEFA",
+  "fonte": "pesquisa (Wikipédia do Campeonato Europeu)",
+  "entram": 24,
+  "de_quantos_em_quantos_anos": 4,
+  "anos": "2028, 2032",
+  "detalhe": "24 seleções em 6 grupos de 4. Passam os 6 primeiros, os 6 segundos e os 4 melhores terceiros — 16 no total — e o mata-mata vai das oitavas à final.",
+  "fases": [
+   {
+    "nome": "Fase de grupos",
+    "clubes": 24,
+    "grupos": 6,
+    "por_grupo": 4,
+    "avancam_por_grupo": 2,
+    "jogos_por_clube": 3,
+    "entram_aqui": 24,
+    "quem": "passam ainda os 4 melhores terceiros"
+   },
+   {
+    "nome": "Oitavas",
+    "clubes": 16,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ],
+  "observacao": "Acontece nos anos pares entre duas Copas do Mundo. Não tem disputa de terceiro lugar."
+ },
+ "Copa América": {
+  "selecoes": true,
+  "continente": "CONMEBOL",
+  "fonte": "pesquisa (Wikipédia da Copa América)",
+  "entram": 16,
+  "de_quantos_em_quantos_anos": 4,
+  "anos": "2028, 2032",
+  "detalhe": "16 seleções em 4 grupos de 4: as 10 da América do Sul mais 6 convidadas da Concacaf. Passam os 2 primeiros de cada grupo e o mata-mata começa nas quartas.",
+  "fases": [
+   {
+    "nome": "Fase de grupos",
+    "clubes": 16,
+    "grupos": 4,
+    "por_grupo": 4,
+    "avancam_por_grupo": 2,
+    "jogos_por_clube": 3,
+    "entram_aqui": 16
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ],
+  "observacao": "Passou a ser jogada em ano par, junto com a Eurocopa, desde 2020. Tem disputa de terceiro lugar."
+ },
+ "Campeonato Paranaense": {
+  "tipo": "estadual",
+  "uf": "PR",
+  "pais": "Brasil",
+  "fonte": "pesquisa (Wikipédia da edição de 2026)",
+  "entram": 12,
+  "detalhe": "12 clubes em dois grupos de 6, mas cada um enfrenta SÓ os do outro grupo, em turno único (6 rodadas). Passam os 4 melhores de cada grupo; quartas e semifinais são dentro do próprio grupo, tudo em ida e volta.",
+  "fases": [
+   {
+    "nome": "Fase de grupos",
+    "clubes": 12,
+    "grupos": 2,
+    "por_grupo": 6,
+    "avancam_por_grupo": 4,
+    "jogos_por_clube": 6,
+    "entram_aqui": 12
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ],
+  "observacao": "O formato mudou para caber no calendário novo: caiu de 17 para 12 rodadas."
+ },
+ "Campeonato Baiano": {
+  "tipo": "estadual",
+  "uf": "BA",
+  "pais": "Brasil",
+  "fonte": "pesquisa (Wikipédia da edição de 2026)",
+  "entram": 10,
+  "detalhe": "10 clubes em turno único. Os 4 primeiros vão à semifinal, e semifinal e final são em JOGO ÚNICO na casa do melhor colocado — empate vai direto para os pênaltis, sem prorrogação.",
+  "fases": [
+   {
+    "nome": "Fase única",
+    "clubes": 10,
+    "grupos": 1,
+    "por_grupo": 10,
+    "avancam_por_grupo": 4,
+    "jogos_por_clube": 9,
+    "entram_aqui": 10
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": false
+   }
+  ]
+ },
+ "Campeonato Catarinense": {
+  "tipo": "estadual",
+  "uf": "SC",
+  "pais": "Brasil",
+  "fonte": "pesquisa (Wikipédia da edição de 2026)",
+  "entram": 12,
+  "detalhe": "12 clubes em dois grupos de 6; cada um enfrenta só os do outro grupo, em turno único (6 rodadas). Passam 4 de cada grupo. As quartas são dentro do grupo, a semifinal cruza os grupos, e tudo é ida e volta.",
+  "fases": [
+   {
+    "nome": "Fase de grupos",
+    "clubes": 12,
+    "grupos": 2,
+    "por_grupo": 6,
+    "avancam_por_grupo": 4,
+    "jogos_por_clube": 6,
+    "entram_aqui": 12
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ]
+ },
+ "Campeonato Goiano": {
+  "tipo": "estadual",
+  "uf": "GO",
+  "pais": "Brasil",
+  "fonte": "pesquisa (Wikipédia da edição de 2026)",
+  "entram": 12,
+  "detalhe": "12 clubes em 3 grupos de 4. Passam os 8 melhores, e daí em diante é tudo ida e volta até a final.",
+  "fases": [
+   {
+    "nome": "Fase de grupos",
+    "clubes": 12,
+    "grupos": 3,
+    "por_grupo": 4,
+    "avancam_por_grupo": 2,
+    "jogos_por_clube": 6,
+    "entram_aqui": 12
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ],
+  "observacao": "Passam 8 dos 12: os dois melhores de cada grupo mais os dois melhores terceiros."
+ },
+ "Campeonato Pernambucano": {
+  "tipo": "estadual",
+  "uf": "PE",
+  "pais": "Brasil",
+  "fonte": "pesquisa (Wikipédia da edição de 2026)",
+  "entram": 8,
+  "detalhe": "8 clubes em turno único. Passam 6: o 1º e o 2º vão direto à semifinal e do 3º ao 6º jogam uma fase a mais. Tudo em ida e volta.",
+  "fases": [
+   {
+    "nome": "Fase única",
+    "clubes": 8,
+    "grupos": 1,
+    "por_grupo": 8,
+    "avancam_por_grupo": 6,
+    "jogos_por_clube": 7,
+    "entram_aqui": 8
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ],
+  "observacao": "O 1º e o 2º entram direto na semifinal — é por isso que a fase anterior tem só 4 clubes."
+ },
+ "Campeonato Cearense": {
+  "tipo": "estadual",
+  "uf": "CE",
+  "pais": "Brasil",
+  "fonte": "pesquisa (Wikipédia da edição de 2026)",
+  "entram": 10,
+  "detalhe": "10 clubes em dois grupos de 5. Passam os 3 melhores de cada grupo para uma segunda fase, e depois semifinal e final em ida e volta, com a volta na casa do melhor colocado.",
+  "fases": [
+   {
+    "nome": "Fase de grupos",
+    "clubes": 10,
+    "grupos": 2,
+    "por_grupo": 5,
+    "avancam_por_grupo": 3,
+    "jogos_por_clube": 4,
+    "entram_aqui": 10
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 6,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ]
+ },
+ "Campeonato Paraense": {
+  "tipo": "estadual",
+  "uf": "PA",
+  "pais": "Brasil",
+  "fonte": "pesquisa (Wikipédia da edição de 2026)",
+  "entram": 12,
+  "detalhe": "12 clubes em dois grupos de 6, cada um enfrentando os do outro grupo. Passam os 8 melhores da tabela geral. Quartas e semifinais em JOGO ÚNICO; só a final é ida e volta.",
+  "fases": [
+   {
+    "nome": "Fase de grupos",
+    "clubes": 12,
+    "grupos": 2,
+    "por_grupo": 6,
+    "avancam_por_grupo": 4,
+    "jogos_por_clube": 6,
+    "entram_aqui": 12
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ]
+ },
+ "Campeonato Amazonense": {
+  "tipo": "estadual",
+  "uf": "AM",
+  "pais": "Brasil",
+  "fonte": "pesquisa (Wikipédia da edição de 2026)",
+  "entram": 8,
+  "detalhe": "8 clubes em dois grupos; os do grupo A enfrentam os do B. Passam os 4 melhores de cada grupo, com cruzamento olímpico nas quartas (1º x 4º, 2º x 3º).",
+  "fases": [
+   {
+    "nome": "Fase de grupos",
+    "clubes": 8,
+    "grupos": 2,
+    "por_grupo": 4,
+    "avancam_por_grupo": 4,
+    "jogos_por_clube": 4,
+    "entram_aqui": 8
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 8,
+    "entram_aqui": 0,
+    "ida_volta": false
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ],
+  "observacao": "Tem dois turnos, cada um com final própria, e os dois campeões de turno decidem o título. Aqui é um turno só."
+ },
+ "Campeonato Alagoano": {
+  "tipo": "estadual",
+  "uf": "AL",
+  "pais": "Brasil",
+  "fonte": "pesquisa (Wikipédia da edição de 2026)",
+  "entram": 8,
+  "detalhe": "8 clubes em turno único (cada um joga 7). Passam os 4 primeiros; semifinal e final em ida e volta, com a volta na casa do melhor colocado. Empate no agregado vai direto para os pênaltis.",
+  "fases": [
+   {
+    "nome": "Fase única",
+    "clubes": 8,
+    "grupos": 1,
+    "por_grupo": 8,
+    "avancam_por_grupo": 4,
+    "jogos_por_clube": 7,
+    "entram_aqui": 8
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ]
+ },
+ "Campeonato Sergipano": {
+  "tipo": "estadual",
+  "uf": "SE",
+  "pais": "Brasil",
+  "fonte": "pesquisa (Wikipédia da edição de 2026)",
+  "entram": 10,
+  "detalhe": "10 clubes em turno único (9 jogos). O 1º colocado vai DIRETO à semifinal; do 2º ao 7º jogam as quartas. Semifinal e final em ida e volta.",
+  "fases": [
+   {
+    "nome": "Fase única",
+    "clubes": 10,
+    "grupos": 1,
+    "por_grupo": 10,
+    "avancam_por_grupo": 7,
+    "jogos_por_clube": 9,
+    "entram_aqui": 10
+   },
+   {
+    "nome": "Quartas",
+    "clubes": 6,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ],
+  "observacao": "O 1º entra só na semifinal — por isso a fase anterior tem 6 clubes e não 8."
+ },
+ "Campeonato Paraibano": {
+  "tipo": "estadual",
+  "uf": "PB",
+  "pais": "Brasil",
+  "fonte": "pesquisa (Wikipédia da edição de 2026)",
+  "entram": 10,
+  "detalhe": "10 clubes em turno único. Passam os 4 primeiros, em cruzamento olímpico (1º x 4º, 2º x 3º). Semifinal e final em ida e volta, e empate no agregado vai direto aos pênaltis, sem prorrogação.",
+  "fases": [
+   {
+    "nome": "Fase única",
+    "clubes": 10,
+    "grupos": 1,
+    "por_grupo": 10,
+    "avancam_por_grupo": 4,
+    "jogos_por_clube": 9,
+    "entram_aqui": 10
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ]
+ },
+ "Campeonato Piauiense": {
+  "tipo": "estadual",
+  "uf": "PI",
+  "pais": "Brasil",
+  "fonte": "pesquisa (Wikipédia do campeonato; a edição de 2026 não tem página)",
+  "entram": 8,
+  "detalhe": "8 clubes em dois grupos, com turno e returno; os pontos das duas fases se somam. Passam os 4 melhores. Semifinal e final em ida e volta, com pênaltis se empatar.",
+  "fases": [
+   {
+    "nome": "Fase de grupos",
+    "clubes": 8,
+    "grupos": 2,
+    "por_grupo": 4,
+    "avancam_por_grupo": 2,
+    "jogos_por_clube": 6,
+    "entram_aqui": 8
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ]
+ },
+ "Campeonato Potiguar": {
+  "tipo": "estadual",
+  "uf": "RN",
+  "pais": "Brasil",
+  "fonte": "pesquisa (Wikipédia do campeonato; a edição de 2026 não tem página)",
+  "entram": 8,
+  "detalhe": "8 clubes em pontos corridos. Passam os 4 primeiros para semifinal e final.",
+  "fases": [
+   {
+    "nome": "Fase única",
+    "clubes": 8,
+    "grupos": 1,
+    "por_grupo": 8,
+    "avancam_por_grupo": 4,
+    "jogos_por_clube": 7,
+    "entram_aqui": 8
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ],
+  "observacao": "A fonte confirma os 8 clubes e os pontos corridos, mas NÃO detalha as fases finais — semifinal e final em ida e volta é o padrão dos estaduais desse tamanho. CONFERIR."
+ },
+ "Campeonato Maranhense": {
+  "tipo": "estadual",
+  "uf": "MA",
+  "pais": "Brasil",
+  "fonte": "NAO PESQUISADO — formato padrão dos estaduais pequenos",
+  "entram": 8,
+  "detalhe": "8 clubes em turno único; passam os 4 primeiros para semifinal e final, tudo em ida e volta.",
+  "observacao": "A Wikipédia não tem página da edição de 2026 e a página geral não detalha o formato (só diz que o sistema é \"misto\"). Este é o formato mais comum entre os estaduais desse tamanho, e está aqui como aproximação — não como pesquisa. CONFERIR.",
+  "fases": [
+   {
+    "nome": "Fase única",
+    "clubes": 8,
+    "grupos": 1,
+    "por_grupo": 8,
+    "avancam_por_grupo": 4,
+    "jogos_por_clube": 7,
+    "entram_aqui": 8
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ]
+ },
+ "Campeonato Brasiliense": {
+  "tipo": "estadual",
+  "uf": "DF",
+  "pais": "Brasil",
+  "fonte": "NAO PESQUISADO — formato padrão dos estaduais pequenos",
+  "entram": 12,
+  "detalhe": "12 clubes em turno único; passam os 4 primeiros para semifinal e final, tudo em ida e volta.",
+  "observacao": "A Wikipédia não tem página da edição de 2026 e a página geral não detalha o formato (só diz que o sistema é \"misto (turno classificatório)\"). Este é o formato mais comum entre os estaduais desse tamanho, e está aqui como aproximação — não como pesquisa. CONFERIR.",
+  "fases": [
+   {
+    "nome": "Fase única",
+    "clubes": 12,
+    "grupos": 1,
+    "por_grupo": 12,
+    "avancam_por_grupo": 4,
+    "jogos_por_clube": 11,
+    "entram_aqui": 12
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ]
+ },
+ "Campeonato Mato-Grossense": {
+  "tipo": "estadual",
+  "uf": "MT",
+  "pais": "Brasil",
+  "fonte": "NAO PESQUISADO — formato padrão dos estaduais pequenos",
+  "entram": 10,
+  "detalhe": "10 clubes em turno único; passam os 4 primeiros para semifinal e final, tudo em ida e volta.",
+  "observacao": "A Wikipédia não tem página da edição de 2026 e a página geral não detalha o formato (só diz que o sistema é \"turno classificatório com grupos fechados\"). Este é o formato mais comum entre os estaduais desse tamanho, e está aqui como aproximação — não como pesquisa. CONFERIR.",
+  "fases": [
+   {
+    "nome": "Fase única",
+    "clubes": 10,
+    "grupos": 1,
+    "por_grupo": 10,
+    "avancam_por_grupo": 4,
+    "jogos_por_clube": 9,
+    "entram_aqui": 10
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ]
+ },
+ "Campeonato Sul-Mato-Grossense": {
+  "tipo": "estadual",
+  "uf": "MS",
+  "pais": "Brasil",
+  "fonte": "NAO PESQUISADO — formato padrão dos estaduais pequenos",
+  "entram": 10,
+  "detalhe": "10 clubes em turno único; passam os 4 primeiros para semifinal e final, tudo em ida e volta.",
+  "observacao": "A Wikipédia não tem página da edição de 2026 e a página geral não detalha o formato. Este é o formato mais comum entre os estaduais desse tamanho, e está aqui como aproximação — não como pesquisa. CONFERIR.",
+  "fases": [
+   {
+    "nome": "Fase única",
+    "clubes": 10,
+    "grupos": 1,
+    "por_grupo": 10,
+    "avancam_por_grupo": 4,
+    "jogos_por_clube": 9,
+    "entram_aqui": 10
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ]
+ },
+ "Campeonato Tocantinense": {
+  "tipo": "estadual",
+  "uf": "TO",
+  "pais": "Brasil",
+  "fonte": "NAO PESQUISADO — formato padrão dos estaduais pequenos",
+  "entram": 10,
+  "detalhe": "10 clubes em turno único; passam os 4 primeiros para semifinal e final, tudo em ida e volta.",
+  "observacao": "A Wikipédia não tem página da edição de 2026 e a página geral não detalha o formato. Este é o formato mais comum entre os estaduais desse tamanho, e está aqui como aproximação — não como pesquisa. CONFERIR.",
+  "fases": [
+   {
+    "nome": "Fase única",
+    "clubes": 10,
+    "grupos": 1,
+    "por_grupo": 10,
+    "avancam_por_grupo": 4,
+    "jogos_por_clube": 9,
+    "entram_aqui": 10
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ]
+ },
+ "Campeonato Rondoniense": {
+  "tipo": "estadual",
+  "uf": "RO",
+  "pais": "Brasil",
+  "fonte": "NAO PESQUISADO — formato padrão dos estaduais pequenos",
+  "entram": 8,
+  "detalhe": "8 clubes em turno único; passam os 4 primeiros para semifinal e final, tudo em ida e volta.",
+  "observacao": "A Wikipédia não tem página da edição de 2026 e a página geral não detalha o formato. Este é o formato mais comum entre os estaduais desse tamanho, e está aqui como aproximação — não como pesquisa. CONFERIR.",
+  "fases": [
+   {
+    "nome": "Fase única",
+    "clubes": 8,
+    "grupos": 1,
+    "por_grupo": 8,
+    "avancam_por_grupo": 4,
+    "jogos_por_clube": 7,
+    "entram_aqui": 8
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ]
+ },
+ "Campeonato Acreano": {
+  "tipo": "estadual",
+  "uf": "AC",
+  "pais": "Brasil",
+  "fonte": "NAO PESQUISADO — formato padrão dos estaduais pequenos",
+  "entram": 8,
+  "detalhe": "8 clubes em turno único; passam os 4 primeiros para semifinal e final, tudo em ida e volta.",
+  "observacao": "A Wikipédia não tem página da edição de 2026 e a página geral não detalha o formato. Este é o formato mais comum entre os estaduais desse tamanho, e está aqui como aproximação — não como pesquisa. CONFERIR.",
+  "fases": [
+   {
+    "nome": "Fase única",
+    "clubes": 8,
+    "grupos": 1,
+    "por_grupo": 8,
+    "avancam_por_grupo": 4,
+    "jogos_por_clube": 7,
+    "entram_aqui": 8
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ]
+ },
+ "Campeonato Amapaense": {
+  "tipo": "estadual",
+  "uf": "AP",
+  "pais": "Brasil",
+  "fonte": "NAO PESQUISADO — formato padrão dos estaduais pequenos",
+  "entram": 8,
+  "detalhe": "8 clubes em turno único; passam os 4 primeiros para semifinal e final, tudo em ida e volta.",
+  "observacao": "A Wikipédia não tem página da edição de 2026 e a página geral não detalha o formato. Este é o formato mais comum entre os estaduais desse tamanho, e está aqui como aproximação — não como pesquisa. CONFERIR.",
+  "fases": [
+   {
+    "nome": "Fase única",
+    "clubes": 8,
+    "grupos": 1,
+    "por_grupo": 8,
+    "avancam_por_grupo": 4,
+    "jogos_por_clube": 7,
+    "entram_aqui": 8
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ]
+ },
+ "Campeonato Roraimense": {
+  "tipo": "estadual",
+  "uf": "RR",
+  "pais": "Brasil",
+  "fonte": "NAO PESQUISADO — formato padrão dos estaduais pequenos",
+  "entram": 8,
+  "detalhe": "8 clubes em turno único; passam os 4 primeiros para semifinal e final, tudo em ida e volta.",
+  "observacao": "A Wikipédia não tem página da edição de 2026 e a página geral não detalha o formato. Este é o formato mais comum entre os estaduais desse tamanho, e está aqui como aproximação — não como pesquisa. CONFERIR.",
+  "fases": [
+   {
+    "nome": "Fase única",
+    "clubes": 8,
+    "grupos": 1,
+    "por_grupo": 8,
+    "avancam_por_grupo": 4,
+    "jogos_por_clube": 7,
+    "entram_aqui": 8
+   },
+   {
+    "nome": "Semifinal",
+    "clubes": 4,
+    "entram_aqui": 0,
+    "ida_volta": true
+   },
+   {
+    "nome": "Final",
+    "clubes": 2,
+    "entram_aqui": 0,
+    "ida_volta": true
+   }
+  ]
+ }
+};
+
+// Paises onde a copa nacional simplesmente NAO existe hoje — o jogo nao inventa uma.
+export const SEM_COPA = ["México", "Peru", "Bolívia"];
+
+/** A copa nacional daquele pais (a principal). */
+export function copaNacional(pais) {
+  if (SEM_COPA.includes(pais)) return null;   // aqui nao ha copa nacional
+  for (const [nome, c] of Object.entries(COPAS))
+    if (c.pais === pais && c.tipo !== 'estadual' && !c.segunda && !c.supercopa && !c.selecoes) return { nome, ...c };
+  return null;
+}
+/** A SEGUNDA copa nacional, onde existir (a Inglaterra tem duas). */
+export function segundaCopa(pais) {
+  const achadas = Object.entries(COPAS).filter(([, c]) => c.pais === pais && c.tipo !== 'estadual' && !c.supercopa);
+  return achadas.length > 1 ? { nome: achadas[1][0], ...achadas[1][1] } : null;
+}
+/** A copa continental principal e a segunda, por confederacao. */
+export function copasDoContinente(cont) {
+  return Object.entries(COPAS).filter(([, c]) => c.continente === cont && !c.supercopa && !c.selecoes)
+    .map(([nome, c]) => ({ nome, ...c }));
+}
+/** Torneio de SELECOES: Copa do Mundo, Eurocopa, Copa America. */
+export function torneioDeSelecao(nome) {
+  const c = COPAS[nome];
+  return c && c.selecoes ? { nome, ...c } : null;
+}
+export function torneiosDeSelecao() {
+  return Object.entries(COPAS).filter(([, c]) => c.selecoes).map(([nome, c]) => ({ nome, ...c }));
+}
+/** A supercopa daquele pais (campeao da liga x campeao da copa). */
+export function supercopaDoPais(pais) {
+  for (const [nome, c] of Object.entries(COPAS))
+    if (c.supercopa && c.pais === pais) return { nome, ...c };
+  return null;
+}
+/** A supercopa daquela confederacao (Supercopa da UEFA, Recopa Sul-Americana). */
+export function supercopaDoContinente(cont) {
+  for (const [nome, c] of Object.entries(COPAS))
+    if (c.supercopa && c.continente === cont) return { nome, ...c };
+  return null;
+}
+/** Os dois mundiais: o de 32 clubes (de 4 em 4 anos) e a Intercontinental (todo ano). */
+export function mundiais() {
+  return Object.entries(COPAS).filter(([, c]) => c.mundial).map(([nome, c]) => ({ nome, ...c }));
+}
+/** O estadual daquele estado, se ja foi pesquisado. */
+export function copaEstadual(nome) {
+  const c = COPAS[nome];
+  return c && c.tipo === 'estadual' ? { nome, ...c } : null;
+}

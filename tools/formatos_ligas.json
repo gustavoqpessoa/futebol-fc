@@ -1,0 +1,500 @@
+{
+ "_leia": [
+  "Como cada campeonato REALMENTE funciona: tamanho, formato, acesso e rebaixamento.",
+  "",
+  "'fonte' diz de onde veio cada linha, e isso importa:",
+  "  pesquisa  = conferido na Wikipédia nesta sessão, pode confiar.",
+  "  confirmar = ainda NÃO foi verificado. Trate como suspeito até pesquisar.",
+  "",
+  "'formato' descreve a estrutura de verdade. O motor do jogo hoje só sabe fazer",
+  "turno e returno (round-robin), então 'divisao', 'apertura_clausura' e 'playoffs'",
+  "estão registrados aqui mas AINDA NÃO implementados. Esta é a lista de trabalho.",
+  "",
+  "'sobem'/'caem' são o número de clubes, contando repescagem quando existe."
+ ],
+ "Bélgica": {
+  "clubes": 18,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "detalhe": "Turno e returno, 34 rodadas. A liga cresceu de 16 para 18 clubes em 2026-27 e ACABOU com os playoffs — antes tinha Playoffs I, II e III com os pontos cortados pela metade.",
+  "caem": 2,
+  "sobem": 2
+ },
+ "Escócia": {
+  "clubes": 12,
+  "formato": "divisao",
+  "fonte": "pesquisa",
+  "detalhe": "Cada clube enfrenta os outros três vezes (33 rodadas). Aí divide em top 6 e bottom 6, mais 5 rodadas dentro do grupo. Total de 38 jogos. Os pontos NÃO são cortados.",
+  "caem": 2,
+  "sobem": 2,
+  "repescagem": "11º disputa repescagem contra o vencedor do playoff da Championship",
+  "turnos": 3
+ },
+ "Áustria": {
+  "clubes": 12,
+  "formato": "divisao",
+  "fonte": "pesquisa",
+  "detalhe": "22 rodadas de turno e returno; divide em grupo do título (top 6) e grupo do rebaixamento (bottom 6), com os pontos CORTADOS PELA METADE e arredondados para baixo. Mais 10 rodadas. Total de 32 jogos.",
+  "caem": 1,
+  "sobem": 1
+ },
+ "Dinamarca": {
+  "clubes": 12,
+  "formato": "divisao",
+  "fonte": "pesquisa",
+  "detalhe": "22 rodadas; divide em playoff do título (top 6) e playoff de classificação (bottom 6), 10 rodadas cada. Total de 32. Pontos não são cortados.",
+  "caem": 2,
+  "sobem": 2
+ },
+ "Coreia do Sul": {
+  "clubes": 12,
+  "formato": "divisao",
+  "fonte": "pesquisa",
+  "detalhe": "Cada clube enfrenta os outros três vezes (33 rodadas); divide em Final A (top 6) e Final B (bottom 6), mais 5 rodadas. Total de 38.",
+  "caem": 1,
+  "sobem": 1,
+  "repescagem": "10º e 11º disputam repescagem contra clubes da K League 2",
+  "turnos": 3
+ },
+ "México": {
+  "clubes": 18,
+  "formato": "apertura_clausura",
+  "fonte": "pesquisa",
+  "detalhe": "Dois torneios por temporada, Apertura (jul-dez) e Clausura (jan-mai), cada um com campeão próprio. Fase regular em tabela única; os 8 primeiros vão à liguilla, mata-mata de ida e volta.",
+  "caem": 0,
+  "sobem": 0,
+  "observacao": "Rebaixamento suspenso desde 2020. Decisão do TAS de set/2025 manda voltar a partir de 2026-27."
+ },
+ "Argentina": {
+  "clubes": 30,
+  "formato": "apertura_clausura",
+  "fonte": "pesquisa",
+  "detalhe": "30 clubes divididos em dois grupos de 15. Apertura e Clausura, cada um com os 8 melhores de cada grupo indo ao mata-mata (oitavas até a final, jogo único). Há ainda o título de Campeão de Liga, para quem somar mais pontos no ano.",
+  "caem": 2,
+  "sobem": 2,
+  "observacao": "Rebaixamento por PROMEDIOS: média de pontos dos últimos três anos, não a posição do ano."
+ },
+ "Estados Unidos": {
+  "clubes": 30,
+  "formato": "conferencias_playoffs",
+  "fonte": "pesquisa",
+  "detalhe": "30 franquias em duas conferências (Leste e Oeste), 34 jogos na fase regular, depois playoffs pela MLS Cup.",
+  "caem": 0,
+  "sobem": 0,
+  "observacao": "Não há acesso nem rebaixamento — é liga fechada. Toronto FC, CF Montréal e Vancouver Whitecaps são canadenses e jogam aqui."
+ },
+ "Canadá": {
+  "clubes": 8,
+  "formato": "playoffs",
+  "fonte": "pesquisa",
+  "detalhe": "Canadian Premier League, 8 clubes, fase regular seguida de playoffs.",
+  "caem": 0,
+  "sobem": 0
+ },
+ "Austrália": {
+  "clubes": 12,
+  "formato": "playoffs",
+  "fonte": "pesquisa",
+  "detalhe": "A-League Men, 12 clubes, fase regular seguida de finals series.",
+  "caem": 0,
+  "sobem": 0,
+  "observacao": "Liga fechada. Auckland FC e Wellington Phoenix são da Nova Zelândia e jogam aqui."
+ },
+ "Paraguai": {
+  "clubes": 12,
+  "formato": "apertura_clausura",
+  "fonte": "pesquisa",
+  "detalhe": "Apertura e Clausura, cada um com campeão próprio.",
+  "caem": 1,
+  "sobem": 1
+ },
+ "África do Sul": {
+  "clubes": 16,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "caem": 2,
+  "sobem": 2
+ },
+ "Costa do Marfim": {
+  "clubes": 16,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "caem": 2,
+  "sobem": 2
+ },
+ "Senegal": {
+  "clubes": 16,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "caem": 2,
+  "sobem": 2
+ },
+ "_ainda_nao_pesquisadas": [
+  "Ainda não conferidas, uma a uma:",
+  "Hungria, Irlanda, México, Coreia do Norte não; ligas de 2ª e 3ª divisão de todos os países,",
+  "e as competições continentais (Libertadores, Champions) que não são liga."
+ ],
+ "Uruguai": {
+  "clubes": 16,
+  "formato": "apertura_clausura",
+  "fonte": "pesquisa",
+  "detalhe": "Temporada no calendário europeu (agosto a julho). Apertura e Clausura; os campeões dos dois se enfrentam numa final de ida e volta pelo título do ano.",
+  "caem": 2,
+  "sobem": 2
+ },
+ "Chile": {
+  "clubes": 16,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "detalhe": "Turno e returno simples, sem playoff. Campeão é quem soma mais pontos.",
+  "caem": 2,
+  "sobem": 2
+ },
+ "Colômbia": {
+  "clubes": 20,
+  "formato": "apertura_clausura",
+  "fonte": "pesquisa",
+  "detalhe": "Apertura (fev-jun) e Finalización (jul-dez), cada um com campeão próprio. Fase única de 19 rodadas, os 8 melhores vão aos cuadrangulares (dois grupos de quatro), e os vencedores decidem em ida e volta.",
+  "caem": 2,
+  "sobem": 2,
+  "observacao": "Rebaixamento por MÉDIA de pontos das últimas três temporadas, não pela posição do ano."
+ },
+ "Peru": {
+  "clubes": 18,
+  "formato": "apertura_clausura",
+  "fonte": "pesquisa",
+  "detalhe": "Apertura, Clausura e playoffs. Os campeões dos dois torneios e os dois melhores da tabela acumulada fazem semifinais e final. Quem vence os dois torneios é campeão direto.",
+  "caem": 2,
+  "sobem": 2
+ },
+ "Equador": {
+  "clubes": 16,
+  "formato": "duas_etapas",
+  "fonte": "pesquisa",
+  "detalhe": "Primeira e segunda etapa, cada uma em turno e returno. Os vencedores das duas decidem o título numa terceira etapa; quem vence as duas é campeão direto.",
+  "caem": 2,
+  "sobem": 2
+ },
+ "Bolívia": {
+  "clubes": 16,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "detalhe": "Turno e returno.",
+  "caem": 1,
+  "sobem": 1,
+  "repescagem": "o penúltimo disputa repescagem contra o vice da Copa Simón Bolívar"
+ },
+ "Venezuela": {
+  "clubes": 14,
+  "formato": "playoffs",
+  "fonte": "pesquisa",
+  "detalhe": "Turno e returno, com os 8 melhores indo à fase semifinal em dois grupos de quatro; os vencedores decidem o título.",
+  "caem": 2,
+  "sobem": 2,
+  "observacao": "A fonte lista 14 clubes mas descreve o formato citando 20 — CONFERIR o número antes de confiar."
+ },
+ "Japão": {
+  "clubes": 20,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "detalhe": "Turno e returno, 38 jogos. Os dois primeiros vão à AFC Champions League Elite e o terceiro à AFC Champions League Two.",
+  "caem": 3,
+  "sobem": 3
+ },
+ "China": {
+  "clubes": 16,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "detalhe": "Turno e returno, 30 jogos.",
+  "caem": 2,
+  "sobem": 2
+ },
+ "País de Gales": {
+  "clubes": 16,
+  "formato": "split",
+  "fonte": "pesquisa",
+  "detalhe": "Turno e returno e depois divisão em três grupos (6 de cima, 4 do meio, 6 de baixo), 35 rodadas no total. Pontos NÃO são zerados.",
+  "caem": 2,
+  "sobem": 2,
+  "repescagem": "o 14º joga repescagem contra os classificados da Cymru North e da Cymru South",
+  "observacao": "Cardiff, Swansea, Wrexham e Newport NÃO jogam aqui — jogam no sistema inglês, e é lá que eles têm de estar no jogo."
+ },
+ "Grécia": {
+  "clubes": 14,
+  "formato": "split",
+  "fonte": "pesquisa",
+  "detalhe": "26 rodadas de turno e returno. Depois os 4 primeiros fazem um quadrangular de 6 jogos pelo título, do 5º ao 8º disputam vaga na Conference, e os 6 últimos jogam o play-out do rebaixamento. Pontos são MANTIDOS.",
+  "caem": 2,
+  "sobem": 2,
+  "observacao": "O número de rebaixados pode mudar por licenciamento no fim da temporada."
+ },
+ "Romênia": {
+  "clubes": 16,
+  "formato": "split",
+  "fonte": "pesquisa",
+  "detalhe": "30 rodadas de turno e returno, depois divisão: os 6 primeiros no play-off do título (mais 10 jogos) e os 10 restantes no play-out (mais 9). Os pontos são DIVIDIDOS PELA METADE na virada.",
+  "caem": 2,
+  "sobem": 2
+ },
+ "Suíça": {
+  "clubes": 12,
+  "formato": "split",
+  "fonte": "pesquisa",
+  "detalhe": "33 rodadas (todos contra todos três vezes), depois divisão em grupo do título e grupo do rebaixamento, com mais 5 jogos cada. Pontos são MANTIDOS.",
+  "caem": 1,
+  "sobem": 1,
+  "repescagem": "o penúltimo joga repescagem contra o vice da Challenge League",
+  "turnos": 3
+ },
+ "Nova Zelândia": {
+  "clubes": 11,
+  "formato": "fechada",
+  "fonte": "pesquisa",
+  "detalhe": "Fase regional (Norte, Centro e Sul) e depois uma fase nacional de turno único entre os melhores de cada região, com grande final. Auckland FC Reserves e Wellington Phoenix Reserves entram direto.",
+  "caem": 0,
+  "sobem": 0,
+  "observacao": "Não há acesso nem rebaixamento: os clubes se requalificam pela liga regional todo ano. O Wellington Phoenix principal joga na A-League da Austrália — na Nova Zelândia só está o time reserva."
+ },
+ "Croácia": {
+  "clubes": 10,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "detalhe": "Só 10 clubes, então todos se enfrentam QUATRO vezes: 36 rodadas. A temporada inteira tem 180 jogos, o que com 5 partidas por rodada dá exatamente 36.",
+  "caem": 1,
+  "sobem": 1,
+  "turnos": 4,
+  "observacao": "Eu tinha anotado 33 rodadas, que é um formato antigo (1999-2000 e 2006-07) e não fecha com 10 clubes."
+ },
+ "Sérvia": {
+  "clubes": 14,
+  "formato": "split",
+  "fonte": "pesquisa (Wikipédia sérvia da temporada 2026-27)",
+  "detalhe": "26 rodadas de turno e returno. Depois divide: os 6 primeiros jogam mais 5 rodadas pelo título e os 8 últimos mais 7 pela permanência. Total de 33. Pontos são MANTIDOS.",
+  "caem": 4,
+  "sobem": 2,
+  "repescagem": "o antepenúltimo joga repescagem contra o 3º da segunda divisão",
+  "observacao": "A Wikipédia em inglês diz 8+8, que é o formato de quando a liga tinha 16 clubes — está errada para hoje. A partir de 2027-28 a liga cai para 12."
+ },
+ "República Tcheca": {
+  "clubes": 16,
+  "formato": "split",
+  "fonte": "pesquisa",
+  "detalhe": "30 rodadas de turno e returno e depois três grupos: os 6 primeiros jogam mais 5 partidas pelo título, do 7º ao 10º disputam vaga europeia, e do 11º ao 16º brigam contra a queda. Pontos são MANTIDOS.",
+  "caem": 1,
+  "sobem": 1,
+  "repescagem": "o 14º e o 15º jogam repescagem contra o 2º e o 3º da segunda divisão"
+ },
+ "Chipre": {
+  "clubes": 14,
+  "formato": "split",
+  "fonte": "pesquisa",
+  "detalhe": "26 rodadas de turno e returno, depois divisão: os 6 primeiros jogam mais 10 partidas pelo título e os 8 últimos mais 7 fugindo da queda. Pontos e saldo são MANTIDOS.",
+  "caem": 3,
+  "sobem": 3
+ },
+ "Israel": {
+  "clubes": 14,
+  "formato": "split",
+  "fonte": "pesquisa",
+  "detalhe": "26 rodadas de turno e returno. Depois os 6 primeiros se enfrentam duas vezes pelo título e os 8 últimos uma vez para escapar do rebaixamento.",
+  "caem": 2,
+  "sobem": 2,
+  "observacao": "A fonte não diz se os pontos são zerados na virada para o playoff — CONFERIR."
+ },
+ "Bulgária": {
+  "clubes": 14,
+  "formato": "split",
+  "fonte": "pesquisa (Wikipédia búlgara da temporada 2026-27)",
+  "detalhe": "Turno e returno e depois divide em TRÊS grupos: 1º ao 4º (mais 6 rodadas) brigam pelo título, 5º ao 8º (mais 6) por vaga na Europa e 9º ao 14º (mais 5) para não cair.",
+  "caem": 1,
+  "sobem": 1,
+  "observacao": "A fonte não diz se os pontos são cortados na virada da fase; deixei MANTIDOS, que é como a liga sempre jogou — CONFERIR.",
+  "repescagem": "o 12º e o 13º jogam repescagem contra o 2º e o 3º da segunda divisão"
+ },
+ "Suécia": {
+  "clubes": 16,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "calendario": "ano civil",
+  "detalhe": "Turno e returno, 30 rodadas. A temporada vai de abril a novembro, dentro do mesmo ano.",
+  "caem": 2,
+  "sobem": 2,
+  "repescagem": "o antepenúltimo joga repescagem contra o 3º da segunda divisão"
+ },
+ "Noruega": {
+  "clubes": 16,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "calendario": "ano civil",
+  "detalhe": "Turno e returno, 30 rodadas, de março a novembro.",
+  "caem": 2,
+  "sobem": 2,
+  "repescagem": "o 14º joga repescagem contra um clube da segunda divisão"
+ },
+ "Finlândia": {
+  "clubes": 12,
+  "formato": "split",
+  "fonte": "pesquisa",
+  "calendario": "ano civil",
+  "detalhe": "22 rodadas de abril a outubro e depois divisão: 6 de cima brigam pelo título e 6 de baixo pela permanência, mais 5 jogos cada. Pontos são MANTIDOS.",
+  "caem": 1,
+  "sobem": 1,
+  "repescagem": "o penúltimo joga repescagem de ida e volta contra o vice da segunda divisão"
+ },
+ "Polônia": {
+  "clubes": 18,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "detalhe": "Turno e returno, 34 rodadas. O split de 8/8 que existia até 2019-20 acabou.",
+  "caem": 2,
+  "sobem": 2,
+  "observacao": "A fonte não diz quantos caem — CONFERIR (pode ser 3)."
+ },
+ "Ucrânia": {
+  "clubes": 16,
+  "formato": "split",
+  "fonte": "pesquisa",
+  "detalhe": "Turno e returno e depois divisão em dois grupos, que jogam entre si de novo. Temporada de julho a junho com pausa de três meses no inverno.",
+  "caem": 2,
+  "sobem": 2,
+  "observacao": "A fonte se contradiz (fala em 16 clubes, 26 jogos e dois grupos de seis) — CONFERIR o formato antes de programar."
+ },
+ "Rússia": {
+  "clubes": 16,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "detalhe": "Turno e returno, 30 rodadas.",
+  "caem": 2,
+  "sobem": 2,
+  "repescagem": "o 13º e o 14º jogam repescagem de ida e volta contra o 3º e o 4º da segunda divisão"
+ },
+ "Arábia Saudita": {
+  "clubes": 18,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "detalhe": "Turno e returno, 34 rodadas.",
+  "caem": 3,
+  "sobem": 3,
+  "observacao": "Sobem 2 direto e o terceiro sai de um playoff entre o 3º e o 6º da segunda divisão."
+ },
+ "Emirados Árabes Unidos": {
+  "clubes": 14,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "detalhe": "Turno e returno.",
+  "caem": 2,
+  "sobem": 2,
+  "observacao": "A fonte confirma que existe acesso e rebaixamento mas NÃO diz quantos — CONFERIR."
+ },
+ "Índia": {
+  "clubes": 13,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "detalhe": "Turno e returno de setembro a abril. Os playoffs acabaram em 2025-26: campeão é quem termina em primeiro.",
+  "caem": 1,
+  "sobem": 1,
+  "observacao": "A liga DEIXOU de ser fechada: o primeiro rebaixamento da história foi em 2025-26."
+ },
+ "Portugal": {
+  "clubes": 18,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "detalhe": "Turno e returno, 34 rodadas.",
+  "caem": 2,
+  "sobem": 2,
+  "observacao": "Times B da segunda divisão não podem subir, então a conta pode virar 3 e 3 dependendo do ano."
+ },
+ "Holanda": {
+  "clubes": 18,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "detalhe": "Turno e returno, 34 rodadas.",
+  "caem": 2,
+  "sobem": 2,
+  "repescagem": "o antepenúltimo entra num playoff com seis clubes bem colocados da segunda divisão"
+ },
+ "Turquia": {
+  "clubes": 18,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "detalhe": "Turno e returno, 34 rodadas, de agosto a maio.",
+  "caem": 3,
+  "sobem": 3,
+  "observacao": "Sobem 2 direto e o terceiro sai de um playoff entre o 3º e o 7º da segunda divisão."
+ },
+ "França": {
+  "clubes": 18,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "detalhe": "Turno e returno, 34 rodadas. São 18 clubes desde 2023-24, não 20.",
+  "caem": 3,
+  "sobem": 3
+ },
+ "Alemanha": {
+  "clubes": 18,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "detalhe": "Turno e returno, 34 rodadas.",
+  "caem": 2,
+  "sobem": 2,
+  "repescagem": "o antepenúltimo joga repescagem de ida e volta contra o 3º da 2. Bundesliga"
+ },
+ "Brasil": {
+  "clubes": 20,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "calendario": "ano civil",
+  "detalhe": "Turno e returno, 38 rodadas, de maio a dezembro.",
+  "caem": 4,
+  "sobem": 4,
+  "observacao": "Do 1º ao 6º vão à Libertadores; do 7º ao 12º à Sul-Americana."
+ },
+ "Inglaterra": {
+  "clubes": 20,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "detalhe": "Turno e returno, 38 rodadas, de agosto a maio.",
+  "caem": 3,
+  "sobem": 3,
+  "observacao": "Sobem 2 direto e o terceiro sai do playoff entre o 3º e o 6º da segunda divisão."
+ },
+ "Espanha": {
+  "clubes": 20,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "detalhe": "Turno e returno, 38 rodadas.",
+  "caem": 3,
+  "sobem": 3,
+  "observacao": "Sobem 2 direto e o terceiro sai do playoff entre o 3º e o 6º da segunda divisão."
+ },
+ "Itália": {
+  "clubes": 20,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "detalhe": "Turno e returno, 38 rodadas, de agosto a maio.",
+  "caem": 3,
+  "sobem": 3,
+  "observacao": "Os 3 primeiros da Serie B sobem."
+ },
+ "Hungria": {
+  "clubes": 12,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "detalhe": "12 clubes que se enfrentam TRÊS vezes, 33 rodadas. O terceiro jogo é no estádio de quem não recebeu o último.",
+  "caem": 1,
+  "sobem": 1,
+  "observacao": "O 11º ainda disputa uma repescagem contra o 2º da segunda divisão, em campo neutro.",
+  "turnos": 3
+ },
+ "Irlanda": {
+  "clubes": 10,
+  "formato": "pontos_corridos",
+  "fonte": "pesquisa",
+  "calendario": "ano civil",
+  "detalhe": "10 clubes que se enfrentam QUATRO vezes, duas em casa e duas fora: 36 rodadas.",
+  "caem": 1,
+  "sobem": 1,
+  "observacao": "O 9º disputa repescagem contra o vencedor do playoff da First Division.",
+  "turnos": 4
+ }
+}
